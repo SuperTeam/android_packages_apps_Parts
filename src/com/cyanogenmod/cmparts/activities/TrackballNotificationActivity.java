@@ -78,7 +78,7 @@ public class TrackballNotificationActivity extends PreferenceActivity implements
     public String mCatListString;
     public SharedPreferences mPrefs;
 
-    private static final String CAT_PRIMARY = "Miscellaneous";
+    private static final String CAT_PRIMARY = "Varios";
     private static final String CAT_KEY = "category_list";
 
     private static final String ADVANCED_SCREEN =  "advanced_screen";
@@ -267,7 +267,7 @@ public class TrackballNotificationActivity extends PreferenceActivity implements
         if (pkg.equals("com.android.email"))
             return "Email";
         else if (pkg.equals("com.android.mms"))
-            return "Messaging";
+            return "SMS / MMS";
         else if (pkg.equals("com.google.android.apps.googlevoice"))
             return "Google Voice";
         else if (pkg.equals("com.google.android.gm"))
@@ -279,7 +279,7 @@ public class TrackballNotificationActivity extends PreferenceActivity implements
         else if (pkg.equals("jp.r246.twicca"))
             return "Twicca";
         else if (pkg.equals("com.android.phone"))
-            return "Missed Call"; // Say Missed Call instead of "Dialer" as
+            return "Llamada perdida"; // Say Missed Call instead of "Dialer" as
         // people think its missing.
 
         return null;
