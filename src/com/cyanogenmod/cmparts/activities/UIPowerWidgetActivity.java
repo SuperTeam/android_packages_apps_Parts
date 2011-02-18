@@ -67,7 +67,7 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
         mPowerOrder = (PreferenceScreen) prefSet.findPreference(UI_EXP_WIDGET_ORDER);
 
         mPowerWidget.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.EXPANDED_VIEW_WIDGET, 1) == 1));
+                Settings.System.EXPANDED_VIEW_WIDGET, 0) == 1));
         mPowerWidgetHideOnChange.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.EXPANDED_HIDE_ONCHANGE, 0) == 1));
 
