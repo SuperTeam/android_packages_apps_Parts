@@ -137,7 +137,7 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
         mLockMmsPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCK_MMS_IN_MEMORY, LOCK_MMS_DEFAULT) == 1);
 
-        // Set up the warning
+      /*  // Set up the warning
         alertDialog = new AlertDialog.Builder(this).create();
         alertDialog.setTitle(R.string.performance_settings_warning_title);
         alertDialog.setMessage(getResources().getString(R.string.performance_settings_warning));
@@ -147,7 +147,7 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
             }
         });
 
-        alertDialog.show();
+        alertDialog.show();*/
     }
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {

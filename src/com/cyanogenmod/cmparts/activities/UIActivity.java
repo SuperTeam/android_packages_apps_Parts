@@ -32,7 +32,8 @@ import android.provider.Settings;
 
 import com.cyanogenmod.cmparts.R;
 
-public class UIActivity extends PreferenceActivity implements OnPreferenceChangeListener {
+//public class UIActivity extends PreferenceActivity implements OnPreferenceChangeListener {
+public class UIActivity extends PreferenceActivity {
 
     /* Preference Screens */
     private static final String NOTIFICATION_SCREEN = "notification_settings";
@@ -52,7 +53,7 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
     private PreferenceScreen mExtrasScreen;
 
     /* Other */
-    private static final String PINCH_REFLOW_PREF = "pref_pinch_reflow";
+ /*   private static final String PINCH_REFLOW_PREF = "pref_pinch_reflow";
 
     private static final String RENDER_EFFECT_PREF = "pref_render_effect";
 
@@ -70,7 +71,7 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
 
     private ListPreference mOverscrollPref;
 
-    private ListPreference mOverscrollWeightPref;
+    private ListPreference mOverscrollWeightPref;*/
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -92,7 +93,7 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
                     .removePreference(mTrackballScreen);
         }
 
-        /* Pinch reflow */
+     /*   /* Pinch reflow
         mPinchReflowPref = (CheckBoxPreference) prefSet.findPreference(PINCH_REFLOW_PREF);
         mPinchReflowPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.WEB_VIEW_PINCH_REFLOW, 0) == 1);
@@ -102,7 +103,7 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         mRenderEffectPref.setOnPreferenceChangeListener(this);
         updateFlingerOptions();
 
-        /* Overscroll Effect */
+        /* Overscroll Effect 
         mOverscrollPref = (ListPreference) prefSet.findPreference(OVERSCROLL_PREF);
         int overscrollEffect = Settings.System.getInt(getContentResolver(),
                 Settings.System.OVERSCROLL_EFFECT, 1);
@@ -113,7 +114,7 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         int overscrollWeight = Settings.System.getInt(getContentResolver(),
                 Settings.System.OVERSCROLL_WEIGHT, 5);
         mOverscrollWeightPref.setValue(String.valueOf(overscrollWeight));
-        mOverscrollWeightPref.setOnPreferenceChangeListener(this);
+        mOverscrollWeightPref.setOnPreferenceChangeListener(this);*/
 
     }
 
@@ -133,7 +134,7 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         } else if (preference == mExtrasScreen) {
             startActivity(mExtrasScreen.getIntent());
             return true;
-        } else if (preference == mPinchReflowPref) {
+      /*  } else if (preference == mPinchReflowPref) {
             value = mPinchReflowPref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.WEB_VIEW_PINCH_REFLOW,
                     value ? 1 : 0);
@@ -142,12 +143,12 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
             value = mPowerPromptPref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.POWER_DIALOG_PROMPT,
                     value ? 1 : 0);
-            return true;
+            return true;*/
         }
         return false;
     }
 
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
+  /*  public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mRenderEffectPref) {
             writeRenderEffect(Integer.valueOf((String) newValue));
             return true;
@@ -163,10 +164,10 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
             return true;
         }
         return false;
-    }
+    }*/
 
     // Taken from DevelopmentSettings
-    private void updateFlingerOptions() {
+ /*   private void updateFlingerOptions() {
         // magic communication with surface flinger.
         try {
             IBinder flinger = ServiceManager.getService("SurfaceFlinger");
@@ -208,7 +209,7 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
             }
         } catch (RemoteException ex) {
         }
-    }
+    }*/
 
     ColorPickerDialog.OnColorChangedListener mWidgetColorListener = new ColorPickerDialog.OnColorChangedListener() {
         public void colorChanged(int color) {

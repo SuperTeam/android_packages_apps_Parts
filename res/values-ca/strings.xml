@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Paràmetres de CyanogenMod</string>
+  <string name="app_name">Parts</string>
   <string name="ui_title">Interfície d\'usuari</string>
   <string name="ui_summary">Paràmetres de la interfície d\'usuari</string>
   <string name="ui_status_bar">Personalització de la barra d\'estat</string>

@@ -13,10 +13,10 @@
 				android:targetClass="com.cyanogenmod.cmparts.activities.TrackballNotificationActivity" />
 		</PreferenceScreen>
 
-		<!-- Power prompt -->
+		<!-- Power prompt
 		<CheckBoxPreference android:key="power_dialog_prompt"
 			android:title="@string/pref_power_prompt_title" android:summary="@string/pref_power_prompt_summary"
-			android:defaultValue="true" />
+			android:defaultValue="true" />-->
 
 		<PreferenceScreen android:key="ui_power_widget_settings_menu"
 			android:title="@string/title_expanded_widget">
@@ -25,17 +25,17 @@
 				android:targetClass="com.cyanogenmod.cmparts.activities.UIPowerWidgetActivity" />
 		</PreferenceScreen>
 
-		<!-- Render effect -->
+		<!-- Render effect
 		<ListPreference android:key="pref_render_effect"
 			android:dialogTitle="@string/pref_render_effect_title" android:title="@string/pref_render_effect_title"
 			android:summary="@string/pref_render_effect_summary" android:entries="@array/entries_render_effect"
 			android:entryValues="@array/values_render_effect" />
 
 		<CheckBoxPreference android:key="pref_pinch_reflow"
-			android:title="@string/pref_pinch_reflow_title" android:summary="@string/pref_pinch_reflow_summary" />
+			android:title="@string/pref_pinch_reflow_title" android:summary="@string/pref_pinch_reflow_summary" />-->
 	</PreferenceCategory>
 
-	<PreferenceCategory android:title="@string/ui_overscroll_title">
+	<!--<PreferenceCategory android:title="@string/ui_overscroll_title">
 		<ListPreference android:key="pref_overscroll_effect"
 			android:dialogTitle="@string/pref_overscroll_title" android:title="@string/pref_overscroll_title"
 			android:summary="@string/pref_overscroll_summary" android:entries="@array/pref_overscroll_effect_entries"
@@ -45,6 +45,6 @@
 			android:title="@string/pref_overscroll_weight_title" android:summary="@string/pref_overscroll_weight_summary"
 			android:entries="@array/entries_overscroll_weight"
 			android:entryValues="@array/values_overscroll_weight" />
-	</PreferenceCategory>
+	</PreferenceCategory>-->
 
 </PreferenceScreen>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Application Settings -->
+    <!-- Application Settings
     <PreferenceScreen android:key="application_settings"
         android:title="@string/application_settings_title_head"
         android:summary="@string/application_settings_summary_head">
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="com.cyanogenmod.cmparts"
             android:targetClass="com.cyanogenmod.cmparts.activities.ApplicationActivity" />
-    </PreferenceScreen>
+    </PreferenceScreen>-->
 
-    <!-- Display Settings -->
+    <!-- Display Settings
     <PreferenceScreen android:key="display_settings"
         android:title="@string/display_settings_title_head"
         android:summary="@string/display_settings_summary_head">
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="com.cyanogenmod.cmparts"
             android:targetClass="com.cyanogenmod.cmparts.activities.DisplayActivity" />
-    </PreferenceScreen>
+    </PreferenceScreen>-->
 
     <!-- Input Settings -->
     <PreferenceScreen android:key="input_settings"
@@ -53,22 +53,22 @@
             android:targetClass="com.cyanogenmod.cmparts.activities.PerformanceSettingsActivity" />
     </PreferenceScreen>
 
-    <!-- Sound settings -->
+    <!-- Sound settings
     <PreferenceScreen android:key="sound_settings"
         android:title="@string/sound_settings_title_head" android:summary="@string/sound_settings_summary_head">
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="com.cyanogenmod.cmparts"
             android:targetClass="com.cyanogenmod.cmparts.activities.SoundActivity" />
-    </PreferenceScreen>
+    </PreferenceScreen>-->
 
-    <!-- System Settings -->
+    <!-- System Settings
     <PreferenceScreen android:key="system_settings"
         android:title="@string/system_settings_title_head"
         android:summary="@string/system_settings_summary_head">
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="com.cyanogenmod.cmparts"
             android:targetClass="com.cyanogenmod.cmparts.activities.SystemActivity" />
-    </PreferenceScreen>
+    </PreferenceScreen>-->
 
     <!-- Possible future Use: Pedlar <PreferenceScreen android:key="battery_tester" 
         android:title="Test Battery" android:summary="Battery Drain Tester"> <intent 
