@@ -118,7 +118,7 @@
     <!-- Lockscreen Overview -->
     <string name="pref_lockscreen_stylecfg_title">Estilo de lockscreen</string>
     <string name="pref_lockscreen_stylecfg_summary">Configura el estilo del lockscreen</string>
-    <string name="pref_lockscreen_widgets_title">Opciones de Widgets</string>
+    <string name="pref_lockscreen_widgets_title">Opciones de visualización</string>
     <string name="pref_lockscreen_widgets_summary">Activa o desactiva varios widgets en el lockscreen</string>
     <string name="pref_lockscreen_unlock_title">Opciones de desbloqueo</string>
     <string name="pref_lockscreen_unlock_summary">Botones de control para desbloqueo rapido</string>
@@ -137,7 +137,7 @@
     <string name="pref_lockscreen_now_playing_summary">Muestra el nombre del artista que se está reproduciendo</string>
     <string name="pref_lockscreen_album_art_title">Muestra la carátula</string>
     <string name="pref_lockscreen_album_art_summary">Muestra la carátula de la actual canción. Solo trabaja con el teléfono en modo normal</string>
-    <string name="pref_lockscreen_music_headset_title">Muestra la Display music controls with headset</string>
+    <string name="pref_lockscreen_music_headset_title">Muestra los controles con los auriculares</string>
     <string name="pref_lockscreen_music_headset_summary">Muestra los controles de música cuando un auricular con cable y / o auriculares Bluetooth A2DP esten conectados</string>
     <string name="pref_lockscreen_always_music_controls_title">Muestra siempre los controles del reproductor</string>
     <string name="pref_lockscreen_always_music_controls_summary">Muestra los controles del reproductor aunque no se este reproduciendo nada</string>
@@ -166,7 +166,7 @@
     <string name="pref_volbtn_music_controls_summary">Busque pistas de música cuando mantenga presionando los botones de volumen, mientras que la pantalla esté apagada</string>
     <string name="pref_cambtn_music_controls_title">Control de la música con el botón de la cámara</string>
     <string name="pref_cambtn_music_controls_summary">Cambia a play/pause cuando mantengas pulsado el boton de la cçamara mientras esté la pantalla apagada</string>
-    <string name="lockscreen_widgets_note_title">Note</string>
+    <string name="lockscreen_widgets_note_title">Nota</string>
     <string name="lockscreen_widgets_note_summary">Elegir el estilo minimalista esconde todos los controles excepto el control de la música. Sin embargo, por debajo de las opciones no son fáciles de desarmar para permitir el cambio a otros estilos.</string>
 
     <!-- Input Settings -->

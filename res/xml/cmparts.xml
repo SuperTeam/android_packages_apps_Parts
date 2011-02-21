@@ -10,15 +10,6 @@
             android:targetClass="com.cyanogenmod.cmparts.activities.ApplicationActivity" />
     </PreferenceScreen>-->
 
-    <!-- Display Settings
-    <PreferenceScreen android:key="display_settings"
-        android:title="@string/display_settings_title_head"
-        android:summary="@string/display_settings_summary_head">
-        <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="com.cyanogenmod.cmparts"
-            android:targetClass="com.cyanogenmod.cmparts.activities.DisplayActivity" />
-    </PreferenceScreen>-->
-
     <!-- Input Settings -->
     <PreferenceScreen android:key="input_settings"
         android:title="@string/input_settings_title_head" android:summary="@string/input_settings_summary_head">
@@ -44,6 +35,15 @@
             android:targetClass="com.cyanogenmod.cmparts.activities.LockscreenActivity" />
     </PreferenceScreen>
 
+    <!-- Display Settings -->
+    <PreferenceScreen android:key="display_settings"
+        android:title="@string/display_settings_title_head"
+        android:summary="@string/display_settings_summary_head">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.cyanogenmod.cmparts"
+            android:targetClass="com.cyanogenmod.cmparts.activities.DisplayActivity" />
+    </PreferenceScreen>
+
     <!-- Performance settings -->
     <PreferenceScreen android:key="performance_settings"
         android:title="@string/performance_settings_title_head"
@@ -53,13 +53,13 @@
             android:targetClass="com.cyanogenmod.cmparts.activities.PerformanceSettingsActivity" />
     </PreferenceScreen>
 
-    <!-- Sound settings
+    <!-- Sound settings -->
     <PreferenceScreen android:key="sound_settings"
         android:title="@string/sound_settings_title_head" android:summary="@string/sound_settings_summary_head">
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="com.cyanogenmod.cmparts"
             android:targetClass="com.cyanogenmod.cmparts.activities.SoundActivity" />
-    </PreferenceScreen>-->
+    </PreferenceScreen>
 
     <!-- System Settings
     <PreferenceScreen android:key="system_settings"

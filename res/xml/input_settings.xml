@@ -39,13 +39,13 @@
 		<CheckBoxPreference android:key="pref_trackball_wake"
 			android:title="@string/pref_trackball_wake_title" android:summary="@string/pref_trackball_wake_summary" />-->
 
-		<!--<CheckBoxPreference android:key="pref_volbtn_music_controls"
+		<CheckBoxPreference android:key="pref_volbtn_music_controls"
 			android:title="@string/pref_volbtn_music_controls_title"
 			android:summary="@string/pref_volbtn_music_controls_summary" />
 
 		<CheckBoxPreference android:key="pref_cambtn_music_controls"
 			android:title="@string/pref_cambtn_music_controls_title"
-			android:summary="@string/pref_cambtn_music_controls_summary" />-->
+			android:summary="@string/pref_cambtn_music_controls_summary" />
 
 		<Preference android:key="pref_user_defined_key1"
 			android:title="@string/user_defined_key1" android:summary="@string/user_defined_not_set" />
