@@ -185,7 +185,7 @@
 
     <string-array name="entries_flash_widget">
         <item>Normal</item>
-        <item>Alto / Rayo Mortal</item>
+        <item>Alto / Brillo alto</item>
     </string-array>
 
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
@@ -201,6 +201,21 @@
         <item>10</item>
         <item>11</item>
         <item>12 (Estricto)</item>
+    </string-array>
+
+    <string-array name="pref_overscroll_effect_entries">
+        <item>Ninguno</item>
+        <item>Edge Glow</item>
+        <item>Bounce y Glow</item>
+        <item>Bounce</item>
+    </string-array>
+
+    <string-array name="entries_overscroll_weight">
+        <item>Extra fuerte</item>
+        <item>Fuerte</item>
+        <item>Medio</item>
+        <item>Suave</item>
+        <item>Extra Suave</item>
     </string-array>
 
 </resources>
