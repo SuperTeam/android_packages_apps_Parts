@@ -151,7 +151,7 @@
     <string name="pref_lockscreen_quick_unlock_control_summary">No es necesario presionar aceptar cuando introduzcas el PIN</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Aplicación de arranque</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Muestra un segundo control deslizante</string>
-    <string name="pref_lockscreen_custom_app_activity_title">Eplicación personalizada</string>
+    <string name="pref_lockscreen_custom_app_activity_title">Aplicación personalizada</string>
     <string name="pref_lockscreen_custom_icon_style_title">Mensaje para app</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Utiliza el icono de mensaje en lugar del icono normal para aplicación personalizada</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Arrastra hacia abajo para desbloquear</string>

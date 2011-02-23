@@ -32,8 +32,7 @@ import android.provider.Settings;
 
 import com.cyanogenmod.cmparts.R;
 
-//public class UIActivity extends PreferenceActivity implements OnPreferenceChangeListener {
-public class UIActivity extends PreferenceActivity {
+public class UIActivity extends PreferenceActivity implements OnPreferenceChangeListener {
 
     /* Preference Screens */
     private static final String NOTIFICATION_SCREEN = "notification_settings";
@@ -53,25 +52,25 @@ public class UIActivity extends PreferenceActivity {
     private PreferenceScreen mExtrasScreen;
 
     /* Other */
- /*   private static final String PINCH_REFLOW_PREF = "pref_pinch_reflow";
+   /* private static final String PINCH_REFLOW_PREF = "pref_pinch_reflow";
 
     private static final String RENDER_EFFECT_PREF = "pref_render_effect";
 
-    private static final String POWER_PROMPT_PREF = "power_dialog_prompt";
+    private static final String POWER_PROMPT_PREF = "power_dialog_prompt";*/
 
     private static final String OVERSCROLL_PREF = "pref_overscroll_effect";
 
     private static final String OVERSCROLL_WEIGHT_PREF = "pref_overscroll_weight";
 
-    private CheckBoxPreference mPinchReflowPref;
+   /* private CheckBoxPreference mPinchReflowPref;
 
     private CheckBoxPreference mPowerPromptPref;
 
-    private ListPreference mRenderEffectPref;
+    private ListPreference mRenderEffectPref;*/
 
     private ListPreference mOverscrollPref;
 
-    private ListPreference mOverscrollWeightPref;*/
+    private ListPreference mOverscrollWeightPref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -93,7 +92,7 @@ public class UIActivity extends PreferenceActivity {
                     .removePreference(mTrackballScreen);
         }
 
-     /*   /* Pinch reflow
+        /* Pinch reflow
         mPinchReflowPref = (CheckBoxPreference) prefSet.findPreference(PINCH_REFLOW_PREF);
         mPinchReflowPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.WEB_VIEW_PINCH_REFLOW, 0) == 1);
@@ -101,9 +100,9 @@ public class UIActivity extends PreferenceActivity {
         mPowerPromptPref = (CheckBoxPreference) prefSet.findPreference(POWER_PROMPT_PREF);
         mRenderEffectPref = (ListPreference) prefSet.findPreference(RENDER_EFFECT_PREF);
         mRenderEffectPref.setOnPreferenceChangeListener(this);
-        updateFlingerOptions();
+        updateFlingerOptions();*/
 
-        /* Overscroll Effect 
+        /* Overscroll Effect*/
         mOverscrollPref = (ListPreference) prefSet.findPreference(OVERSCROLL_PREF);
         int overscrollEffect = Settings.System.getInt(getContentResolver(),
                 Settings.System.OVERSCROLL_EFFECT, 1);
@@ -114,7 +113,7 @@ public class UIActivity extends PreferenceActivity {
         int overscrollWeight = Settings.System.getInt(getContentResolver(),
                 Settings.System.OVERSCROLL_WEIGHT, 5);
         mOverscrollWeightPref.setValue(String.valueOf(overscrollWeight));
-        mOverscrollWeightPref.setOnPreferenceChangeListener(this);*/
+        mOverscrollWeightPref.setOnPreferenceChangeListener(this);
 
     }
 
@@ -134,7 +133,7 @@ public class UIActivity extends PreferenceActivity {
         } else if (preference == mExtrasScreen) {
             startActivity(mExtrasScreen.getIntent());
             return true;
-      /*  } else if (preference == mPinchReflowPref) {
+       /* } else if (preference == mPinchReflowPref) {
             value = mPinchReflowPref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.WEB_VIEW_PINCH_REFLOW,
                     value ? 1 : 0);
@@ -148,11 +147,11 @@ public class UIActivity extends PreferenceActivity {
         return false;
     }
 
-  /*  public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mRenderEffectPref) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        /*if (preference == mRenderEffectPref) {
             writeRenderEffect(Integer.valueOf((String) newValue));
             return true;
-        } else if (preference == mOverscrollPref) {
+        } else */if (preference == mOverscrollPref) {
             int overscrollEffect = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(), Settings.System.OVERSCROLL_EFFECT,
                     overscrollEffect);
@@ -164,10 +163,10 @@ public class UIActivity extends PreferenceActivity {
             return true;
         }
         return false;
-    }*/
+    }
 
     // Taken from DevelopmentSettings
- /*   private void updateFlingerOptions() {
+  /*  private void updateFlingerOptions() {
         // magic communication with surface flinger.
         try {
             IBinder flinger = ServiceManager.getService("SurfaceFlinger");

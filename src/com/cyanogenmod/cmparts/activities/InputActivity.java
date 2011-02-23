@@ -35,9 +35,9 @@ public class InputActivity extends PreferenceActivity {
 
     private static final String TRACKBALL_WAKE_PREF = "pref_trackball_wake";
 
- //   private static final String VOLBTN_MUSIC_CTRL_PREF = "pref_volbtn_music_controls";
+    private static final String VOLBTN_MUSIC_CTRL_PREF = "pref_volbtn_music_controls";
 
-//    private static final String CAMBTN_MUSIC_CTRL_PREF = "pref_cambtn_music_controls";
+    private static final String CAMBTN_MUSIC_CTRL_PREF = "pref_cambtn_music_controls";
 
     private static final String BUTTON_CATEGORY = "pref_category_button_settings";
 
@@ -49,9 +49,9 @@ public class InputActivity extends PreferenceActivity {
 
     private CheckBoxPreference mTrackballWakePref;
 
-//    private CheckBoxPreference mVolBtnMusicCtrlPref;
+    private CheckBoxPreference mVolBtnMusicCtrlPref;
 
-//    private CheckBoxPreference mCamBtnMusicCtrlPref;
+    private CheckBoxPreference mCamBtnMusicCtrlPref;
 
     private Preference mUserDefinedKey1Pref;
 
@@ -82,12 +82,12 @@ public class InputActivity extends PreferenceActivity {
                 Settings.System.TRACKBALL_WAKE_SCREEN, 1) == 1);
 
         /* Volume button music controls */
-    /*    mVolBtnMusicCtrlPref = (CheckBoxPreference) prefSet.findPreference(VOLBTN_MUSIC_CTRL_PREF);
+        mVolBtnMusicCtrlPref = (CheckBoxPreference) prefSet.findPreference(VOLBTN_MUSIC_CTRL_PREF);
         mVolBtnMusicCtrlPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.VOLBTN_MUSIC_CONTROLS, 1) == 1);
         mCamBtnMusicCtrlPref = (CheckBoxPreference) prefSet.findPreference(CAMBTN_MUSIC_CTRL_PREF);
         mCamBtnMusicCtrlPref.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.CAMBTN_MUSIC_CONTROLS, 0) == 1);*/
+                Settings.System.CAMBTN_MUSIC_CONTROLS, 0) == 1);
 
         PreferenceCategory buttonCategory = (PreferenceCategory) prefSet
                 .findPreference(BUTTON_CATEGORY);
@@ -99,9 +99,9 @@ public class InputActivity extends PreferenceActivity {
         if (!getResources().getBoolean(R.bool.has_trackball)) {
             buttonCategory.removePreference(mTrackballWakePref);
         }
-       /* if (!getResources().getBoolean(R.bool.has_camera_button)) {
+        if (!getResources().getBoolean(R.bool.has_camera_button)) {
             buttonCategory.removePreference(mCamBtnMusicCtrlPref);
-        }*/
+        }
         if (!"vision".equals(Build.DEVICE)) {
             buttonCategory.removePreference(mUserDefinedKey1Pref);
             buttonCategory.removePreference(mUserDefinedKey2Pref);
@@ -127,7 +127,7 @@ public class InputActivity extends PreferenceActivity {
             Settings.System.putInt(getContentResolver(), Settings.System.TRACKBALL_WAKE_SCREEN,
                     value ? 1 : 0);
             return true;
-        /*} else if (preference == mVolBtnMusicCtrlPref) {
+        } else if (preference == mVolBtnMusicCtrlPref) {
             value = mVolBtnMusicCtrlPref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.VOLBTN_MUSIC_CONTROLS,
                     value ? 1 : 0);
@@ -136,7 +136,7 @@ public class InputActivity extends PreferenceActivity {
             value = mCamBtnMusicCtrlPref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.CAMBTN_MUSIC_CONTROLS,
                     value ? 1 : 0);
-            return true;*/
+            return true;
         } else if (preference == mUserDefinedKey1Pref) {
             pickShortcut(1);
             return true;
