@@ -41,6 +41,13 @@
     <string name="pref_rotate_180_title">Rota 180 grados</string>
     <string name="pref_rotate_180_summary">Activa 180 grados de rotación cuando la auto rotación está activada</string>
 
+    <!-- User interface: Status bar tweaks -->
+    <string name="ui_status_bar_title">Barra de estado</string>
+    <string name="ui_status_bar_clock_title">Muestra reloj</string>
+    <string name="ui_status_bar_clock_summary">El reloj será ocultado si está desactivado</string>
+    <string name="ui_status_bar_cm_battery_title">Porcentaje de bateria</string>
+    <string name="ui_status_bar_cm_battery_summary">Muestra el porcentaje de la bateria en el icono</string>
+
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notificaciones LED</string>
     <string name="trackball_summary">Control del trackball/Color LED y pulso de las Notificaciones</string>
@@ -538,22 +545,6 @@
 
 
 <!-- No usados por ahora-->
-
-    <!-- Status Bar -->
-    <string name="status_bar_title">Barra de estado</string>
-    <string name="status_bar_summary">Ajustes de la barra de estado</string>
-
-    <!-- Status Bar, Battery -->
-    <string name="battery_title">Bateria</string>
-    <string name="pref_battery_percentage_title">Porcentaje de la batería</string>
-    <string name="pref_battery_percentage_summary">El porcentaje de la batería se mostrará en la barra de estado</string>  
-    <string name="battery_status_color_title">Color del porcentaje de la bateria</string>
-
-    <!-- Status Bar, Clock -->
-    <string name="clock_title">Reloj</string>
-    <string name="title_show_clock">Muestra reloj</string>
-    <string name="title_clock_color">Color del reloj</string>
-    <string name="clock_show_am_pm">Muestra AM/PM para reloj 12-horas</string>
 
     <!-- Status Bar, dBm Signal -->
     <string name="dbm_title">Fuerza de señal dBm</string>
