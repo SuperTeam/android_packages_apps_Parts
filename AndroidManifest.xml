@@ -64,7 +64,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
-            </intent-filter>	
+
+            </intent-filter>
         </activity>
         <activity android:name=".activities.TrackballNotificationActivity"
             android:label="@string/trackball_title">
