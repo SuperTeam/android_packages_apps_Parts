@@ -98,7 +98,7 @@ public class PowerWidgetUtil {
     private static final String BUTTONS_DEFAULT = BUTTON_WIFI
                              + BUTTON_DELIMITER + BUTTON_BLUETOOTH
                              + BUTTON_DELIMITER + BUTTON_GPS
-                             + BUTTON_DELIMITER + BUTTON_SOUND
+                             + BUTTON_DELIMITER + BUTTON_NETWORKMODE
                              + BUTTON_DELIMITER + BUTTON_MOBILEDATA
                              + BUTTON_DELIMITER + BUTTON_AUTOROTATE;
 
