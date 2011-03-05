@@ -39,7 +39,7 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
 
     private static final String LOCKSCREEN_QUICK_UNLOCK_CONTROL = "lockscreen_quick_unlock_control";
 
-   // private static final String LOCKSCREEN_DISABLE_UNLOCK_TAB = "lockscreen_disable_unlock_tab";
+    private static final String LOCKSCREEN_DISABLE_UNLOCK_TAB = "lockscreen_disable_unlock_tab";
 
     private static final String LOCKSCREEN_UNLOCK_SETTINGS = "pref_category_unlock_settings";
 
@@ -76,10 +76,10 @@ public class LockscreenUnlockActivity extends PreferenceActivity {
         mMenuUnlockPref.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.MENU_UNLOCK_SCREEN, 0) == 1);
 
-        /* Disabling of unlock tab on lockscreen
+        /* Disabling of unlock tab on lockscreen */
         mDisableUnlockTab = (CheckBoxPreference) prefSet
                 .findPreference(LOCKSCREEN_DISABLE_UNLOCK_TAB);
-        refreshDisableUnlock();*/
+        refreshDisableUnlock();
 
         PreferenceCategory generalCategory = (PreferenceCategory) prefSet
                 .findPreference(LOCKSCREEN_UNLOCK_SETTINGS);
