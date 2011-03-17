@@ -33,21 +33,6 @@
     <!-- User interface -->
     <string name="ui_title">Interfaz de usuario</string>
     <string name="ui_summary">Ajustes de la interfaz de usuario</string>
-
-    <string name="pref_electron_beam_animation_on">Animación de encendido</string>
-    <string name="pref_electron_beam_animation_off">Animación de apagado</string>
-
-    <!-- User interface : 180 degree rotation -->
-    <string name="pref_rotate_180_title">Rota 180 grados</string>
-    <string name="pref_rotate_180_summary">Activa 180 grados de rotación cuando la auto rotación está activada</string>
-
-    <!-- User interface: Status bar tweaks -->
-    <string name="ui_status_bar_title">Barra de estado</string>
-    <string name="ui_status_bar_clock_title">Muestra reloj</string>
-    <string name="ui_status_bar_clock_summary">El reloj será ocultado si está desactivado</string>
-    <string name="ui_status_bar_cm_battery_title">Porcentaje de bateria</string>
-    <string name="ui_status_bar_cm_battery_summary">Muestra el porcentaje de la bateria en el icono</string>
-
     <string name="pref_electron_beam_animation_on">Animación al encender pantalla</string>
     <string name="pref_electron_beam_animation_off">Animación al apagar pantalla</string>
 
@@ -77,13 +62,6 @@
     <string name="pref_overscroll_summary">Escoje el tipo de efecto overscroll</string>
     <string name="pref_overscroll_weight_title">Intensidad de Overscroll</string>
     <string name="pref_overscroll_weight_summary">Selecciona la intensidad de rebote</string>
-
-    <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">Superposición</string>
-    <string name="pref_overscroll_title">Efecto superposición</string>
-    <string name="pref_overscroll_summary">Elija como se ven los objetos cuando se superponen</string>
-    <string name="pref_overscroll_weight_title">Anchura superposición</string>
-    <string name="pref_overscroll_weight_summary">Seleccione el ancho de los objetos superpuestos</string>
 
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Ajustes de bloqueo de pantalla</string>
@@ -140,7 +118,7 @@
     <string name="trackball_color_notice_summary">No todos los colores podrán ser mostrados en todos los terminales</string>
 
     <!-- Trackball Settings : Warning dialog -->
-<<<<<<< HEAD
+
     <string name="notification_battery_warning_title">PELIGRO: Puede causar descarga de la bateria</string>
     <string name="notification_battery_warning">Esta opción se ha demostrado que aumentan la cantidad de descarga de la batería de ~ 3% por hora. Si usted nota un aumento de descarga no la habilite</string>
 
@@ -213,105 +191,6 @@
     <string name="pref_input_custom_search_app_activity_title">Aplicación personalizada</string>
     <string name="pref_input_custom_long_search_app_toggle_title">Botón de busqueda mantenido</string>
     <string name="pref_input_custom_long_search_app_toggle_summary">Ejecuta una aplicación cuando mantegas el botón de busqueda</string>
-=======
-    <string name="notification_battery_warning_title">ATENCION: Puede aumentar el consumo de la batería</string>
-    <string name="notification_battery_warning">Esta opción incrementa el consumo de batería en ~3% por hora. Si nota un incremento del consumo durante el parpadeo de las luces de la bola de navegación desactive esta opción.</string>
-
-    <!-- Lockscreen Overview -->
-    <string name="pref_lockscreen_stylecfg_title">Configuración de estilo</string>
-    <string name="pref_lockscreen_stylecfg_summary">Establecer las opciones relacionadas con la pantalla bloqueada</string>
-    <string name="pref_lockscreen_widgets_title">Opciones de Widget</string>
-    <string name="pref_lockscreen_widgets_summary">Activar o desactivar varios widgets en el bloqueo de la pantalla</string>
-    <string name="pref_lockscreen_unlock_title">Opciones de desbloqueo</string>
-    <string name="pref_lockscreen_unlock_summary">Controles para el desbloqueo y botón de liberación rápida</string>
-    <string name="pref_lockscreen_gesture_title">Gesto en el bloqueo de la pantalla</string>
-    <string name="pref_lockscreen_gesture_summary">Activa y configura los gestos pantalla de bloqueo para controlar el comportamiento personalizado</string>
-    <string name="pref_lockscreen_timeout_title">Tiempo de espera y tiempo de apagado</string>
-    <string name="pref_lockscreen_timeout_summary">Establecer el tiempo de espera para la pantalla y el tiempo de apagado</string>
-
-    <!-- Lockscreen Settings -->
-    <string name="lockscreen_settings_title">Ajustes del protector de pantalla</string>
-    <string name="pref_lockscreen_music_controls_title">Controles de música del protector de pantalla</string>
-    <string name="pref_lockscreen_music_controls_summary">Muestra los controles de música en el protector de pantalla</string>
-    <string name="pref_lockscreen_always_music_controls_title">Mostrar siempre los controles de música</string>
-    <string name="pref_lockscreen_always_music_controls_summary">Mostrar los controles de música sin importar si está sonando</string>
-    <string name="pref_trackball_wake_title">Activación con bola de navegación</string>
-    <string name="pref_trackball_wake_summary">Pulsar la bola de navegación activa el dispositivo</string>
-    <string name="pref_trackball_unlock_title">Desbloqueo con bola de navegación</string>
-    <string name="pref_trackball_unlock_summary">Pulsar la bola de navegación desbloquea el dispositivo</string>
-    <string name="pref_menu_unlock_title">Desbloqueo con menú</string>
-    <string name="pref_menu_unlock_summary">Pulsar el boton menú desbloquea el dispositivo</string>
-    <string name="pref_lockscreen_quick_unlock_control_title">Desbloqueo rápido</string>
-    <string name="pref_lockscreen_quick_unlock_control_summary">No es necesario pulsar OK al introducir PIN o Contraseña. Borra contador de intentos.</string>
-    <string name="pref_lockscreen_phone_messaging_control_title">Teléfono y Mensajes</string>
-    <string name="pref_lockscreen_phone_messaging_control_summary">Teléfono y Mensajes accesible desde el protector de pantalla.</string>
-    <string name="pref_messaging_tab_app_title">Aplicación de mensajería</string>
-    <string name="pref_lockscreen_always_battery_title">Situación de la bateria</string>
-    <string name="pref_lockscreen_always_battery_summary">Muestra el estado de la batería todo el tiempo de bloqueo de pantalla</string>
-    <string name="pref_lockscreen_now_playing_title">Mostrar nombre de la canción</string>
-    <string name="pref_lockscreen_now_playing_summary">Muestra el nombre de la canción que se está reproduciendo</string>
-    <string name="pref_lockscreen_album_art_title">Mostrar la carátula del álbum</string>
-    <string name="pref_lockscreen_album_art_summary">Muestra la carátula del álbum de la música actual. Sólo funciona en el modo de retrato con el reproductor estándar</string>
-    <string name="pref_lockscreen_music_headset_title">Mostrar los controles de música con auriculares</string>
-    <string name="pref_lockscreen_music_headset_summary">Mostrar los controles de música cuando los auriculares con cable y/o el Bluetooth A2DP está conectado</string>
-    <string name="pref_lockscreen_custom_app_toggle_title">Lanzador de aplicaciones personalizadas</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">Muestra un estilo de desplazamiento, muestra una onda al estilo de rotación en la aplicación personalizada </string>
-    <string name="pref_lockscreen_custom_app_activity_title">Aplicación personalizada</string>
-    <string name="pref_lockscreen_custom_icon_style_title">Icono del mensaje</string>
-    <string name="pref_lockscreen_custom_icon_style_summary">Utiliza el icono de mensaje en lugar del icono de la CM para arrancar una aplicación personalizada</string>
-    <string name="pref_lockscreen_rotary_unlock_down_title">Arrastre hacia abajo para desbloquear</string>
-    <string name="pref_lockscreen_rotary_unlock_down_summary">Desbloquear arrastrando la rueda giratoria. Arrastrando desde la derecha para aplicación personalizada</string>
-    <string name="pref_lockscreen_rotary_hide_arrows_title">Ocultar flechas</string>
-    <string name="pref_lockscreen_rotary_hide_arrows_summary">Ocultar las flechas de ayuda de dirección</string>
-    <string name="lockscreen_style_header">Preferencias de estilo</string>
-    <string name="lockscreen_delay_header">Retardo y tiempo de espera</string>
-    <string name="pref_lockscreen_style_title">Estilo de bloqueo de pantalla</string>
-    <string name="pref_lockscreen_style_summary">Escoja el estilo de pantalla de bloqueo</string>
-    <string name="pref_volbtn_music_controls_title">Controles de música</string>
-    <string name="pref_volbtn_music_controls_summary">Cuando la pantalla está apagada, buscar pistas de música al pulsar los botones de volumen durante un largo periodo</string>
-    <string name="pref_cambtn_music_controls_title">Control de música con botón de la cámara</string>
-    <string name="pref_cambtn_music_controls_summary">Alternar entre reproducción y pausa al pulsar el botón de la cámara durante mucho tiempo, mientras que la pantalla está apagada</string>
-    <string name="lockscreen_widgets_note_title">Nota</string>
-    <string name="lockscreen_widgets_note_summary">Selección de estilo minimalista esconde todos los widgets menos el control de música. Las siguientes opciones no se borran para permitir cambiar a otros estilos</string>
-
-    <!-- Tweaks Extras -->
-    <string name="te_title">Modificaciones extra</string>
-    <string name="te_title_summary">Herramientas extra para modificaciones del interfaz</string>
-    <string name="te_reset">Reiniciar</string>
-    <string name="title_reset_ui_tweaks_to_defaults">Restaurar modificaciones predeterminadas del IU</string>
-    <string name="te_xml">Herramientas XML</string>
-    <string name="title_dialog_ui_interface">Modificaciones del IU</string>
-    <string name="message_dialog_reset">¿Restaurar todas las modificaciones predeterminadas del IU? Reiniciar para ver cambios</string>
-    <string name="reset_ui_success">¡Modificaciones de IU restauradas! Reiniciar para ver cambios</string>
-    <string name="message_dialog_export">Introducir un nombre de arhivo. Si el archivo ya existe, será reemplazado.</string>
-    <string name="xml_sdcard_unmounted">¡Tarjeta SD no montada!</string>
-    <string name="xml_write_error">¡Error escribiendo XML!</string>
-    <string name="xml_export_success">¡Exportación XML satisfactoria!</string>
-    <string name="message_dialog_import">¿Está seguro de cargar este tema de colores? Reiniciar para ver cambios</string>
-    <string name="xml_file_not_found">¡Archivo XML no encontrado!</string>
-    <string name="xml_io_exception">¡Error leyendo archivo!</string>
-    <string name="xml_parse_error">¡Error procesando XML!</string>
-    <string name="xml_invalid_color">¡Código de color no válido en XML!</string>
-    <string name="xml_import_success">¡Importación XML satisfactoria! Reiniciar para ver cambios</string>
-    <string name="xml_run_helper">Ejecutando ayudante de ajustes</string>
-    <string name="title_apply_theme">Seleccionar un tema</string>
-    <string name="summary_apply_theme">Escoger un tema original o uno guardado en la tarjeta SD</string>
-    <string name="title_save_theme">Guardar tema actual</string>
-    <string name="summary_save_theme">Guardar el conjunto actual de colores en la tarjeta SD</string>
-
-
-    <!-- Input Settings -->
-    <string name="input_settings_title">Ajustes de entrada</string>
-    <string name="input_settings_summary">Comportamiento de los botones de control</string>
-    <string name="button_settings_title">Ajustes de botón</string>
-    <string name="input_search_key_title">Comportamiento botón Búsqueda</string>
-    <string name="input_search_key_summary">Definir acción para la pulsación larga del botón Búsqueda</string>
-    <string name="pref_input_custom_search_app_toggle_title">Aplicación botón de búsqueda</string>
-    <string name="pref_input_custom_search_app_toggle_summary">Inicia una aplicación personalizada cuando se pulsa la tecla de búsqueda</string>
-    <string name="pref_input_custom_search_app_activity_title">Aplicación personalizada</string>
-    <string name="pref_input_custom_long_search_app_toggle_title">Aplicación pulsación larga Búsqueda</string>
-    <string name="pref_input_custom_long_search_app_toggle_summary">Inicia una aplicación personalizada cuando se deja pulsada la tecla de búsqueda</string>
->>>>>>> bcdb7ce2ffa22f1960f7c7a6ced1e27a2567ac09
 
     <!-- Long Press Home -->
     <string name="recent_apps_show_title">Muestra las aplicaciones recientes</string>
@@ -383,6 +262,10 @@
     <!-- Performance Settings : Dithering -->
     <string name="pref_use_dithering_title">Activa dithering</string>
     <string name="pref_use_dithering_summary">Dithering aumenta la calidad de la imagen a a cambio de rendimiento (requiere reiniciar)</string>
+
+    <!-- Performance Settings : Purgeable Assets -->
+    <string name="pref_purgeable_assets_title">Liberar RAM</string>
+    <string name="pref_purgeable_assets_summary">El sistema puede liberar más RAM cuando sea necesario si la memoria de los activos de mapa de bits se puede liberar. (requiere reiniciar)</string>
 
     <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">Tamaño de la memoria VM</string>
