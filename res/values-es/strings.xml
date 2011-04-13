@@ -36,6 +36,51 @@
     <string name="pref_electron_beam_animation_on">Animación al encender pantalla</string>
     <string name="pref_electron_beam_animation_off">Animación al apagar pantalla</string>
 
+    <!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_title_head">Ajustes de Tablet</string>
+    <string name="tablet_tweaks_summary_head">Configuración más útil para los dispositivos tablet recogidos en un solo lugar. También trabaja para otros teléfonos</string>
+    <string name="tablet_tweaks_sb_bottom_title">Barra de estado en parte inferior</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Muestra la barra de estado en la parte inferior. Útiles para los tablets que utilizan los botones para el home, menú, etc en la barra de estado</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">Zona muerta</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">Añade una zona muerta en la mitad de ancho de la pantalla a la mitad de la barra de estado</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">Soft-botones de la izquierda</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">Ponga los soft-buttons en el lado izquierdo de la barra de estado</string>
+    <string name="tablet_tweaks_soft_button_list_title">Escoje soft-buttons</string>
+    <string name="tablet_tweaks_interface_head">Interface</string>
+    <string name="tablet_tweaks_disable_lockscreen_title">Desactiva lockscreen</string>
+    <string name="tablet_tweaks_disable_lockscreen_summary">Cuando se activa, no muestra el LockScreen, pantalla del patrón. Ni en el arranque, ni cuando despierta el dispositivo</string>
+    <string name="tablet_tweaks_disable_fullscreen_title">Desactiva pantalla completa</string>
+    <string name="tablet_tweaks_disable_fullscreen_summary">Cuando está activado, la barra de estado siempre es visible hasta que oculta por el botón</string>
+    <string name="tablet_tweaks_unhide_button_list_head">Mostrar el botón</string>
+    <string name="tablet_tweaks_unhide_button_list_title">Escoje mostrar el botón</string>
+    <string name="tablet_tweaks_extend_pm_title">Amplia el power menu</string>
+    <string name="tablet_tweaks_extend_pm_summary">Añade home/back/menu acciones a el power menu</string>
+    <string name="tablet_tweaks_extend_pm_list_title">Escoje botones power menu</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_title">Comportamiento inverso de volumen</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Botones de volumen se comportan normal. Pulse para cambiar el volumen, mantenga pulsada la acción del usuario</string>
+    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Botones de volumen se invierten. Pulse para la acción del usuario, mantenga pulsado para cambiar el volumen</string>
+
+    <!-- User interface: Tablet tweaks -> volume remapping -->
+    <string name="tablet_tweaks_input_head">Remapea teclas de volumen</string>
+    <string name="tablet_tweaks_long_volp_action_title">Mantener pulsado volumen arriba</string>
+    <string name="tablet_tweaks_long_volp_action_summary">Asignar home/atrás/menú etc para botón de volumen hasta pulsación larga. Limitado a la pantalla encendida</string>
+    <string name="tablet_tweaks_long_volm_action_title">Volumen mantenido presionado abajo</string>
+    <string name="tablet_tweaks_vol_both_action_title">Los dos botones de volumen</string>
+    <string name="tablet_tweaks_vol_both_action_summary">Nota: Algunos dispositivos pueden hacer un hard reset por cable en los dos botones de volumen + power presionado</string>
+    <string name="tablet_tweaks_long_vol_both_action_title">Presión larga en los dos botones de volumen</string>
+
+    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
+    <string name="tablet_tweaks_extend_pm_list_head">Botones de menu</string>
+
+    <!-- User interface: Tablet tweaks -> soft buttons -->
+    <string name="tablet_tweaks_soft_buttons_list_head">Botones</string>
+    <string name="tablet_soft_buttons_home_title">Home</string>
+    <string name="tablet_soft_buttons_menu_title">Menu</string>
+    <string name="tablet_soft_buttons_back_title">Atras</string>
+    <string name="tablet_soft_buttons_search_title">Busqueda</string>
+    <string name="tablet_soft_buttons_quick_na_title">Notificaciones</string>
+
+
     <!-- User interface : 180 degree rotation -->
     <string name="pref_rotate_180_title">Girar 180 grados</string>
     <string name="pref_rotate_180_summary">Permitir rotación adicional de 180 grados cuando se activa auto-rotación</string>
