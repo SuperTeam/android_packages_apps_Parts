@@ -60,7 +60,7 @@ public class UIStatusBarActivity extends PreferenceActivity {
         mStatusBarCmBattery.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CM_BATTERY, 0) == 1));
         mStatusBarCompactCarrier.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.STATUS_BAR_COMPACT_CARRIER, 0) == 1));
+                Settings.System.STATUS_BAR_COMPACT_CARRIER, 1) == 1));
 
     }
 

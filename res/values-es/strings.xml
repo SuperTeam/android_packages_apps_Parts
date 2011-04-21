@@ -91,6 +91,8 @@
     <string name="ui_status_bar_clock_summary">Se esconde si se deshabilita</string>
     <string name="ui_status_bar_cm_battery_title">Porcentaje de batería</string>
     <string name="ui_status_bar_cm_battery_summary">Mostrar el porcentaje de batería y un icono pequeño. Deshabilitar si no aparece bien el tema</string>
+    <string name="ui_status_bar_compact_carrier_title">Operadora en modo compacto</string>
+    <string name="ui_status_bar_compact_carrier_summary">Modo compacto en la barra de notificación. Mueve la operadora y el botón borrar (Reinicio requerido)</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notificaciones LED</string>
