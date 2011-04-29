@@ -50,6 +50,7 @@ public class UIStatusBarActivity extends PreferenceActivity {
         PreferenceScreen prefSet = getPreferenceScreen();
 
         mStatusBarClock = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_CLOCK);
+        mStatusBarCompactCarrier = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_COMPACT_CARRIER);
         mStatusBarCmBattery = (CheckBoxPreference) prefSet
                 .findPreference(PREF_STATUS_BAR_CM_BATTERY);
         mStatusBarCompactCarrier = (CheckBoxPreference) prefSet
@@ -73,17 +74,16 @@ public class UIStatusBarActivity extends PreferenceActivity {
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_CLOCK,
                     value ? 1 : 0);
             return true;
-
         } else if (preference == mStatusBarCmBattery) {
             value = mStatusBarCmBattery.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_CM_BATTERY,
                     value ? 1 : 0);
             return true;
-
         } else if (preference == mStatusBarCompactCarrier) {
             value = mStatusBarCompactCarrier.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_COMPACT_CARRIER,
                     value ? 1 : 0);
+            return true;
         }
         return false;
     }
