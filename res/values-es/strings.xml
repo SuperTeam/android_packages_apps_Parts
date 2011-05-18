@@ -216,6 +216,8 @@
     <string name="lockscreen_delay_header">Timepo y retraso</string>
     <string name="pref_lockscreen_style_title">Estilo Lockscreen</string>
     <string name="pref_lockscreen_style_summary">Escoje un estilo de lockscreen</string>
+    <string name="pref_in_call_style_title">Estilo de llamada entrante</string>
+    <string name="pref_in_call_style_summary">Escoje un estilo de slider para recibir o rechazar las llamadas</string>
     <string name="pref_volbtn_music_controls_title">Volumen de los botones de la música</string>
     <string name="pref_volbtn_music_controls_summary">Busque pistas de música cuando mantenga presionando los botones de volumen, mientras que la pantalla esté apagada</string>
     <string name="pref_cambtn_music_controls_title">Control de la música con el botón de la cámara</string>
