@@ -32,7 +32,8 @@
 
     <!-- User interface -->
     <string name="ui_title">Interfaz de usuario</string>
-    <string name="ui_summary">Ajustes de la interfaz de usuario</string>
+    <string name="ui_summary">Ajustes de interfaz de usuario</string>
+
     <string name="pref_electron_beam_animation_on">Animación al encender pantalla</string>
     <string name="pref_electron_beam_animation_off">Animación al apagar pantalla</string>
 
@@ -223,7 +224,7 @@
     <string name="pref_cambtn_music_controls_title">Control de la música con el botón de la cámara</string>
     <string name="pref_cambtn_music_controls_summary">Cambia a play/pause cuando mantengas pulsado el boton de la cçamara mientras esté la pantalla apagada</string>
     <string name="lockscreen_widgets_note_title">Nota</string>
-    <string name="lockscreen_widgets_note_summary">Elegir el estilo minimalista esconde todos los controles excepto el control de la música. Sin embargo, por debajo de las opciones no son fáciles de desarmar para permitir el cambio a otros estilos.</string>
+    <string name="lockscreen_widgets_note_summary">Selección de estilo minimalista esconde todos los widgets menos el control de música. Las siguientes opciones no se borran para permitir cambiar a otros estilos</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Ajustes</string>
@@ -365,8 +366,8 @@
     <string name="terminal">Terminal</string>
     <string name="blue">Azul</string>
     <string name="amber">Ambar</string>
-    <string name="salmon">Salmon</string>
-    <string name="fuscia">Fucsia</string>
+    <string name="salmon">Salmón</string>
+    <string name="fuscia">Fuscia</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Vista Widget en barra expandida</string>
