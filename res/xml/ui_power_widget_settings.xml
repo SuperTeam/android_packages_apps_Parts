@@ -11,7 +11,7 @@
 			android:defaultValue="false" android:dependency="expanded_widget" />
 		<CheckBoxPreference android:key="expanded_hide_indicator"
 			android:title="@string/title_expanded_hide_indicator" android:summary="@string/summary_expanded_hide_indicator"
-			android:defaultValue="false" android:dependency="expanded_widget" />
+			android:defaultValue="true" android:dependency="expanded_widget" />
 		<CheckBoxPreference android:key="expanded_hide_scrollbar"
 			android:title="@string/title_expanded_hide_scrollbar" android:summary="@string/summary_expanded_hide_scrollbar"
 			android:defaultValue="false" android:dependency="expanded_widget" />

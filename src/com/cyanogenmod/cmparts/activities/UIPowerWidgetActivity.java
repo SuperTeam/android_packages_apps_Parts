@@ -84,7 +84,7 @@ public class UIPowerWidgetActivity extends PreferenceActivity {
         mPowerWidgetHideScrollBar.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.EXPANDED_HIDE_SCROLLBAR, 0) == 1));
         mPowerWidgetIndicatorHide.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.EXPANDED_HIDE_INDICATOR, 0) == 1));
+                Settings.System.EXPANDED_HIDE_INDICATOR, 1) == 1));
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {

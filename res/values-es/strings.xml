@@ -5,7 +5,7 @@
     <string name="buttons_title">Botones</string>
 
     <!--  Primary Screen Settings -->
-    <string name="application_settings_title_head">Applicaciones</string>
+    <string name="application_settings_title_head">Aplicaciones</string>
     <string name="application_settings_title_subhead">Ajustes de aplicaciones</string>
     <string name="application_settings_summary_head">Mover aplicaciones, lugar de instalacion</string>
     <string name="display_settings_title_head">Pantalla</string>
@@ -198,6 +198,8 @@
     <string name="pref_lockscreen_always_music_controls_summary">Muestra los controles del reproductor aunque no se este reproduciendo nada</string>
     <string name="pref_trackball_wake_title">Activa con el Trackball</string>
     <string name="pref_trackball_wake_summary">Presiona el Trackball para activar el dispositivo.</string>
+    <string name="pref_volume_wake_title">Activa con teclas de volumen</string>
+    <string name="pref_volume_wake_summary">Al pulsar el volumen arriba / abajo activa el dispositivo.</string>
     <string name="pref_trackball_unlock_title">Desbloquea con el Trackball</string>
     <string name="pref_trackball_unlock_summary">Presiona el Trackball para desbloquear el dispositivo.</string>
     <string name="pref_menu_unlock_title">Desbloqueo desde Menu</string>
@@ -373,8 +375,12 @@
     <string name="title_widget_buttons">Vista Widget en barra expandida</string>
     <string name="title_expanded_widget">Widget de notificaciones</string>
     <string name="summary_expanded_widget">Usa la barra expandida para el widget de notificaciones</string>
+    <string name="title_expanded_hide_indicator">Oculta indicador</string>
+    <string name="summary_expanded_hide_indicator">Oculta el indicador de las notificaciones en los widgets</string>
     <string name="title_expanded_hide_onchange">Oculta al cambiar</string>
     <string name="summary_expanded_hide_onchange">Oculta la barra de notificaciones después de cambiar cualquier widget</string>
+    <string name="title_expanded_hide_scrollbar">Oculta barra de desplazamiento</string>
+    <string name="summary_expanded_hide_scrollbar">Oculta la barra de desplazamiento cuando el número de widgets sea el máximo.</string>
     <string name="expanded_color_mask">Color de indicador</string>
     <string name="title_widget_picker">Botones de Widget</string>
     <string name="summary_widget_picker">Selecciona widgets</string>
@@ -458,6 +464,9 @@
     <string name="sound_notifications_focus_summary">Las peticiones de sonidos se centran en aplicaciones compatibles para bajar el volumen.</string>
     <string name="sound_volume_control_silent_title">Estado de silencio</string>
     <string name="sound_volume_control_silent_summary">Añade un estado de completo silencio para controlar el volumen</string>
+    <string name="sound_vibrate_in_call_title">Vibra durante llamada</string>
+    <string name="sound_vibrate_in_call_summary_off">Las notificaciones no vibran durante una llamada</string>
+    <string name="sound_vibrate_in_call_summary_on">Las notificaciones vibran normalmente</string>
     <string name="sound_to_speaker_title">Siempre utiliza el altavoz</string>
     <string name="sound_notifications_title">Notificaciones</string>
     <string name="sound_rings_title">Sonidos</string>
