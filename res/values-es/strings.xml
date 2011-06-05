@@ -521,7 +521,7 @@
     <string name="gestures_button_discard">Descartar</string>
     <string name="gestures_button_done">Hecho</string>
     <string name="gestures_shortcut_picker_button_label">Elije un método abreviado o la actividad por este gesto</string>
-    <string name="gestures_error_missing_shortcut">Debes escoger un recurso de este gesto!</string>
+    <string name="gestures_error_missing_shortcut">¡Debe seleccionar una acción para este gesto!</string>
     <string name="gestures_save_success">Gesto guardado en %s</string>
     <string name="gestures_cancel_action">Cancela</string>
     <string name="gestures_loading">Cargando gestos...</string>
