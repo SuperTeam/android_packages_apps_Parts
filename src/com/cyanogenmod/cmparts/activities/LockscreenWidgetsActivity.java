@@ -41,6 +41,10 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
     private static final String LOCKSCREEN_ALWAYS_MUSIC_CONTROLS = "lockscreen_always_music_controls";
 
     private static final String LOCKSCREEN_ALWAYS_BATTERY = "lockscreen_always_battery";
+    
+    private static final String LOCKSCREEN_CARRIER = "lockscreen_carrier";
+
+    private CheckBoxPreference mCarrierPref;
 
     private CheckBoxPreference mMusicControlPref;
 
@@ -62,6 +66,11 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
         addPreferencesFromResource(R.xml.lockscreen_widgets_settings);
 
         PreferenceScreen prefSet = getPreferenceScreen();
+
+        /* Carrier name */
+        mCarrierPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_CARRIER);
+        mCarrierPref.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_CARRIER, 1) == 0);
 
         /* Music Controls */
         mMusicControlPref = (CheckBoxPreference) prefSet.findPreference(LOCKSCREEN_MUSIC_CONTROLS);
@@ -102,7 +111,12 @@ public class LockscreenWidgetsActivity extends PreferenceActivity implements
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         boolean value;
-        if (preference == mMusicControlPref) {
+        if (preference == mCarrierPref) {
+            value = mCarrierPref.isChecked();
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_CARRIER,
+                    value ? 1 : 0);
+            return true;
+        } else if (preference == mMusicControlPref) {
             value = mMusicControlPref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_MUSIC_CONTROLS,
                     value ? 1 : 0);
