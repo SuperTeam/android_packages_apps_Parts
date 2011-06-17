@@ -323,14 +323,6 @@
     <string name="pref_heapsize_title">Tamaño de la memoria VM</string>
     <string name="pref_heapsize_summary">Importe máximo de la memoria VM (requiere reiniciar)</string>
 
-    <!-- Performance : Lock home memory -->
-    <string name="pref_lock_home_title">Manten launcher en memoria</string>
-    <string name="pref_lock_home_summary">Intenta mantener el launcher en memoria todo el tiempo</string>
-
-    <!-- Performance : Lock mms app in memory -->
-    <string name="pref_lock_mms_title">Bloqueo de mensajes en memoria</string>
-    <string name="pref_lock_mms_summary">Evita la perdida de mensajes en situaciones de memoria baja</string>
-
     <!-- Performance Settings : Warning dialog -->
     <string name="performance_settings_warning_title">ADVERTENCIA:</string>
     <string name="performance_settings_warning">Las opciones que aquí active, van a cambiar el rendimiento de su sistema, posiblemente para peor. Se incluyen para la experimentación y le pedimos que usted no presente los informes de error, si se ha cambiado alguna de las opciones por defecto.</string>
