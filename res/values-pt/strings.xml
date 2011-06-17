@@ -329,7 +329,7 @@
     <string name="pref_ring_mode_title">Modos de som</string>
     <string name="pref_ring_mode_summary">Escolha como o botão de som alterna o modo</string>
     <string name="pref_flash_mode_title">Modo de Flash</string>
-    <string name="pref_flash_mode_summary">Escolha Alto / Raio da Morte (Evo)</string>
+    <string name="pref_flash_mode_summary">Escolha Alto / Raio da Morte</string>
 
 
     <!-- Performance : Lock home memory -->
@@ -606,4 +606,8 @@
     <string name="gestures_draw_label">Gesto:</string>
     <string name="gestures_draw_for_label">Gesto para \"%s\":</string>
     <string name="gestures_run_in_background">Executar em segundo plano</string>
+    <string name="rotation_category_title">Rotação com acelerômetro</string>
+    <string name="pref_rotation_90_title">90 graus</string>
+    <string name="pref_rotation_180_title">180 graus</string>
+    <string name="pref_rotation_270_title">270 graus</string>
 </resources>
