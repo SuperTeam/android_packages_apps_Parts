@@ -2,7 +2,6 @@
 <resources>
     <!-- Generic -->
     <string name="app_name">Parts</string>
-    <string name="buttons_title">Botones</string>
 
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Aplicaciones</string>
@@ -316,30 +315,6 @@
     <string name="haptic_revert_toast">Restauración de los últimos valores utilizados</string>
     <string name="haptic_default_toast">Valores restaurados</string>
 
-    <!-- Performance Settings -->
-    <string name="performance_settings_title">Configuración de rendimiento</string>
-    <string name="performance_settings_summary">Ajustes de rendimiento del dispositivo</string>
-
-    <!-- Performance Settings : Compcache -->
-    <string name="pref_compcache_title">Usa Compcache</string>
-    <string name="pref_compcache_summary">Comprimir memoria para mayor capacidad virtual</string>
-
-    <!-- Performance Settings : JIT Mode -->
-    <string name="pref_jit_mode_title">Usa JIT</string>
-    <string name="pref_jit_mode_summary">Usar el compilador Dalvik justo en el momento (requiere reiniciar)</string>
-
-    <!-- Performance Settings : Dithering -->
-    <string name="pref_use_dithering_title">Activa dithering</string>
-    <string name="pref_use_dithering_summary">Dithering aumenta la calidad de la imagen a a cambio de rendimiento (requiere reiniciar)</string>
-
-    <!-- Performance Settings : Purgeable Assets -->
-    <string name="pref_purgeable_assets_title">Liberar RAM</string>
-    <string name="pref_purgeable_assets_summary">El sistema puede liberar más RAM cuando sea necesario si la memoria de los activos de mapa de bits se puede liberar. (requiere reiniciar)</string>
-
-    <!-- Performance Settings : VM Heap Size -->
-    <string name="pref_heapsize_title">Tamaño de la memoria VM</string>
-    <string name="pref_heapsize_summary">Importe máximo de la memoria VM (requiere reiniciar)</string>
-
     <!-- Performance Settings : Warning dialog -->
     <string name="performance_settings_warning_title">ADVERTENCIA:</string>
     <string name="performance_settings_warning">Las opciones que aquí active, van a cambiar el rendimiento de su sistema, posiblemente para peor. Se incluyen para la experimentación y le pedimos que usted no presente los informes de error, si se ha cambiado alguna de las opciones por defecto.</string>
@@ -387,22 +362,6 @@
     <!-- Performance : Lock mms app in memory -->
     <string name="pref_lock_mms_title">Bloquear aplicación de mensajería en memoria</string>
     <string name="pref_lock_mms_summary">Evitar la pérdida de mensajes en situaciones de poca memoria</string>
-
-    <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">ATENCION: ¡Manazas fuera!</string>
-    <string name="performance_settings_warning">Estas opciones cambiarán el rendimiento de tu sistema, posiblemente a peor. Están incluidas para experimentación and solicitamos que no envíe informes de errores si ha cambiado algo de los valores por defecto.</string>
-
-    <!-- Application Settings -->
-    <string name="application_settings_title">Ajustes de Aplicación</string>
-    <string name="application_settings_summary">Cambiar varios ajustes de aplicaciones como el lugar de instalación</string>
-
-    <!-- Application Settings : Move any app -->
-    <string name="pref_move_all_apps_title">Permitir movimiento de aplicaciones</string>
-    <string name="pref_move_all_apps_summary">Permitir mover cualquier aplicación al almacenamiento externo</string>
-
-    <!-- Application Settings : Install Location -->
-    <string name="pref_install_location_title">Lugar de instalación</string>
-    <string name="pref_install_location_summary">Seleccionar donde se instalarán las nuevas aplicaciones</string>
 
     <string name="general_title">General</string>
     <string name="buttons_title">Botones</string>
@@ -475,14 +434,6 @@
     <string name="pref_ring_mode_summary">Elegir como cambia el sonido con el botón</string>
     <string name="pref_flash_mode_title">Modo de flash</string>
     <string name="pref_flash_mode_summary">Elegir Alto / Rayo Mortal</string>
-
-    <!-- Performance : Lock home memory -->
-    <string name="pref_lock_home_title">Bloquear inicio en memoria</string>
-    <string name="pref_lock_home_summary">Intenta mantener siempre en memoria la aplicación de inicio actual</string>
-
-    <!-- Performance : Lock mms app in memory -->
-    <string name="pref_lock_mms_title">Bloquear aplicación de mensajería en memoria</string>
-    <string name="pref_lock_mms_summary">Descartar mensajes perdidos en situaciones de baja memoria</string>
 
     <!-- Backlight -->
     <string name="backlight_title">Backlight automático</string>
