@@ -177,6 +177,8 @@
     <string name="notification_battery_warning">Esta opción se ha demostrado que aumentan la cantidad de descarga de la batería de ~ 3% por hora. Si usted nota un aumento de descarga no la habilite</string>
 
     <!-- Lockscreen Overview -->
+    <string name="pref_lockscreen_disable_on_security_title">Desactivar LockScreen con seguridad</string>
+    <string name="pref_lockscreen_disable_on_security_summary">Desactivar el LockScreen si la seguridad de bloqueo de pantalla (patrón, PIN, contraseña) está activada</string>
     <string name="pref_lockscreen_stylecfg_title">Estilo de la pantalla de bloqueo</string>
     <string name="pref_lockscreen_stylecfg_summary">Configura el estilo de la pantalla de bloqueo</string>
     <string name="pref_lockscreen_widgets_title">Opciones de visualización</string>
@@ -217,6 +219,9 @@
     <string name="pref_lockscreen_custom_app_toggle_title">Aplicación de arranque</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Muestra un segundo control deslizante</string>
     <string name="pref_lockscreen_custom_app_activity_title">Aplicación personalizada</string>
+    <string name="pref_lockscreen_custom_background_title">Elige fondo</string>
+    <string name="pref_lockscreen_custom_background_dialog_title">Escoge un fondo</string>
+    <string name="pref_lockscreen_custom_background_summary">Escoge un fondo para el Lockscreen</string>
     <string name="pref_lockscreen_custom_icon_style_title">Mensaje para app</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Utiliza el icono de mensaje en lugar del icono normal para aplicación personalizada</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Arrastra hacia abajo para desbloquear</string>
