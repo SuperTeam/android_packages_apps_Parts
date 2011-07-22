@@ -501,51 +501,6 @@
     <string name="changelog_unknown">Ismeretlen</string>
     <string name="changelog_version">Verzió</string>
 
-    <!-- Phone goggles -->
-    <string name="category_phone_goggles_period">Periódus</string>
-    <string name="category_phone_goggles_confirmation">Megerősítés</string>
-    <string name="category_phone_goggles_filter">Filterek</string>
-    <string name="title_phone_goggles">Telefon Védelem</string>
-    <string name="title_phone_goggles_default">Alapértelmezett beállítások</string>
-    <string name="title_phone_goggles_apps">Szűrt alkalmazások</string>
-    <string name="title_phone_goggles_app_enabled">Telefon Védelem engedélyezése</string>
-    <string name="title_phone_goggles_use_custom">Egyéni beállítások használata</string>
-    <string name="title_phone_goggles_filter">Szűrt számok</string>
-    <string name="title_phone_goggles_enabled">Telefon védelem engedélyezése</string>
-    <string name="title_phone_goggles_start">Telefon védelmi mód indítása</string>
-    <string name="title_phone_goggles_end">Telefon védelmi mód befejezése</string>
-    <string name="title_phone_goggles_confirmation_enabled">Megerősítés kérése</string>
-    <string name="title_phone_goggles_phone_enabled">Telefon</string>
-    <string name="title_phone_goggles_sms_enabled">SMS</string>
-    <string name="title_phone_goggles_maths_level">Matematikai</string>
-    <string name="title_phone_goggles_work_filtered">Munkahely</string>
-    <string name="title_phone_goggles_mobile_filtered">Mobil</string>
-    <string name="title_phone_goggles_other_filtered">Egyéb</string>
-    <string name="summary_phone_goggles">Kimenő kommunikáció szűrése</string>
-    <string name="summary_phone_goggles_default">Beállítja az alapértelmezett beállításokat</string>
-    <string name="summary_phone_goggles_filter">Kijelöli a szűrendő telefonszám típusokat</string>
-    <string name="summary_phone_goggles_start">Szűrés kezdete kimenő hívásnál</string>
-    <string name="summary_phone_goggles_end">Szűrés befejezése kimenő hívásnál</string>
-    <string name="summary_phone_goggles_confirmation_enabled">Válaszd ki, hogyan szeretnéd a szűrés előtti megerősítést kérni</string>
-    <string name="summary_phone_goggles_maths_level">Matematikai feladat szintje</string>
-    <string name="summary_on_phone_goggles_enabled">A kimenő kommunikációt szűrni fogjuk</string>
-    <string name="summary_on_phone_goggles_use_custom">Egyéni beállítások használata</string>
-    <string name="summary_on_phone_goggles_app_enabled">A Telefon Védelem hozzá lett rendelve ehhez az alkalmazáshoz</string>
-    <string name="summary_on_phone_goggles_work_filtered">A szakmai kommunikáció szűrve lesz</string>
-    <string name="summary_on_phone_goggles_mobile_filtered">A mobiltelefonszámok felé való kommunikáció szűrve lesz</string>
-    <string name="summary_on_phone_goggles_other_filtered">Az egyéb telefonszámok felé való kommunikáció szűrve lesz</string>
-    <string name="summary_off_phone_goggles_enabled">Nem lesz a kommunikáció szűrve</string>
-    <string name="summary_off_phone_goggles_use_custom">Alapértelmezett beállítások használata</string>
-    <string name="summary_off_phone_goggles_app_enabled">A Telefon Védelem letiltotta ezt az alkalmazást</string>
-    <string name="summary_off_phone_goggles_work_filtered">A szakmai kommunikáció nem lesz szűrve</string>
-    <string name="summary_off_phone_goggles_mobile_filtered">A mobiltelefonszámok felé való kommunikáció nem lesz szűrve</string>
-    <string name="summary_off_phone_goggles_other_filtered">Az egyéb telefonszámok felé való kommunikáció nem lesz szűrve</string>
-    <string name="phone_goggles_maths_level_easy">Könnyű</string>
-    <string name="phone_goggles_maths_level_medium">Közepes</string>
-    <string name="phone_goggles_maths_level_hard">Nehéz</string>
-    <string name="phone_goggles_confirmation_none">Nincs</string>
-    <string name="phone_goggles_confirmation_prompt">Megszakítás</string>
-    <string name="phone_goggles_confirmation_maths">Matematikai feladat</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU beállítások</string>

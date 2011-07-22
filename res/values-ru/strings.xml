@@ -589,51 +589,6 @@
     <string name="changelog_unknown">Неизвестно</string>
     <string name="changelog_version">Версия</string>
 
-    <!-- Phone goggles -->
-    <string name="category_phone_goggles_period">Период</string>
-    <string name="category_phone_goggles_confirmation">Подтверждение</string>
-    <string name="category_phone_goggles_filter">Фильтры</string>
-    <string name="title_phone_goggles">Пьяный режим</string>
-    <string name="title_phone_goggles_default">Настройки по умолчанию</string>
-    <string name="title_phone_goggles_apps">Фильтруемые приложения</string>
-    <string name="title_phone_goggles_app_enabled">Пьяный режим включен</string>
-    <string name="title_phone_goggles_use_custom">Использовать пользовательские настройки</string>
-    <string name="title_phone_goggles_filter">Фильтруемые номера</string>
-    <string name="title_phone_goggles_enabled">Включить пьяный режим</string>
-    <string name="title_phone_goggles_start">Старт пьяного режима</string>
-    <string name="title_phone_goggles_end">Конец пьяного режима</string>
-    <string name="title_phone_goggles_confirmation_enabled">Запрос на подтверждение</string>
-    <string name="title_phone_goggles_phone_enabled">Телефон</string>
-    <string name="title_phone_goggles_sms_enabled">SMS</string>
-    <string name="title_phone_goggles_maths_level">Математические задачи</string>
-    <string name="title_phone_goggles_work_filtered">Рабочий</string>
-    <string name="title_phone_goggles_mobile_filtered">Мобильный</string>
-    <string name="title_phone_goggles_other_filtered">Другой</string>
-    <string name="summary_phone_goggles">Фильтр исходящей связи</string>
-    <string name="summary_phone_goggles_default">Установить настройки по умолчанию</string>
-    <string name="summary_phone_goggles_filter">Выбрать тип телефонных номеров для фильтрации</string>
-    <string name="summary_phone_goggles_start">Начало фильтрации исходящих звонков</string>
-    <string name="summary_phone_goggles_end">Конец фильтрации исходящих звонков</string>
-    <string name="summary_phone_goggles_confirmation_enabled">Выбор способов подтверждения перед фильтрацией исходящего соединения</string>
-    <string name="summary_phone_goggles_maths_level">Уровень спрашиваемых математических задач перед совершением звонка</string>
-    <string name="summary_on_phone_goggles_enabled">Исходящее соединение будет фильтроваться</string>
-    <string name="summary_on_phone_goggles_use_custom">Использовать пользовательские настройки</string>
-    <string name="summary_on_phone_goggles_app_enabled">Пьяный режим активирован для этого приложения</string>
-    <string name="summary_on_phone_goggles_work_filtered">Соединения на рабочие телефоны будут фильтроваться</string>
-    <string name="summary_on_phone_goggles_mobile_filtered">Соединения на мобильные телефоны будут фильтроваться</string>
-    <string name="summary_on_phone_goggles_other_filtered">Соединения на другие телефоны будут фильтроваться</string>
-    <string name="summary_off_phone_goggles_enabled">Ни одно соединение не будет отфильтровано</string>
-    <string name="summary_off_phone_goggles_use_custom">Использовать стандартные настройки</string>
-    <string name="summary_off_phone_goggles_app_enabled">Пьяный режим отключен для этого приложения</string>
-    <string name="summary_off_phone_goggles_work_filtered">Соединения рабочие телефоны не будут фильтроваться</string>
-    <string name="summary_off_phone_goggles_mobile_filtered">Соединения на мобильные телефоны не будут фильтроваться</string>
-    <string name="summary_off_phone_goggles_other_filtered">Соединения на другие телефоны не будут фильтроваться</string>
-    <string name="phone_goggles_maths_level_easy">Легкий</string>
-    <string name="phone_goggles_maths_level_medium">Средкий</string>
-    <string name="phone_goggles_maths_level_hard">Сложный</string>
-    <string name="phone_goggles_confirmation_none">Нет</string>
-    <string name="phone_goggles_confirmation_prompt">Предупреждение</string>
-    <string name="phone_goggles_confirmation_maths">Математические задачи</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">Настройки ЦП</string>

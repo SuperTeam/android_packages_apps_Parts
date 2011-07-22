@@ -588,51 +588,6 @@
     <string name="changelog_unknown">未知</string>
     <string name="changelog_version">版本</string>
 
-    <!-- Phone goggles -->
-    <string name="category_phone_goggles_period">時段</string>
-    <string name="category_phone_goggles_confirmation">確認</string>
-    <string name="category_phone_goggles_filter">過濾</string>
-    <string name="title_phone_goggles">手機 Goggles</string>
-    <string name="title_phone_goggles_default">預設值</string>
-    <string name="title_phone_goggles_apps">過濾的應用程式</string>
-    <string name="title_phone_goggles_app_enabled">啟用手機 Goggles</string>
-    <string name="title_phone_goggles_use_custom">使用自訂值</string>
-    <string name="title_phone_goggles_filter">過濾的號碼</string>
-    <string name="title_phone_goggles_enabled">啟用手機 Goggles</string>
-    <string name="title_phone_goggles_start">手機 Goggles 模式開始時間</string>
-    <string name="title_phone_goggles_end">手機 Goggles 模式結束時間</string>
-    <string name="title_phone_goggles_confirmation_enabled">徵求確認</string>
-    <string name="title_phone_goggles_phone_enabled">撥號</string>
-    <string name="title_phone_goggles_sms_enabled">簡訊</string>
-    <string name="title_phone_goggles_maths_level">數學題難易度</string>
-    <string name="title_phone_goggles_work_filtered">工作</string>
-    <string name="title_phone_goggles_mobile_filtered">行動裝置</string>
-    <string name="title_phone_goggles_other_filtered">其他</string>
-    <string name="summary_phone_goggles">過濾撥出的通訊</string>
-    <string name="summary_phone_goggles_default">設置預設值</string>
-    <string name="summary_phone_goggles_filter">選擇您想要過濾的電話號碼類別</string>
-    <string name="summary_phone_goggles_start">何時開始過濾撥出通訊</string>
-    <string name="summary_phone_goggles_end">何時停止過濾撥出通訊</string>
-    <string name="summary_phone_goggles_confirmation_enabled">選擇在過濾通訊前應如何徵求確認</string>
-    <string name="summary_phone_goggles_maths_level">在淮許通訊前詢問的數學題難易度</string>
-    <string name="summary_on_phone_goggles_enabled">撥出的通訊將會被過濾</string>
-    <string name="summary_on_phone_goggles_use_custom">使用自訂值</string>
-    <string name="summary_on_phone_goggles_app_enabled">此應用程式已啟用手機 Goggles</string>
-    <string name="summary_on_phone_goggles_work_filtered">工作通訊將會被過濾</string>
-    <string name="summary_on_phone_goggles_mobile_filtered">跟行動裝置的通訊將會被過濾</string>
-    <string name="summary_on_phone_goggles_other_filtered">跟其他電話的通訊將會被過濾</string>
-    <string name="summary_off_phone_goggles_enabled">沒有通訊會被過濾</string>
-    <string name="summary_off_phone_goggles_use_custom">使用預設值</string>
-    <string name="summary_off_phone_goggles_app_enabled">此應用程式已停用手機 Goggles</string>
-    <string name="summary_off_phone_goggles_work_filtered">工作通訊將不會被過濾</string>
-    <string name="summary_off_phone_goggles_mobile_filtered">跟行動裝置的通訊將不會被過濾</string>
-    <string name="summary_off_phone_goggles_other_filtered">跟其他電話的通訊將不會被過濾</string>
-    <string name="phone_goggles_maths_level_easy">容易</string>
-    <string name="phone_goggles_maths_level_medium">中等</string>
-    <string name="phone_goggles_maths_level_hard">困難</string>
-    <string name="phone_goggles_confirmation_none">不需要</string>
-    <string name="phone_goggles_confirmation_prompt">詢問</string>
-    <string name="phone_goggles_confirmation_maths">數學問題</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU 設定</string>

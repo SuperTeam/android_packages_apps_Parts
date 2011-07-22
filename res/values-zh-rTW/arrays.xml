@@ -300,13 +300,9 @@
 
     <!-- skipping untranslatable /resources:0/string-array:name=values_overscroll_weight -->
 
-    <!-- skipping untranslatable /resources:0/string-array:name=phone_goggles_confirmation_values -->
 
-    <!-- skipping untranslatable /resources:0/string-array:name=phone_goggles_confirmation_entries -->
 
-    <!-- skipping untranslatable /resources:0/string-array:name=phone_goggles_maths_level_values -->
 
-    <!-- skipping untranslatable /resources:0/string-array:name=phone_goggles_maths_level_entries -->
 
     <string-array name="entries_vol_actions">
         <item>無／預設</item>

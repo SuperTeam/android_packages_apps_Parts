@@ -240,8 +240,6 @@
    <string name="pref_render_effect_title">Render effect</string>
   <string name="pref_render_effect_summary">שינוי הצבעים המשמשים כדי לצייר את המסך (חיסכון פוטנציאלי בסוללה )</string>
 
-    <string name="widget_name">RenderFX Widget</string>
-    <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Render Effect</string>
     <string name="notify_render_effect">Render effect on</string>
     <string name="add_widget">Add widget</string>
