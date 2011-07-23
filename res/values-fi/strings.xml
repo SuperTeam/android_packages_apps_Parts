@@ -322,8 +322,6 @@
     <string name="pref_render_effect_title">Renderöintiefektit</string>
     <string name="pref_render_effect_summary">Valitse millä värejä käytetään kuvan tuottamiseen (säästää mahdollisesti akkua)</string>
 
-    <string name="widget_name">RenderFX widget</string>
-    <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Renderöintiefekti</string>
     <string name="notify_render_effect">Renderöintiefekti päällä</string>
     <string name="add_widget">Lisää widget</string>
@@ -517,51 +515,6 @@
     <string name="changelog_unknown">Tuntematon</string>
     <string name="changelog_version">Versio</string>
 
-    <!-- Phone goggles -->
-    <string name="category_phone_goggles_period">Aikaväli</string>
-    <string name="category_phone_goggles_confirmation">Hyväksyminen</string>
-    <string name="category_phone_goggles_filter">Suotimet</string>
-    <string name="title_phone_goggles">Phone Goggles</string>
-    <string name="title_phone_goggles_default">Oletusasetukset</string>
-    <string name="title_phone_goggles_apps">Suodatetut sovellukset</string>
-    <string name="title_phone_goggles_app_enabled">Salli Phone Goggles</string>
-    <string name="title_phone_goggles_use_custom">Käytä omia asetuksia</string>
-    <string name="title_phone_goggles_filter">Suodatetut numerot</string>
-    <string name="title_phone_goggles_enabled">Salli phone goggles</string>
-    <string name="title_phone_goggles_start">Phone goggles -tilan aloitus</string>
-    <string name="title_phone_goggles_end">Phone goggles -tilan lopetus</string>
-    <string name="title_phone_goggles_confirmation_enabled">Pyydä hyväksymistä</string>
-    <string name="title_phone_goggles_phone_enabled">Puhelin</string>
-    <string name="title_phone_goggles_sms_enabled">SMS</string>
-    <string name="title_phone_goggles_maths_level">Matematiikkataso</string>
-    <string name="title_phone_goggles_work_filtered">Työ</string>
-    <string name="title_phone_goggles_mobile_filtered">Mobiili</string>
-    <string name="title_phone_goggles_other_filtered">Muut</string>
-    <string name="summary_phone_goggles">Suodata lähtevä kommunikointi</string>
-    <string name="summary_phone_goggles_default">Asettaa oletusasetukset</string>
-    <string name="summary_phone_goggles_filter">Valitse puhelinnumeroiden tyyppi, jotka haluat suodattaa</string>
-    <string name="summary_phone_goggles_start">Milloin aloitetaan lähtevien puheluiden suodattaminen</string>
-    <string name="summary_phone_goggles_end">Milloin lopetetaan lähtevien puheluiden suodattaminen</string>
-    <string name="summary_phone_goggles_confirmation_enabled">Valitse kumminpäin hyväksymistä pyydetään ennen kommunikoinnin suodattamista</string>
-    <string name="summary_phone_goggles_maths_level">Matemaattisten ongelmien vaikeusaste ennen kommunikoinnin hyväksymistä</string>
-    <string name="summary_on_phone_goggles_enabled">Lähtevät kommunikaatiot suodatetaan</string>
-    <string name="summary_on_phone_goggles_use_custom">Käytä oletusasetuksia</string>
-    <string name="summary_on_phone_goggles_app_enabled">Phone Goggles on päällä tälle sovellukselle</string>
-    <string name="summary_on_phone_goggles_work_filtered">Työkommunikointi suodatetaan</string>
-    <string name="summary_on_phone_goggles_mobile_filtered">Kommunikointi matkapuhelimiin suodatetaan</string>
-    <string name="summary_on_phone_goggles_other_filtered">Kommunikointi muihin puhelimiin suodatetaan</string>
-    <string name="summary_off_phone_goggles_enabled">Kommunikointia ei suodateta</string>
-    <string name="summary_off_phone_goggles_use_custom">Käytä oletusasetuksia</string>
-    <string name="summary_off_phone_goggles_app_enabled">Phone Goggles on poissa päältä tälle sovellukselle</string>
-    <string name="summary_off_phone_goggles_work_filtered">Työkommunikointia ei suodateta</string>
-    <string name="summary_off_phone_goggles_mobile_filtered">Kommunikointia matkapuhelimiin ei suodateta</string>
-    <string name="summary_off_phone_goggles_other_filtered">Kommunikointia muihin puhelimiin ei suodateta</string>
-    <string name="phone_goggles_maths_level_easy">Helppo</string>
-    <string name="phone_goggles_maths_level_medium">Keskitaso</string>
-    <string name="phone_goggles_maths_level_hard">Vaikea</string>
-    <string name="phone_goggles_confirmation_none">Ei</string>
-    <string name="phone_goggles_confirmation_prompt">Kysy</string>
-    <string name="phone_goggles_confirmation_maths">Matetaattinen ongelma</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU-asetukset</string>

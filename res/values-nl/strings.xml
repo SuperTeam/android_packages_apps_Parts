@@ -359,8 +359,6 @@
     <string name="pref_render_effect_title">Render effect</string>
     <string name="pref_render_effect_summary">Kies de kleuren die weergegeven worden op het scherm (potentiële batterij besparing)</string>
 
-    <string name="widget_name">RenderFX Widget</string>
-    <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Render Effect</string>
     <string name="notify_render_effect">Render effect aan</string>
     <string name="add_widget">Voeg widget toe</string>
@@ -562,51 +560,6 @@
     <string name="changelog_unknown">Onbekend</string>
     <string name="changelog_version">Versie</string>
 
-    <!-- Phone goggles -->
-    <string name="category_phone_goggles_period">Periode</string>
-    <string name="category_phone_goggles_confirmation">Bevestiging</string>
-    <string name="category_phone_goggles_filter">Filters</string>
-    <string name="title_phone_goggles">Phone Goggles</string>
-    <string name="title_phone_goggles_default">Standaard instellingen</string>
-    <string name="title_phone_goggles_apps">Gefilterde apps</string>
-    <string name="title_phone_goggles_app_enabled">Activeer Phone Goggles</string>
-    <string name="title_phone_goggles_use_custom">Gebruik aangepaste instellingen</string>
-    <string name="title_phone_goggles_filter">Gefilterde nummers</string>
-    <string name="title_phone_goggles_enabled">Activeer Phone Goggles</string>
-    <string name="title_phone_goggles_start">Start Phone Goggles modus</string>
-    <string name="title_phone_goggles_end">Beëindig Phone Goggles modus</string>
-    <string name="title_phone_goggles_confirmation_enabled">Vraag om bevestiging</string>
-    <string name="title_phone_goggles_phone_enabled">Telefoon</string>
-    <string name="title_phone_goggles_sms_enabled">SMS</string>
-    <string name="title_phone_goggles_maths_level">Reken niveau</string>
-    <string name="title_phone_goggles_work_filtered">Werk</string>
-    <string name="title_phone_goggles_mobile_filtered">Mobiel</string>
-    <string name="title_phone_goggles_other_filtered">Overig</string>
-    <string name="summary_phone_goggles">Filter uitgaande communicatie</string>
-    <string name="summary_phone_goggles_default">Stel de standaard instellingen in</string>
-    <string name="summary_phone_goggles_filter">Selecteer het type telefoons nummers welke gefilterd moeten worden</string>
-    <string name="summary_phone_goggles_start">Wanneer moet het filteren van uitgaande gesprekken gestart worden</string>
-    <string name="summary_phone_goggles_end">Wanneer moet het filteren van uitgaande gesprekken gestopt wordengestopt</string>
-    <string name="summary_phone_goggles_confirmation_enabled">Op welke manier moet de bevestiging gevraagd worden voor het filteren van communicaties</string>
-    <string name="summary_phone_goggles_maths_level">Niveau van reken problemen voor het autoriseren van een communicatie</string>
-    <string name="summary_on_phone_goggles_enabled">Uitgaande communicatie zal gefilterd worden</string>
-    <string name="summary_on_phone_goggles_use_custom">Gebruik aangepaste instellingen</string>
-    <string name="summary_on_phone_goggles_app_enabled">Phone Goggles is aangezet voor deze app</string>
-    <string name="summary_on_phone_goggles_work_filtered">Professionele communicatie zal gefilterd worden</string>
-    <string name="summary_on_phone_goggles_mobile_filtered">Communicatie naar mobiele telefoons zal gefilterd worden</string>
-    <string name="summary_on_phone_goggles_other_filtered">Communicatie naar andere telefoons zal gefilterd worden</string>
-    <string name="summary_off_phone_goggles_enabled">Er wordt geen communicatie gefilterd</string>
-    <string name="summary_off_phone_goggles_use_custom">Gebruik standaard instellingen</string>
-    <string name="summary_off_phone_goggles_app_enabled">Phone Goggles is uitgezet voor deze app</string>
-    <string name="summary_off_phone_goggles_work_filtered">Professionele communicatie zal niet gefilterd worden</string>
-    <string name="summary_off_phone_goggles_mobile_filtered">Communicatie naar mobiele telefoons zal niet gefilterd worden</string>
-    <string name="summary_off_phone_goggles_other_filtered">Communicatie naar andere telefoons zal niet gefilterd worden</string>
-    <string name="phone_goggles_maths_level_easy">Makkelijk</string>
-    <string name="phone_goggles_maths_level_medium">Gemiddeld</string>
-    <string name="phone_goggles_maths_level_hard">Moeilijk</string>
-    <string name="phone_goggles_confirmation_none">Geen</string>
-    <string name="phone_goggles_confirmation_prompt">Prompt</string>
-    <string name="phone_goggles_confirmation_maths">Reken probleem</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU instellingen</string>

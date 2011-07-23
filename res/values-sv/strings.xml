@@ -366,8 +366,6 @@
     <string name="pref_render_effect_title">Renderingseffekt</string>
     <string name="pref_render_effect_summary">Ändra vilka färger som används för att rita ut skärmbilden (potentiella batteribesparningar)</string>
 
-    <string name="widget_name">RenderFX Widget</string>
-    <string name="renderfx_temp">RenderFX</string>
     <string name="prefs_render_effect">Renderingseffekt</string>
     <string name="notify_render_effect">Renderingseffekt på</string>
     <string name="add_widget">Lägg till widget</string>
@@ -576,51 +574,6 @@
     <string name="changelog_unknown">Okänd</string>
     <string name="changelog_version">Version</string>
 
-    <!-- Phone goggles -->
-    <string name="category_phone_goggles_period">Period</string>
-    <string name="category_phone_goggles_confirmation">Bekräftelse</string>
-    <string name="category_phone_goggles_filter">Filter</string>
-    <string name="title_phone_goggles">Phone Goggles</string>
-    <string name="title_phone_goggles_default">Standardinställningar</string>
-    <string name="title_phone_goggles_apps">Filtrerade applikationer</string>
-    <string name="title_phone_goggles_app_enabled">Aktivera Phone Goggles</string>
-    <string name="title_phone_goggles_use_custom">Använd anpassade inställningar</string>
-    <string name="title_phone_goggles_filter">Filtrerade nummer</string>
-    <string name="title_phone_goggles_enabled">Aktivera Phone Goggles</string>
-    <string name="title_phone_goggles_start">Början på Phone Goggles-läge</string>
-    <string name="title_phone_goggles_end">Slut på Phone Goggles-läge</string>
-    <string name="title_phone_goggles_confirmation_enabled">Förfrågan för bekräftelse</string>
-    <string name="title_phone_goggles_phone_enabled">Telefon</string>
-    <string name="title_phone_goggles_sms_enabled">SMS</string>
-    <string name="title_phone_goggles_maths_level">Matematisk nivå</string>
-    <string name="title_phone_goggles_work_filtered">Arbete</string>
-    <string name="title_phone_goggles_mobile_filtered">Mobil</string>
-    <string name="title_phone_goggles_other_filtered">Annat</string>
-    <string name="summary_phone_goggles">Filtrera utgående kommunikation</string>
-    <string name="summary_phone_goggles_default">Ställer in standardinställningar</string>
-    <string name="summary_phone_goggles_filter">Välj vilken typ av telefonnummer du vill filtrera</string>
-    <string name="summary_phone_goggles_start">När filtrering av utgående samtal ska börja</string>
-    <string name="summary_phone_goggles_end">När filtrering av utgående samtal ska sluta</string>
-    <string name="summary_phone_goggles_confirmation_enabled">Välj hur bekräftelsen ska ske innan kommunikation filtreras</string>
-    <string name="summary_phone_goggles_maths_level">Nivå av matematiska problem som används innan en kommunikation godkänns</string>
-    <string name="summary_on_phone_goggles_enabled">Utgående kommunikation kommer att filtreras</string>
-    <string name="summary_on_phone_goggles_use_custom">Använd anpassade inställningar</string>
-    <string name="summary_on_phone_goggles_app_enabled">Phone Goggles är aktiverat för denna applikation</string>
-    <string name="summary_on_phone_goggles_work_filtered">Arbetskommunikationer kommer att filtreras</string>
-    <string name="summary_on_phone_goggles_mobile_filtered">Kommunikation med mobiltelefoner kommer att filtreras</string>
-    <string name="summary_on_phone_goggles_other_filtered">Kommunikation med andra telefoner kommer att filtreras</string>
-    <string name="summary_off_phone_goggles_enabled">Ingen kommunikation kommer att filtreras</string>
-    <string name="summary_off_phone_goggles_use_custom">Använd standardinställningar</string>
-    <string name="summary_off_phone_goggles_app_enabled">Phone Goggles är inaktiverat för denna applikation</string>
-    <string name="summary_off_phone_goggles_work_filtered">Arbetskommunikationer kommer inte att filtreras</string>
-    <string name="summary_off_phone_goggles_mobile_filtered">Kommunikation med mobiltelefoner kommer inte att filtreras</string>
-    <string name="summary_off_phone_goggles_other_filtered">Kommunikation med andra telefoner kommer inte att filtreras</string>
-    <string name="phone_goggles_maths_level_easy">Lätt</string>
-    <string name="phone_goggles_maths_level_medium">Mellan</string>
-    <string name="phone_goggles_maths_level_hard">Svårt</string>
-    <string name="phone_goggles_confirmation_none">Ingen</string>
-    <string name="phone_goggles_confirmation_prompt">Bekräfta</string>
-    <string name="phone_goggles_confirmation_maths">Matematiska problem</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU-inställningar</string>
