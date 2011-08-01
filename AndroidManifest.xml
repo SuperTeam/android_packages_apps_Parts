@@ -242,13 +242,6 @@
                 <action android:name="android.intent.action.EDIT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".activities.ChangeLog"
-            android:label="@string/changelog_title">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
       
         <service android:enabled="true" android:name=".services.BatteryService" />
     </application>
