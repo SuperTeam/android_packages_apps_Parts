@@ -20,7 +20,6 @@ import com.android.internal.telephony.Phone;
 import com.cyanogenmod.cmparts.R;
 import com.cyanogenmod.cmparts.utils.PowerWidgetUtil;
 
-import android.net.wimax.WimaxHelper;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
@@ -88,12 +87,6 @@ public class PowerWidgetActivity extends PreferenceActivity implements OnPrefere
         // get our list of buttons
         ArrayList<String> buttonList = PowerWidgetUtil.getButtonListFromString(PowerWidgetUtil.getCurrentButtons(this));
 
-        // Don't show WiMAX option if not supported
-        boolean isWimaxEnabled = WimaxHelper.isWimaxSupported(this);
-        if (!isWimaxEnabled) {
-            PowerWidgetUtil.BUTTONS.remove(PowerWidgetUtil.BUTTON_WIMAX);
-        }
-
         // fill that checkbox map!
         for(PowerWidgetUtil.ButtonInfo button : PowerWidgetUtil.BUTTONS.values()) {
             // create a checkbox
@@ -141,10 +134,6 @@ public class PowerWidgetActivity extends PreferenceActivity implements OnPrefere
                     default:
                         cb.setEnabled(false);
                         break;
-                }
-            } else if (PowerWidgetUtil.BUTTON_WIMAX.equals(button.getId())) {
-                if (!isWimaxEnabled) {
-                    cb.setEnabled(false);
                 }
             }
 
