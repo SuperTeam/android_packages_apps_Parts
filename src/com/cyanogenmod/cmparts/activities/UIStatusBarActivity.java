@@ -80,7 +80,6 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
 
         mStatusBarClock = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_CLOCK);
         mStatusBarCompactCarrier = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_COMPACT_CARRIER);
-        //mStatusBarCmBattery = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_CM_BATTERY);
         mStatusBarCmBattery = (ListPreference) prefSet.findPreference(PREF_STATUS_BAR_CM_BATTERY);
         mStatusBarCmBatteryColor = (ListPreference) prefSet.findPreference(PREF_STATUS_BAR_CM_BATTERY_COLOR);
         mStatusBarCmBatteryLowBatt = (CheckBoxPreference) prefSet.findPreference(PREF_STATUS_BAR_CM_BATTERY_LOW_BATT);
