@@ -5,15 +5,7 @@
 	<PreferenceCategory android:key="general_category"
 		android:title="@string/general_title">
 
-		<!-- LED notifications -->
-		<PreferenceScreen android:key="trackball_notifications"
-			android:title="@string/trackball_title" android:summary="@string/trackball_summary">
-			<intent android:action="android.intent.action.MAIN"
-				android:targetPackage="com.cyanogenmod.cmparts"
-				android:targetClass="com.cyanogenmod.cmparts.activities.TrackballNotificationActivity" />
-		</PreferenceScreen>
-
-		<!-- Power prompt
+		<!-- Power prompt -->
 		<CheckBoxPreference android:key="power_dialog_prompt"
 			android:title="@string/pref_power_prompt_title" android:summary="@string/pref_power_prompt_summary"
 			android:defaultValue="true" />-->
@@ -32,7 +24,15 @@
                 	android:targetClass="com.cyanogenmod.cmparts.activities.UIStatusBarActivity" />
         	</PreferenceScreen>
 
-		<!-- Render effect
+		<!-- LED notifications -->
+		<PreferenceScreen android:key="trackball_notifications"
+			android:title="@string/trackball_title" android:summary="@string/trackball_summary">
+			<intent android:action="android.intent.action.MAIN"
+				android:targetPackage="com.cyanogenmod.cmparts"
+				android:targetClass="com.cyanogenmod.cmparts.activities.led.NotificationActivity" />
+		</PreferenceScreen>
+
+		<!-- Render effect -->
 		<ListPreference android:key="pref_render_effect"
 			android:dialogTitle="@string/pref_render_effect_title" android:title="@string/pref_render_effect_title"
 			android:summary="@string/pref_render_effect_summary" android:entries="@array/entries_render_effect"
