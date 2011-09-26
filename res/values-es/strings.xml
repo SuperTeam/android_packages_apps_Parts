@@ -14,11 +14,10 @@
     <string name="input_settings_title_subhead">Ajustes de entrada</string>
     <string name="input_settings_summary_head">Comportamiento, botones, haptic feedback</string>
     <string name="interface_settings_title_head">Interfaz</string>
-    <string name="interface_settings_title_subhead">Ajustes del interfaz</string>
-    <string name="interface_settings_summary_head">Ajustes de interfaz, overscroll, efectos</string>
-    <string name="lockscreen_settings_title_head">Pantalla de bloqueo</string>
-    <string name="lockscreen_settings_title_subhead">Ajustes de la pantalla de bloqueo</string>
-    <string name="lockscreen_settings_summary_head">Gestos, estilo, opciones de desbloqueo</string>
+    <string name="interface_settings_summary_head">ajustes interfaz, sobredesplazamiento, efecto de renderizado</string>
+    <string name="lockscreen_settings_title_head">Protector</string>
+    <string name="lockscreen_settings_title_subhead">Ajustes del protector</string>
+    <string name="lockscreen_settings_summary_head">Gestos del protector, estilo, opciones de desbloqueo</string>
     <string name="performance_settings_title_head">Rendimiento</string>
     <string name="performance_settings_title_subhead">Ajustes de rendimiento</string>
     <string name="performance_settings_summary_head">Ajustes de rendimiento, JIT, Memoria virtual</string>
@@ -31,7 +30,6 @@
 
     <!-- User interface -->
     <string name="ui_title">Interfaz de usuario</string>
-    <string name="ui_summary">Ajustes de interfaz de usuario</string>
 
     <string name="pref_electron_beam_animation_on">Animación al encender pantalla</string>
     <string name="pref_electron_beam_animation_off">Animación al apagar pantalla</string>
@@ -106,9 +104,14 @@
     <string name="trackball_summary">Control del trackball/Color LED y pulso de las notificaciones</string>
 
     <!-- User interface : WebView -->
+<<<<<<< HEAD
     <string name="ui_webview_title">WebView</string>
     <string name="pref_pinch_reflow_title">Redibuja despues de pellizcar la pantalla</string>
     <string name="pref_pinch_reflow_summary">Redibuja el contenido inmediatamente despues de hacer zoom</string>
+=======
+    <string name="pref_pinch_reflow_title">Regenerar después de zoom</string>
+    <string name="pref_pinch_reflow_summary">Regenerar contenido inmediatamente después de pellizcar para hacer zoom</string>
+>>>>>>> c976adf94c497f9047ae07f72b463449ef0f40fb
 
     <!-- User interface : Overscroll-->
     <string name="ui_overscroll_title">Overscroll</string>
@@ -118,19 +121,26 @@
     <string name="pref_overscroll_weight_summary">Selecciona la intensidad de rebote</string>
 
     <!-- User interface : Lock Screen -->
+<<<<<<< HEAD
     <string name="ui_lockscreen_title">Ajustes de bloqueo de pantalla</string>
     <string name="pref_lockscreen_delay_title">Retraso</string>
     <string name="pref_lockscreen_timeout_lock_delay">Tiempo de espera de retraso</string>
     <string name="pref_lockscreen_screenoff_lock_delay">Retraso para apagar la pantalla</string>
     <string name="pref_lockscreen_timeout_lock_delay_summary">Cuanto tiempo espera antes de habilitar el bloqueo de la pantalla</string>
     <string name="pref_lockscreen_screenoff_lock_delay_summary">Cuanto tiempo espera antes de habilitar el bloqueo cuando la pantalla se apague</string>
+=======
+    <string name="pref_lockscreen_delay_title">Tiempo de espera</string>
+>>>>>>> c976adf94c497f9047ae07f72b463449ef0f40fb
 
     <!-- Color Picker -->
     <string name="title_color_picker">Elije un color</string>
     <string name="msg_color_picker">Presiona el centro para confirmar.\nPresiona atrás para cancelar.</string>
 
     <!-- User interface: LED notifications -->
+<<<<<<< HEAD
     <string name="trackball_notifications_title">Notificaciones de Trackball</string>
+=======
+>>>>>>> c976adf94c497f9047ae07f72b463449ef0f40fb
     <string name="dialog_color_trackball">Escoge un color</string>
     <string name="dialog_blink_trackball">Elija un ratio de parpadeo</string>
     <string name="color_trackball_flash_title">Color del Flash</string>
@@ -203,6 +213,7 @@
     <string name="pref_lockscreen_timeout_summary">Configura el tiempo para bloquear y apagar la pantalla</string>
 
     <!-- Lockscreen Settings -->
+<<<<<<< HEAD
     <string name="lockscreen_settings_title">Ajustes de la pantalla de bloqueo</string>
     <string name="pref_lockscreen_carrier_title">Nombre de la operadora</string>
     <string name="pref_lockscreen_carrier_summary">Muestra el nombre de la operadora en la pantalla de bloqueo</string>
@@ -226,11 +237,24 @@
     <string name="pref_trackball_unlock_summary">Presiona el Trackball para desbloquear el dispositivo.</string>
     <string name="pref_menu_unlock_title">Desbloqueo desde Menú</string>
     <string name="pref_menu_unlock_summary">Presionando el botón menú desbloquea el dispositivo</string>
+=======
+    <string name="pref_lockscreen_music_controls_title">Controles de música del protector de pantalla</string>
+    <string name="pref_lockscreen_music_controls_summary">Muestra los controles de música en el protector de pantalla</string>
+    <string name="pref_lockscreen_always_music_controls_title">Mostrar siempre los controles de música</string>
+    <string name="pref_lockscreen_always_music_controls_summary">Mostrar los controles de música sin importar si está sonando</string>
+    <string name="pref_trackball_wake_title">Activación con bola de navegación</string>
+    <string name="pref_trackball_wake_summary">Pulsar la bola de navegación activa el dispositivo</string>
+    <string name="pref_trackball_unlock_title">Desbloqueo con bola de navegación</string>
+    <string name="pref_trackball_unlock_summary">Pulsar la bola de navegación desbloquea el dispositivo</string>
+    <string name="pref_menu_unlock_title">Desbloqueo con menú</string>
+    <string name="pref_menu_unlock_summary">Pulsar el boton menú desbloquea el dispositivo</string>
+>>>>>>> c976adf94c497f9047ae07f72b463449ef0f40fb
     <string name="pref_lockscreen_quick_unlock_control_title">Desbloqueo rápido</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">No es necesario presionar aceptar cuando introduzcas el PIN</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Aplicación de arranque</string>
     <string name="pref_lockscreen_custom_app_toggle_summary">Muestra un segundo control deslizante</string>
     <string name="pref_lockscreen_custom_app_activity_title">Aplicación personalizada</string>
+<<<<<<< HEAD
     <string name="pref_lockscreen_custom_background_title">Elige fondo</string>
     <string name="pref_lockscreen_custom_background_dialog_title">Escoge un fondo</string>
     <string name="pref_lockscreen_custom_background_summary">Escoge un fondo para el Lockscreen</string>
@@ -242,6 +266,14 @@
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Esconde las flechas en el slider rotatorio</string>
     <string name="lockscreen_style_header">Preferencias de estilo</string>
     <string name="lockscreen_delay_header">Retardo y tiempo de espera</string>
+=======
+    <string name="pref_lockscreen_custom_icon_style_title">Icono del mensaje</string>
+    <string name="pref_lockscreen_custom_icon_style_summary">Utiliza el icono de mensaje en lugar del icono de la CM para arrancar una aplicación personalizada</string>
+    <string name="pref_lockscreen_rotary_unlock_down_title">Arrastre hacia abajo para desbloquear</string>
+    <string name="pref_lockscreen_rotary_unlock_down_summary">Desbloquear arrastrando la rueda giratoria. Arrastrando desde la derecha para aplicación personalizada</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_title">Ocultar flechas</string>
+    <string name="pref_lockscreen_rotary_hide_arrows_summary">Ocultar las flechas de ayuda de dirección</string>
+>>>>>>> c976adf94c497f9047ae07f72b463449ef0f40fb
     <string name="pref_lockscreen_style_title">Estilo de bloqueo de pantalla</string>
     <string name="pref_lockscreen_style_summary">Escoja el estilo de pantalla de bloqueo</string>
     <string name="pref_in_call_style_title">Estilo llamada entrante</string>
@@ -255,10 +287,8 @@
 
     <!-- Input Settings -->
     <string name="input_settings_title">Ajustes de entrada</string>
-    <string name="input_settings_summary">Comportamiento de los botones de control</string>
     <string name="haptic_title">Ajustes comunicación háptica</string>
     <string name="haptic_summary">Ajustar la frecuencia y fuerza de la comunicaión háptica</string>
-    <string name="button_settings_title">Ajustes de botón</string>
     <string name="long_press_home_title">Ajustes de pulsación larga de Inicio</string>
     <string name="long_press_home_summary">Número de aplicaciones recientes, etc</string>
 
@@ -350,7 +380,6 @@
 
     <!-- Performance Settings -->
     <string name="performance_settings_title">Ajustes de Rendimiento</string>
-    <string name="performance_settings_summary">Modificaciones de rendimiento del dispositivo</string>
 
     <!-- Performance Settings : Compcache -->
     <string name="pref_compcache_title">Uso de RAM Compcache</string>
@@ -380,6 +409,24 @@
     <string name="pref_lock_mms_title">Bloquear aplicación de mensajería en memoria</string>
     <string name="pref_lock_mms_summary">Evitar la pérdida de mensajes en situaciones de poca memoria</string>
 
+<<<<<<< HEAD
+=======
+    <!-- Performance Settings : Warning dialog -->
+    <string name="performance_settings_warning_title">ATENCION: ¡Manazas fuera!</string>
+    <string name="performance_settings_warning">Estas opciones cambiarán el rendimiento de tu sistema, posiblemente a peor. Están incluidas para experimentación and solicitamos que no envíe informes de errores si ha cambiado algo de los valores por defecto.</string>
+
+    <!-- Application Settings -->
+    <string name="application_settings_title">Ajustes de Aplicación</string>
+
+    <!-- Application Settings : Move any app -->
+    <string name="pref_move_all_apps_title">Permitir movimiento de aplicaciones</string>
+    <string name="pref_move_all_apps_summary">Permitir mover cualquier aplicación al almacenamiento externo</string>
+
+    <!-- Application Settings : Install Location -->
+    <string name="pref_install_location_title">Lugar de instalación</string>
+    <string name="pref_install_location_summary">Seleccionar donde se instalarán las nuevas aplicaciones</string>
+
+>>>>>>> c976adf94c497f9047ae07f72b463449ef0f40fb
     <string name="general_title">General</string>
     <string name="buttons_title">Botones</string>
 
@@ -498,8 +545,6 @@
     <string name="ll_num_levels">Establecer número de niveles</string>
 
     <!-- Sound -->
-    <string name="sound_title">Ajustes de sonido</string>
-    <string name="sound_summary">Ajustes de foco de sonido y audio</string>
     <string name="sound_notifications_focus_title">Enfocar notificaciones</string>
     <string name="sound_notifications_focus_summary">Se solicita a las aplicaciones compatibles que bajen su volumen para reproducir las notificaiones.</string>
     <string name="sound_volume_control_silent_title">Estado silencioso</string>
@@ -556,17 +601,21 @@
     <string name="pref_lockscreen_gestures_builder_title">Crear gesto</string>
     <string name="pref_lockscreen_gestures_sensitivity_title">Sensibilidad</string>
     <string name="pref_lockscreen_gestures_color_title">Color de gestos</string>
-    <string name="label_create_gesture">Crear un gesto</string>
     <string name="gestures_button_add">Añadir gesto</string>
     <string name="gestures_button_discard">Descartar</string>
     <string name="gestures_button_done">Hecho</string>
     <string name="gestures_shortcut_picker_button_label">Elije un método abreviado o la actividad por este gesto</string>
     <string name="gestures_error_missing_shortcut">¡Debe seleccionar una acción para este gesto!</string>
+<<<<<<< HEAD
     <string name="gestures_save_success">Gesto guardado en %s</string>
     <string name="gestures_cancel_action">Cancela</string>
     <string name="gestures_loading">Cargando gestos...</string>
     <string name="gestures_empty">No hay gestos</string>
     <string name="gestures_activity">Gestos</string>
+=======
+    <string name="gestures_loading">Cargando gestos...</string>
+    <string name="gestures_empty">Sin gestos</string>
+>>>>>>> c976adf94c497f9047ae07f72b463449ef0f40fb
     <string name="gestures_delete">Eleminar</string>
     <string name="gestures_delete_success">Gesto eliminado</string>
     <string name="gestures_error_loading">Problema en operación con archivo de gestos.</string>
@@ -589,6 +638,52 @@
     <string name="changelog_unknown">Unknown</string>
     <string name="changelog_version">Version</string>
 
+<<<<<<< HEAD
+=======
+    <!-- Phone goggles -->
+    <string name="category_phone_goggles_period">Periodo</string>
+    <string name="category_phone_goggles_confirmation">Confirmación</string>
+    <string name="category_phone_goggles_filter">Filtros</string>
+    <string name="title_phone_goggles">Filtrado telefónico</string>
+    <string name="title_phone_goggles_default">Ajustes por defecto</string>
+    <string name="title_phone_goggles_apps">Aplicaciones de filtrado</string>
+    <string name="title_phone_goggles_app_enabled">Habilita filtrado de aplicaciones</string>
+    <string name="title_phone_goggles_use_custom">Usar Ajustes personales</string>
+    <string name="title_phone_goggles_filter">Números filtrados</string>
+    <string name="title_phone_goggles_enabled">Habilitar filtrado teléfono</string>
+    <string name="title_phone_goggles_start">Inicio teléfono modo filtrado</string>
+    <string name="title_phone_goggles_end">Termina teléfono modo filtrado</string>
+    <string name="title_phone_goggles_confirmation_enabled">Requiere confirmación</string>
+    <string name="title_phone_goggles_maths_level">Nivel Mates</string>
+    <string name="title_phone_goggles_work_filtered">Trabajo</string>
+    <string name="title_phone_goggles_mobile_filtered">Móvil</string>
+    <string name="title_phone_goggles_other_filtered">Otro</string>
+    <string name="summary_phone_goggles">Filtrar comunicaciones salientes</string>
+    <string name="summary_phone_goggles_default">Pon los paráemtros por defecto</string>
+    <string name="summary_phone_goggles_filter">Selecionar el tipo de números a filtrar</string>
+    <string name="summary_phone_goggles_start">Cuando iniciar el filtrado de llamadas salientes</string>
+    <string name="summary_phone_goggles_end">Cuando iniciar el filtrado de llamadas salientes</string>
+    <string name="summary_phone_goggles_confirmation_enabled">Seleccione la forma en que la confirmación se debe solicitar antes de filtrar la comunicación</string>
+    <string name="summary_phone_goggles_maths_level">Nivel de los problemas de matemáticas requeridos antes de autorizar una comunicación</string>
+    <string name="summary_on_phone_goggles_enabled">Llamadas salientes serán filtradas</string>
+    <string name="summary_on_phone_goggles_use_custom">Usar Ajustes personales</string>
+    <string name="summary_on_phone_goggles_app_enabled">Filtrado telefónico habilitado para esta aplicación</string>
+    <string name="summary_on_phone_goggles_work_filtered">comunicaciones Profesionales serán filtradas</string>
+    <string name="summary_on_phone_goggles_mobile_filtered">Comunicaciones a móviles serán filtradas</string>
+    <string name="summary_on_phone_goggles_other_filtered">Comunicaciones a otros teléfonos seran filtradas</string>
+    <string name="summary_off_phone_goggles_enabled">Ninguna comunicación filtrada</string>
+    <string name="summary_off_phone_goggles_use_custom">Usar Ajustes por defecto</string>
+    <string name="summary_off_phone_goggles_app_enabled">Filtrado telefónico deshabilitado para esta aplicación</string>
+    <string name="summary_off_phone_goggles_work_filtered">Las comunicaciones profesionales no serán filtradas</string>
+    <string name="summary_off_phone_goggles_mobile_filtered">Ninguna comunicación a móviles será filtrada</string>
+    <string name="summary_off_phone_goggles_other_filtered">Ninguna comunicación a otros teléfonos será filtrada</string>
+    <string name="phone_goggles_maths_level_easy">Bajo</string>
+    <string name="phone_goggles_maths_level_medium">Medio</string>
+    <string name="phone_goggles_maths_level_hard">Alto</string>
+    <string name="phone_goggles_confirmation_none">Ninguno</string>
+    <string name="phone_goggles_confirmation_prompt">Pregunta</string>
+    <string name="phone_goggles_confirmation_maths">Problemas Mates</string>
+>>>>>>> c976adf94c497f9047ae07f72b463449ef0f40fb
 
     <!-- CPU Settings strings -->
 
