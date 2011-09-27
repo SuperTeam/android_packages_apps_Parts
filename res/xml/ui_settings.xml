@@ -17,12 +17,12 @@
 				android:targetClass="com.cyanogenmod.cmparts.activities.UIPowerWidgetActivity" />
 		</PreferenceScreen>
 
-        	<PreferenceScreen android:key="ui_status_bar_menu"
-            		android:title="@string/ui_status_bar_title">
-            		<intent android:action="android.intent.action.MAIN"
-                	android:targetPackage="com.cyanogenmod.cmparts"
-                	android:targetClass="com.cyanogenmod.cmparts.activities.UIStatusBarActivity" />
-        	</PreferenceScreen>
+        <PreferenceScreen android:key="ui_status_bar_menu"
+            android:title="@string/ui_status_bar_title">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.UIStatusBarActivity" />
+        </PreferenceScreen>
 
 		<!-- LED notifications -->
 		<PreferenceScreen android:key="trackball_notifications"
@@ -32,14 +32,14 @@
 				android:targetClass="com.cyanogenmod.cmparts.activities.led.NotificationActivity" />
 		</PreferenceScreen>
 
-		<!-- Render effect -->
+		<!-- Render effect
 		<ListPreference android:key="pref_render_effect"
 			android:dialogTitle="@string/pref_render_effect_title" android:title="@string/pref_render_effect_title"
 			android:summary="@string/pref_render_effect_summary" android:entries="@array/entries_render_effect"
-			android:entryValues="@array/values_render_effect" />
+			android:entryValues="@array/values_render_effect" />-->
 
 		<CheckBoxPreference android:key="pref_pinch_reflow"
-			android:title="@string/pref_pinch_reflow_title" android:summary="@string/pref_pinch_reflow_summary" />-->
+			android:title="@string/pref_pinch_reflow_title" android:summary="@string/pref_pinch_reflow_summary" />
 	</PreferenceCategory>
 
 	<PreferenceCategory android:title="@string/ui_overscroll_title">
