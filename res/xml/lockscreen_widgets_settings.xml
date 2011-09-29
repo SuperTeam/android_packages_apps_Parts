@@ -24,7 +24,7 @@
             android:summary="@string/pref_lockscreen_widgets_layout_summary"
             android:entries="@array/pref_lockscreen_widget_layout_entries"
             android:entryValues="@array/pref_lockscreen_widget_layout_values"
-            android:defaultValue="0" />
+            android:defaultValue="2" />
 
     </PreferenceCategory>
 

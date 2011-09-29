@@ -9,7 +9,7 @@
 
         <ListPreference android:key="pref_network_mode" android:dialogTitle="@string/pref_network_mode_title"
             android:title="@string/pref_network_mode_title" android:summary="@string/pref_network_mode_summary"
-            android:entries="@array/entries_network_widget" android:entryValues="@array/values_network_widget" />
+            android:entries="@array/entries_network_widget" android:entryValues="@array/values_network_widget" android:defaultValue="2G/3G+2G" android:dependency="pref_network_mode"/>
 
         <ListPreference android:key="pref_screentimeout_mode" android:dialogTitle="@string/pref_screentimeout_mode_title"
             android:title="@string/pref_screentimeout_mode_title" android:summary="@string/pref_screentimeout_mode_summary"  
