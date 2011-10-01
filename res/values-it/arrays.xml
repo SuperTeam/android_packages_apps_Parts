@@ -30,11 +30,19 @@
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_entries">
+        <item>Usa impostazioni app</item>
         <item>2 (Veloce)</item>
         <item>3</item>
         <item>4 (Media)</item>
         <item>5</item>
         <item>6 (Lenta)</item>
+    </string-array>
+
+    <string-array name="pref_trackball_force_mode_entries">
+        <item>Usa impostazioni app</item>
+        <item>Forza LED spento</item>
+        <item>Forza LED acceso per eventi</item>
+        <item>Forza LED acceso</item>
     </string-array>
  
     <string-array name="pref_lockscreen_delay_entries">
@@ -106,14 +114,6 @@
         <item>2G/Solo 3G/3G+2G</item>
     </string-array>
 
-    <string-array name="entries_ring_widget">
-        <item>Suono+Vibrazione/Vibrazione</item>
-        <item>Suono/Vibrazione</item>
-        <item>Suono/Silenzioso</item>
-        <item>Suono+Vib/Vib/Silenzioso</item>
-        <item>Suono/Vibrazione/Silenzioso</item>
-    </string-array>
-
     <string-array name="entries_flash_widget">
         <item>Normale</item>
         <item>Forte / Death Ray</item>
@@ -148,9 +148,9 @@
     </string-array>
 
     <string-array name="pref_lockscreen_background_entries">
-        <item>Imposta colore</item>
-        <item>Imposta immagine</item>
-        <item>Imposta default</item>
+        <item>Colore</item>
+        <item>Immagine personalizzata</item>
+        <item>Sfondo di default</item>
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_entries">
