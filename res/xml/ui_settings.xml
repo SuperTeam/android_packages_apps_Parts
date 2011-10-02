@@ -32,12 +32,6 @@
 				android:targetClass="com.cyanogenmod.cmparts.activities.led.NotificationActivity" />
 		</PreferenceScreen>
 
-		<!-- Render effect -->
-		<ListPreference android:key="pref_render_effect"
-			android:dialogTitle="@string/pref_render_effect_title" android:title="@string/pref_render_effect_title"
-			android:summary="@string/pref_render_effect_summary" android:entries="@array/entries_render_effect"
-			android:entryValues="@array/values_render_effect" />
-
 		<CheckBoxPreference android:key="pref_pinch_reflow"
 			android:title="@string/pref_pinch_reflow_title" android:summary="@string/pref_pinch_reflow_summary" />-->
 	</PreferenceCategory>
