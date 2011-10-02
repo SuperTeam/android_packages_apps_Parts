@@ -52,9 +52,9 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
     private PreferenceScreen mExtrasScreen;
 
     /* Other */
-   /* private static final String PINCH_REFLOW_PREF = "pref_pinch_reflow";
+    private static final String PINCH_REFLOW_PREF = "pref_pinch_reflow";
 
-    private static final String RENDER_EFFECT_PREF = "pref_render_effect";
+   /* private static final String RENDER_EFFECT_PREF = "pref_render_effect";
 
     private static final String POWER_PROMPT_PREF = "power_dialog_prompt";*/
 
@@ -62,9 +62,9 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
 
     private static final String OVERSCROLL_WEIGHT_PREF = "pref_overscroll_weight";
 
-   /* private CheckBoxPreference mPinchReflowPref;
+    private CheckBoxPreference mPinchReflowPref;
 
-    private CheckBoxPreference mPowerPromptPref;
+   /* private CheckBoxPreference mPowerPromptPref;
 
     private ListPreference mRenderEffectPref;*/
 
@@ -95,12 +95,12 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
                     .removePreference(mTrackballScreen);
         }
 
-        /* Pinch reflow
+        /* Pinch reflow*/
         mPinchReflowPref = (CheckBoxPreference) prefSet.findPreference(PINCH_REFLOW_PREF);
         mPinchReflowPref.setChecked(Settings.System.getInt(getContentResolver(),
-                Settings.System.WEB_VIEW_PINCH_REFLOW, 0) == 1);
+                Settings.System.WEB_VIEW_PINCH_REFLOW, 1) == 1);
 
-        mPowerPromptPref = (CheckBoxPreference) prefSet.findPreference(POWER_PROMPT_PREF);
+        /*mPowerPromptPref = (CheckBoxPreference) prefSet.findPreference(POWER_PROMPT_PREF);
         mRenderEffectPref = (ListPreference) prefSet.findPreference(RENDER_EFFECT_PREF);
         mRenderEffectPref.setOnPreferenceChangeListener(this);
         updateFlingerOptions();*/
@@ -136,11 +136,11 @@ public class UIActivity extends PreferenceActivity implements OnPreferenceChange
         } else if (preference == mExtrasScreen) {
             startActivity(mExtrasScreen.getIntent());
             return true;
-       /* } else if (preference == mPinchReflowPref) {
+        } else if (preference == mPinchReflowPref) {
             value = mPinchReflowPref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.WEB_VIEW_PINCH_REFLOW,
                     value ? 1 : 0);
-            return true;
+            return true;/*
         } else if (preference == mPowerPromptPref) {
             value = mPowerPromptPref.isChecked();
             Settings.System.putInt(getContentResolver(), Settings.System.POWER_DIALOG_PROMPT,

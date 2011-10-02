@@ -14,11 +14,10 @@
     <string name="input_settings_title_subhead">Ajustes de entrada</string>
     <string name="input_settings_summary_head">Comportamiento, botones, haptic feedback</string>
     <string name="interface_settings_title_head">Interfaz</string>
-    <string name="interface_settings_title_subhead">Ajustes del interfaz</string>
-    <string name="interface_settings_summary_head">Ajustes de interfaz, overscroll, efectos</string>
-    <string name="lockscreen_settings_title_head">Pantalla de bloqueo</string>
-    <string name="lockscreen_settings_title_subhead">Ajustes de la pantalla de bloqueo</string>
-    <string name="lockscreen_settings_summary_head">Gestos, estilo, opciones de desbloqueo</string>
+    <string name="interface_settings_summary_head">ajustes interfaz, sobredesplazamiento, efecto de renderizado</string>
+    <string name="lockscreen_settings_title_head">Protector</string>
+    <string name="lockscreen_settings_title_subhead">Ajustes del protector</string>
+    <string name="lockscreen_settings_summary_head">Gestos del protector, estilo, opciones de desbloqueo</string>
     <string name="performance_settings_title_head">Rendimiento</string>
     <string name="performance_settings_title_subhead">Ajustes de rendimiento</string>
     <string name="performance_settings_summary_head">Ajustes de rendimiento, JIT, Memoria virtual</string>
@@ -31,7 +30,6 @@
 
     <!-- User interface -->
     <string name="ui_title">Interfaz de usuario</string>
-    <string name="ui_summary">Ajustes de interfaz de usuario</string>
 
     <string name="pref_electron_beam_animation_on">Animación al encender pantalla</string>
     <string name="pref_electron_beam_animation_off">Animación al apagar pantalla</string>
@@ -106,9 +104,8 @@
     <string name="trackball_summary">Control del trackball/Color LED y pulso de las notificaciones</string>
 
     <!-- User interface : WebView -->
-    <string name="ui_webview_title">WebView</string>
-    <string name="pref_pinch_reflow_title">Redibuja despues de pellizcar la pantalla</string>
-    <string name="pref_pinch_reflow_summary">Redibuja el contenido inmediatamente despues de hacer zoom</string>
+    <string name="pref_pinch_reflow_title">Regenerar después de zoom</string>
+    <string name="pref_pinch_reflow_summary">Regenerar contenido inmediatamente después de pellizcar para hacer zoom</string>
 
     <!-- User interface : Overscroll-->
     <string name="ui_overscroll_title">Overscroll</string>
@@ -119,7 +116,9 @@
 
     <!-- User interface : Lock Screen -->
     <string name="ui_lockscreen_title">Ajustes de bloqueo de pantalla</string>
-    <string name="pref_lockscreen_delay_title">Retraso</string>
+    <string name="pref_lockscreen_carrier_title">Nombre de la operadora</string>
+    <string name="pref_lockscreen_carrier_summary">Muestra el nombre de la operadora en la pantalla de bloqueo</string>
+    <string name="pref_lockscreen_delay_title">Tiempo de espera</string>
     <string name="pref_lockscreen_timeout_lock_delay">Tiempo de espera de retraso</string>
     <string name="pref_lockscreen_screenoff_lock_delay">Retraso para apagar la pantalla</string>
     <string name="pref_lockscreen_timeout_lock_delay_summary">Cuanto tiempo espera antes de habilitar el bloqueo de la pantalla</string>
@@ -130,7 +129,6 @@
     <string name="msg_color_picker">Presiona el centro para confirmar.\nPresiona atrás para cancelar.</string>
 
     <!-- User interface: LED notifications -->
-    <string name="trackball_notifications_title">Notificaciones de Trackball</string>
     <string name="dialog_color_trackball">Escoge un color</string>
     <string name="dialog_blink_trackball">Elija un ratio de parpadeo</string>
     <string name="color_trackball_flash_title">Color del Flash</string>
@@ -203,13 +201,8 @@
     <string name="pref_lockscreen_timeout_summary">Configura el tiempo para bloquear y apagar la pantalla</string>
 
     <!-- Lockscreen Settings -->
-    <string name="lockscreen_settings_title">Ajustes de la pantalla de bloqueo</string>
-    <string name="pref_lockscreen_carrier_title">Nombre de la operadora</string>
-    <string name="pref_lockscreen_carrier_summary">Muestra el nombre de la operadora en la pantalla de bloqueo</string>
     <string name="pref_lockscreen_always_battery_title">Estado de la batería</string>
     <string name="pref_lockscreen_always_battery_summary">Muestra siempre el estado de la batería en la pantalla de bloqueo</string>
-    <string name="pref_lockscreen_music_controls_title">Control del reproductor</string>
-    <string name="pref_lockscreen_music_controls_summary">Muestra los controles del reproductor en la pantalla de bloqueo</string>
     <string name="pref_lockscreen_now_playing_title">Nombre de la canción</string>
     <string name="pref_lockscreen_now_playing_summary">Muestra el nombre del artista que se está reproduciendo</string>
     <string name="pref_lockscreen_album_art_title">Carátula</string>
@@ -226,6 +219,8 @@
     <string name="pref_trackball_unlock_summary">Presiona el Trackball para desbloquear el dispositivo.</string>
     <string name="pref_menu_unlock_title">Desbloqueo desde Menú</string>
     <string name="pref_menu_unlock_summary">Presionando el botón menú desbloquea el dispositivo</string>
+    <string name="pref_lockscreen_music_controls_title">Controles de música del protector de pantalla</string>
+    <string name="pref_lockscreen_music_controls_summary">Muestra los controles de música en el protector de pantalla</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Desbloqueo rápido</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">No es necesario presionar aceptar cuando introduzcas el PIN</string>
     <string name="pref_lockscreen_custom_app_toggle_title">Aplicación de arranque</string>
@@ -255,10 +250,8 @@
 
     <!-- Input Settings -->
     <string name="input_settings_title">Ajustes de entrada</string>
-    <string name="input_settings_summary">Comportamiento de los botones de control</string>
     <string name="haptic_title">Ajustes comunicación háptica</string>
     <string name="haptic_summary">Ajustar la frecuencia y fuerza de la comunicaión háptica</string>
-    <string name="button_settings_title">Ajustes de botón</string>
     <string name="long_press_home_title">Ajustes de pulsación larga de Inicio</string>
     <string name="long_press_home_summary">Número de aplicaciones recientes, etc</string>
 
@@ -350,7 +343,6 @@
 
     <!-- Performance Settings -->
     <string name="performance_settings_title">Ajustes de Rendimiento</string>
-    <string name="performance_settings_summary">Modificaciones de rendimiento del dispositivo</string>
 
     <!-- Performance Settings : Compcache -->
     <string name="pref_compcache_title">Uso de RAM Compcache</string>
@@ -498,8 +490,6 @@
     <string name="ll_num_levels">Establecer número de niveles</string>
 
     <!-- Sound -->
-    <string name="sound_title">Ajustes de sonido</string>
-    <string name="sound_summary">Ajustes de foco de sonido y audio</string>
     <string name="sound_notifications_focus_title">Enfocar notificaciones</string>
     <string name="sound_notifications_focus_summary">Se solicita a las aplicaciones compatibles que bajen su volumen para reproducir las notificaiones.</string>
     <string name="sound_volume_control_silent_title">Estado silencioso</string>
@@ -556,7 +546,6 @@
     <string name="pref_lockscreen_gestures_builder_title">Crear gesto</string>
     <string name="pref_lockscreen_gestures_sensitivity_title">Sensibilidad</string>
     <string name="pref_lockscreen_gestures_color_title">Color de gestos</string>
-    <string name="label_create_gesture">Crear un gesto</string>
     <string name="gestures_button_add">Añadir gesto</string>
     <string name="gestures_button_discard">Descartar</string>
     <string name="gestures_button_done">Hecho</string>
@@ -588,7 +577,6 @@
     <string name="changelog_error">Error loading changelog...</string>
     <string name="changelog_unknown">Unknown</string>
     <string name="changelog_version">Version</string>
-
 
     <!-- CPU Settings strings -->
 

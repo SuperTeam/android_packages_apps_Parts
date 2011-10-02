@@ -17,12 +17,12 @@
 				android:targetClass="com.cyanogenmod.cmparts.activities.UIPowerWidgetActivity" />
 		</PreferenceScreen>
 
-        	<PreferenceScreen android:key="ui_status_bar_menu"
-            		android:title="@string/ui_status_bar_title">
-            		<intent android:action="android.intent.action.MAIN"
-                	android:targetPackage="com.cyanogenmod.cmparts"
-                	android:targetClass="com.cyanogenmod.cmparts.activities.UIStatusBarActivity" />
-        	</PreferenceScreen>
+        <PreferenceScreen android:key="ui_status_bar_menu"
+            android:title="@string/ui_status_bar_title">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.cyanogenmod.cmparts"
+                android:targetClass="com.cyanogenmod.cmparts.activities.UIStatusBarActivity" />
+        </PreferenceScreen>
 
 		<!-- LED notifications -->
 		<PreferenceScreen android:key="trackball_notifications"
@@ -33,7 +33,7 @@
 		</PreferenceScreen>
 
 		<CheckBoxPreference android:key="pref_pinch_reflow"
-			android:title="@string/pref_pinch_reflow_title" android:summary="@string/pref_pinch_reflow_summary" />-->
+			android:title="@string/pref_pinch_reflow_title" android:summary="@string/pref_pinch_reflow_summary" />
 	</PreferenceCategory>
 
 	<PreferenceCategory android:title="@string/ui_overscroll_title">
