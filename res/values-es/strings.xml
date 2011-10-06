@@ -724,6 +724,6 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Administración de permisos</string>
     <string name="perm_enable_management_summary">Activar administración de permisos de aplicaciones</string>
-    <string name="perm_enable_warning_message">Peligro!\nRevocar los permisos puede causar que algunas aplicaciones no funcionen bien. Si una aplicación con permisos eliminados da Forzar Cierre por favor, corrija los permisos o no use la aplicación.\nPor favor, NO envíe reportes de fallos a Cyanogenmod si una aplicación con permisos eliminados no trabaja como debiera!</string>
+    <string name="perm_enable_warning_message">Peligro!\nRevocar los permisos puede causar que algunas aplicaciones no funcionen bien. Si una aplicación con permisos eliminados da Forzar Cierre por favor, corrija los permisos o no use la aplicación.\nPor favor, NO envíe reportes de fallos si una aplicación con permisos eliminados no trabaja como debiera!</string>
     <string name="perm_enable_warning_title">¿Está seguro?</string>
 </resources>
