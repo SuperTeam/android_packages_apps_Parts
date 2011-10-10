@@ -121,7 +121,7 @@ public class UIStatusBarActivity extends PreferenceActivity implements OnPrefere
         mStatusBarCmSignal.setOnPreferenceChangeListener(this);
 
         int statusBarCmBattery = Settings.System.getInt(getContentResolver(),
-                Settings.System.STATUS_BAR_CM_BATTERY, 0);
+                Settings.System.STATUS_BAR_CM_BATTERY, 2);
         mStatusBarCmBattery.setValue(String.valueOf(statusBarCmBattery));
         mStatusBarCmBattery.setOnPreferenceChangeListener(this);
 
