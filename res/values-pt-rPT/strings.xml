@@ -34,11 +34,7 @@
 
     <!-- User interface -->
     <string name="ui_title">Interface de utilizador</string>
-    <string name="pref_electron_beam_animation_on">Animação ao ligar o ecrã</string>
-    <string name="pref_electron_beam_animation_off">Animação ao desligar o ecrã</string>
-
-    <!-- User interface : 180 degree rotation -->
-
+    
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Ajustar barra notificações</string>
     <string name="ui_status_bar_clock_title">Mostrar relógio</string>
@@ -288,38 +284,6 @@
     <string name="pref_power_prompt_title">Confirmação ao desligar</string>
     <string name="pref_power_prompt_summary">Alterar se há mensagem de confirmação após seleccionar reiniciar ou desligar</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Efeito de renderização</string>
-    <string name="pref_render_effect_summary">Alterar quais as cores usadas para desenhar o ecrã (possível poupança de bateria)</string>
-    <string name="prefs_render_effect">Efeito renderização</string>
-    <string name="notify_render_effect">Efeito renderização activo</string>
-    <string name="add_widget">Adicionar widget</string>
-    <string name="pref_render_effect_none">Sem efeito</string>
-    <string name="pref_render_effect_night">Modo nocturno (3700K)</string>
-    <string name="pref_render_effect_green">Terminal (verde)</string>
-    <string name="pref_render_effect_blue">Azul</string>
-    <string name="pref_render_effect_amber">Âmbar</string>
-    <string name="pref_render_effect_salmon">Salmão</string>
-    <string name="pref_render_effect_fuscia">Magenta</string>
-    <string name="pref_render_effect_calibrated">Calibrado (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Calibrado (N1) avermelhado</string>
-    <string name="pref_render_effect_calibrated_cool">Calibrado (N1) frio</string>
-    <string name="pref_render_effect_red">Vermelho</string>
-
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">Noite</string>
-    <string name="widget_render_effect_terminal">Terminal</string>
-    <string name="widget_render_effect_blue">Azul</string>
-    <string name="widget_render_effect_amber">Amarelo</string>
-    <string name="widget_render_effect_salmon">Salmão</string>
-    <string name="widget_render_effect_fuscia">Magenta</string>
-    <string name="widget_render_effect_red">Vermelho</string>
-    <string name="widget_render_effect_calibrated">Cal</string>
-    <string name="widget_render_effect_calibrated_red">Cal avermelhado</string>
-    <string name="widget_render_effect_calibrated_cool">Cal frio</string>
-
-
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Vista de widget expandida</string>
     <string name="title_expanded_widget">Widget de notificação de energia</string>
@@ -368,46 +332,6 @@
     <string name="cm_sound_mode_vib_silent">Vibrar/Silêncio</string>
     <string name="pref_flash_mode_title">Modo flash</string>
     <string name="pref_flash_mode_summary">Escolher elevado/raio mortal</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Luz de fundo automática</string>
-    <string name="backlight_summary">Ajustar níveis e filtragem</string>
-    <string name="light_filter_title">Filtro do sensor de luz</string>
-    <string name="light_filter_enabled_title">Activado</string>
-    <string name="light_filter_enabled_summary">Aplicar filtro do valor médio do sensor de luz para reduzir a cintilação.</string>
-    <string name="light_filter_window_title">Duração da filtragem</string>
-    <string name="light_filter_window_summary">O valor filtrado é o valor médio do sensor durante este período.</string>
-    <string name="light_filter_reset_title">Reset ao limite</string>
-    <string name="light_filter_reset_summary">Amostras desviando esta quantidade da média actual repõe o filtro.</string>
-    <string name="light_filter_interval_title">Intervalo da filtragem</string>
-    <string name="light_filter_interval_summary">Valor baixo pode aumentar exactidão mas aumenta consumo do CPU.</string>
-    <string name="light_levels_title">Níveis de luz</string>
-    <string name="light_levels_enabled_title">Usar personalizado</string>
-    <string name="light_levels_dim_title">Nível de escurecimento de ecrã</string>
-    <string name="light_levels_dim_summary">Brilho usado para escurecer ecrã</string>
-    <string name="light_levels_editor_title">Editar outros níveis...</string>
-    <string name="light_decrease_enabled_title">Permitir diminuição de luz</string>
-    <string name="light_decrease_enabled_summary">Active para permitir que as luzes diminuam. Use histerese para reduzir a cintilação.</string>
-    <string name="light_decrease_hysteresis_title">Diminuir histerese</string>
-    <string name="light_decrease_hysteresis_summary">Níveis do sensor sobrepõe esta quantidade para baixo.</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Níveis do sensor de luz</string>
-    <string name="ll_header_upper">Superior</string>
-    <string name="ll_header_lower">Inferior</string>
-    <string name="ll_header_lcd">Ecrã</string>
-    <string name="ll_header_btn">Botões</string>
-    <string name="ll_header_kb">Teclado</string>
-    <string name="ll_lux">Sensor (filtrado / puro):</string>
-    <string name="ll_lcd">Ecrã:</string>
-    <string name="ll_btn">Botões:</string>
-    <string name="ll_kb">Teclado:</string>
-    <string name="ll_disabled">Desactivado</string>
-    <string name="ll_default">Carregar valores padrão</string>
-    <string name="ll_save">Guardar &amp; aplicar</string>
-    <string name="ll_reload">Recarregar actual</string>
-    <string name="ll_bad_levels">Valores têm de ser crescentes</string>
-    <string name="ll_num_levels">Definir número de níveis</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Foco de notificações</string>
@@ -477,14 +401,6 @@
     <string name="pref_lockscreen_disable_unlock_tab">Desactivar o deslize de desbloqueio</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Nota: Precisa de activar a trackball, tecla de menu, ou desbloqueio de gesto para activar esta opção</string>
     <string name="gestures_already_present">AVISO: Um gesto parecido já está associado a outra acção!</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Ver changelog</string>
-    <string name="changelog_dialog">Changelog</string>
-    <string name="changelog_loading">A carregar changelog...</string>
-    <string name="changelog_error">Erro ao carregar changelog...</string>
-    <string name="changelog_unknown">Desconhecido</string>
-    <string name="changelog_version">Versão</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">Definições CPU</string>

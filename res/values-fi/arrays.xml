@@ -51,56 +51,6 @@
         <item>26%</item>
     </string-array>
 
-    <string-array name="entries_light_filter_window">
-        <item>10sek</item>
-        <item>20sek</item>
-        <item>30sek</item>
-        <item>40sek</item>
-        <item>50sek</item>
-        <item>60sek</item>
-    </string-array>
-
-    <string-array name="entries_light_filter_reset">
-        <item>Pois päältä</item>
-        <item>400 luxia</item>
-        <item>500 luxia</item>
-        <item>600 luxia</item>
-        <item>700 luxia</item>
-        <item>800 luxia</item>
-        <item>900 luxia</item>
-        <item>1000 luxia</item>
-        <item>1500 luxia</item>
-        <item>2000 luxia</item>
-        <item>2500 luxia</item>
-    </string-array>
-
-    <string-array name="entries_light_filter_interval">
-        <item>0.5sek</item>
-        <item>1sek</item>
-        <item>2sek</item>
-        <item>5sek</item>
-        <item>10sek</item>
-    </string-array>
-
-    <string-array name="entries_light_levels_dim">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
-        <item>12</item>
-        <item>14</item>
-        <item>16</item>
-        <item>18</item>
-        <item>20 (oletus)</item>
-        <item>22</item>
-        <item>24</item>
-        <item>26</item>
-    </string-array>
-
     <string-array name="entries_sound_attenuation">
         <item>0 dB</item>
         <item>4 dB</item>

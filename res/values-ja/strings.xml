@@ -36,53 +36,6 @@
     <!-- User interface -->
     <string name="ui_title">ユーザインタフェース</string>
 
-    <string name="pref_electron_beam_animation_on">スクリーンオンアニメ</string>
-    <string name="pref_electron_beam_animation_off">スクリーンオフアニメ</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">タブレット調整</string>
-    <string name="tablet_tweaks_summary_head">タブレット端末に有用な調整の設定群、携帯電話にも有効</string>
-    <string name="tablet_tweaks_sb_bottom_title">下部のステータスバー</string>
-    <string name="tablet_tweaks_sb_bottom_summary">ステータスバーを下部に表示、ステータスバーのソフトボタンでホーム、メニューなどを使用しているデバイスに有用</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">デッドゾーン</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">ステータスバーの中央にスクリーン幅の半分ほどデッドゾーンを追加する</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">ソフトボタンを左に</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">ソフトボタンをステータスバーの左側に配置する</string>
-    <string name="tablet_tweaks_soft_button_list_title">ソフトボタンを選択</string>
-    <string name="tablet_tweaks_interface_head">インターフェース</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">ロックスクリーンを無効にする</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">オンにするとロックスクリーンや、ロックパターンの画面を表示しない(端末のブートシーケンス中や起動後のどちらにおいても)</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">フルスクリーンを無効</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">アプリケーションからのフルスクリーン要求をオーバーライドする。有効の場合、ボタンにより非表示にするまでステータスバーは常に表示される</string>
-    <string name="tablet_tweaks_unhide_button_list_head">表示しておくボタン</string>
-    <string name="tablet_tweaks_unhide_button_list_title">表示しておくボタンを選択</string>
-    <string name="tablet_tweaks_extend_pm_title">追加の電源メニュー</string>
-    <string name="tablet_tweaks_extend_pm_summary">電源メニューに ホーム/戻る/メニュー アクションを追加する</string>
-    <string name="tablet_tweaks_extend_pm_list_title">電源メニューボタンを選択</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">ボリュームキーの挙動を逆にする</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">ボリュームキーは通常動作. ボリュームの調整, 長押しでユーザーアクション</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">ボリュームキーは逆の動作. ユーザーアクション, 長押しでボリュームの調整</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">ボリュームキーの設定</string>
-    <string name="tablet_tweaks_long_volp_action_title">ボリュームアップの長押し</string>
-    <string name="tablet_tweaks_long_volp_action_summary">ボリュームアップの長押しに ホーム/バック/メニュー/その他 のアクションを割り当てる(スクリーンオン時のみ)</string>
-    <string name="tablet_tweaks_long_volm_action_title">ボリュームダウンの長押し</string>
-    <string name="tablet_tweaks_vol_both_action_title">ボリュームの同時押し</string>
-    <string name="tablet_tweaks_vol_both_action_summary">ノート: いくつかのデバイスはハードリセットにボリューム上下+電源ボタン同時押しが割り当てられています</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">ボリュームキーの同時長押し</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">電源メニューボタン</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">ソフトボタン</string>
-    <string name="tablet_soft_buttons_home_title">ホーム</string>
-    <string name="tablet_soft_buttons_menu_title">メニュー</string>
-    <string name="tablet_soft_buttons_back_title">戻る</string>
-    <string name="tablet_soft_buttons_search_title">検索</string>
-    <string name="tablet_soft_buttons_quick_na_title">クイック通知</string>
-
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">加速度センサによる回転</string>
     <string name="pref_rotation_0_title">0度</string>
@@ -379,44 +332,9 @@
     <string name="pref_power_prompt_title">電源OFFの確認</string>
     <string name="pref_power_prompt_summary">シャットダウンやリブート時に確認するかどうかを切り替える</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">描画エフェクト</string>
-    <string name="pref_render_effect_summary">スクリーンを描画する色を変更する(バッテリ維持の可能性がある)</string>
-
     <!-- UI Settings : Haptic feedback -->
     <string name="expanded_haptic_feedback_title">振動フィードバック</string>
     <string name="expanded_haptic_feedback_summary">振動フィードバックを有効/無効にする</string>
-
-    <string name="widget_name">RenderFXウィジェット</string>
-    <string name="renderfx_temp">RenderFX</string>
-    <string name="prefs_render_effect">描画エフェクト</string>
-    <string name="notify_render_effect">描画エフェクトオン</string>
-    <string name="add_widget">ウィジェットを使用</string>
-    <string name="pref_render_effect_none">エフェクトなし</string>
-    <string name="pref_render_effect_night">ナイトモード (3700K)</string>
-    <string name="pref_render_effect_green">ターミナル (緑)</string>
-    <string name="pref_render_effect_blue">ブルー</string>
-    <string name="pref_render_effect_amber">アンバー</string>
-    <string name="pref_render_effect_salmon">サーモン</string>
-    <string name="pref_render_effect_fuscia">フューシャ</string>
-    <string name="pref_render_effect_calibrated">調整済み(N1)</string>
-    <string name="pref_render_effect_calibrated_red">調整済み(N1) Low Red</string>
-    <string name="pref_render_effect_calibrated_cool">調整済み(N1) Cold</string>
-    <string name="pref_render_effect_red">赤</string>
-
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">ナイト</string>
-    <string name="widget_render_effect_terminal">ターミナル</string>
-    <string name="widget_render_effect_blue">ブルー</string>
-    <string name="widget_render_effect_amber">アンバー</string>
-    <string name="widget_render_effect_salmon">サーモン</string>
-    <string name="widget_render_effect_fuscia">フューシャ</string>
-    <string name="widget_render_effect_red">赤</string>
-    <string name="widget_render_effect_calibrated">調整済み</string>
-    <string name="widget_render_effect_calibrated_red">調整済み Low Red</string>
-    <string name="widget_render_effect_calibrated_cool">調整済み Cold</string>
-
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">通知領域ウィジェット</string>
@@ -500,46 +418,6 @@
 
     <string name="dialog_clear_flash">点滅をクリア</string>
 
-    <!-- Backlight -->
-    <string name="backlight_title">自動バックライト</string>
-    <string name="backlight_summary">レベルの調整とフィルタ</string>
-    <string name="light_filter_title">ライトセンサーフィルタ</string>
-    <string name="light_filter_enabled_title">有効にする</string>
-    <string name="light_filter_enabled_summary">移動平均フィルタを適用し、フリッカを減少させる。</string>
-    <string name="light_filter_window_title">分析窓長</string>
-    <string name="light_filter_window_summary">フィルタ値はこの期間でのセンサー平均値になります。</string>
-    <string name="light_filter_reset_title">リセットする閾値</string>
-    <string name="light_filter_reset_summary">サンプルが現在の平均からこの値だけ逸脱した場合フィルタをリセットします</string>
-    <string name="light_filter_interval_title">サンプリング間隔</string>
-    <string name="light_filter_interval_summary">低い値は精度が良くなりますが、よりCPUを使用します。</string>
-    <string name="light_levels_title">ライトレベル</string>
-    <string name="light_levels_enabled_title">カスタム</string>
-    <string name="light_levels_dim_title">スクリーンの暗さレベル</string>
-    <string name="light_levels_dim_summary">スクリーンを暗くした時の明るさ</string>
-    <string name="light_levels_editor_title">他のレベルを編集...</string>
-    <string name="light_decrease_enabled_title">ライトの減少を許可</string>
-    <string name="light_decrease_enabled_summary">ライトが減少するのを許可します。ヒステリシスを使用してフリッカを減少させてください。</string>
-    <string name="light_decrease_hysteresis_title">ヒステリシスを減少させる</string>
-    <string name="light_decrease_hysteresis_summary">センサーレベルはこれより下にオーバーラップします。</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">ライトセンサーレベル</string>
-    <string name="ll_header_upper">上方</string>
-    <string name="ll_header_lower">下方</string>
-    <string name="ll_header_lcd">スクリーン</string>
-    <string name="ll_header_btn">ボタン</string>
-    <string name="ll_header_kb">キーボード</string>
-    <string name="ll_lux">センサー(フィルタ/生):</string>
-    <string name="ll_lcd">スクリーン:</string>
-    <string name="ll_btn">ボタン:</string>
-    <string name="ll_kb">キーボード:</string>
-    <string name="ll_disabled">無効にする</string>
-    <string name="ll_default">デフォルトに戻す</string>
-    <string name="ll_save">適用して保存</string>
-    <string name="ll_reload">現在の設定を再読込み</string>
-    <string name="ll_bad_levels">レベルは増加しなくてはなりません</string>
-    <string name="ll_num_levels">レベル数をセット</string>
-
     <!-- Sound -->
     <string name="sound_notifications_focus_title">通知音フォーカス</string>
     <string name="sound_notifications_focus_summary">通知音再生時に、オーディオフォーカスリクエストに対応しているアプリの音量を下げる</string>
@@ -618,14 +496,6 @@
     <string name="gestures_draw_for_label">\"<xliff:g id="action">%s</xliff:g>\"のジェスチャー:</string>
     <string name="gestures_already_present">警告: 似たようなジェスチャーが別のアクションとして定義されています！</string>
     <string name="gestures_run_in_background">バックグラウンドで起動</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">更新履歴を見る</string>
-    <string name="changelog_dialog">更新履歴</string>
-    <string name="changelog_loading">更新履歴を読込中...</string>
-    <string name="changelog_error">更新履歴を読込中にエラー...</string>
-    <string name="changelog_unknown">不明</string>
-    <string name="changelog_version">バージョン</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU設定</string>

@@ -35,53 +35,6 @@
     <!-- User interface -->
     <string name="ui_title">Διεπαφή χρήστη</string>
 
-    <string name="pref_electron_beam_animation_on">Εφέ ανάμματος οθόνης</string>
-    <string name="pref_electron_beam_animation_off">Εφέ σβησίματος οθόνης</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Tweaks για Tablets</string>
-    <string name="tablet_tweaks_summary_head">Χρήσιμες ρυθμίσεις για tablets όλες συγκεντρωμένες σε ένα μέρος. Λειτουργούν και σε τηλέφωνα.</string>
-    <string name="tablet_tweaks_sb_bottom_title">Κάτω μπάρα κατάστασης</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Εμφάνιση της μπάρας κατάστασης στο κάτω μέρος. Χρήσιμο για tablets που χρησιμοποιούν soft-buttons στη μπάρα κατάστασης αντί για πλήκτρα home, menu, κτλ</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Νεκρή ζώνη</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Προσθήκη μιας νεκρής ζώνης πλάτους μισής οθόνης στη μέση της μπάρας κατάστασης</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Αριστερά Soft-buttons</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Τοποθετεί τα soft-buttons στην αριστερή πλευρά της μπάρας κατάστασης</string>
-    <string name="tablet_tweaks_soft_button_list_title">Επιλογή soft-buttons</string>
-    <string name="tablet_tweaks_interface_head">Διεπαφή</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Απενεργοποίηση της οθόνης κλειδώματος</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Όταν είναι ενεργό, δε φαίνεται η οθόνη κλειδώματος ή το μοτίβο ξεκλειδώματος. Ούτε κατά την εκκίνηση, ούτε και κατά το ξύπνημα της συσκευής</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Απενεργοποίηση πλήρους οθόνης</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Παρακάμπτει τα αιτήματα για πλήρη οθόνη που δίνουν οι εφαρμογές. Όταν είναι ενεργό, η γραμμή κατάστασης είναι πάντοτε φανερή μέχρι να πατηθεί κάποιο πλήκτρο που την κρύβει</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Πλήκτρο εμφάνισης</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Επιλογή πλήκτρου εμφάνισης</string>
-    <string name="tablet_tweaks_extend_pm_title">Επεκταμένο μενού σβησίματος</string>
-    <string name="tablet_tweaks_extend_pm_summary">Προσθήκη των home/back/menu στο μενού σβησίματος</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Επιλογή πλήκτρων μενού σβησίματος</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Αντίστροφη συμπεριφορά έντασης</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Τα πλήκτρα έντασης συμπεριφέρονται κανονικά. Πιέστε για αλλαγή έντασης, κρατήστε πατημένο για τη λειτουργία χρήστη</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Τα πλήκτρα έντασης συμπεριφέρονται αντίστροφα. Πιέστε για τη λειτουργία χρήστη, κρατήστε πατημένο για αλλαγή έντασης</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Επανακαθορισμός πλήκτρων έντασης</string>
-    <string name="tablet_tweaks_long_volp_action_title">Πατημένο πλήκτρο έντασης +</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Καθορίστε τη λειτουργία home/back/menu/κτλ ενώ κρατάτε πατημένο το πλήκτρο + της έντασης. Περιορισμένη δράση για όταν η οθόνη είναι αναμμένη</string>
-    <string name="tablet_tweaks_long_volm_action_title">Πατημένο πλήκτρο έντασης -</string>
-    <string name="tablet_tweaks_vol_both_action_title">Και τα δύο πλήκτρα έντασης</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Σημείωση: μερικές συσκευές κάνουν hard reset όταν είναι πατημένα τα πλήκτρα έντασης και το πλήκτρο power</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Κρατημένο πάτημα των πλήκτρων έντασης</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Πλήκτρα μενού σβησίματος</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Soft-buttons</string>
-    <string name="tablet_soft_buttons_home_title">Home</string>
-    <string name="tablet_soft_buttons_menu_title">Menu</string>
-    <string name="tablet_soft_buttons_back_title">Πίσω</string>
-    <string name="tablet_soft_buttons_search_title">Αναζήτηση</string>
-    <string name="tablet_soft_buttons_quick_na_title">Γρήγορε ειδοποιήσεις</string>
-
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Περιστροφή με επιταχυνσιόμετρο</string>
     <string name="pref_rotation_0_title">0 μοίρες</string>
@@ -450,42 +403,9 @@
     <string name="pref_power_prompt_title">Πλαίσιο διαλόγου τερματισμού</string>
     <string name="pref_power_prompt_summary">Αλλάξτε το γεγονός ότι εμφανίζεται πλαίσιο διαλόγου κατά την επανεκκίνηση ή τον τερματισμό</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Render effect</string>
-    <string name="pref_render_effect_summary">Επιλέξτε τα χρώματα που θα χρησιμοποιούνται στην οθόνη (πιθανό όφελος μπαταρίας)</string>
-
     <!-- UI Settings : Haptic feedback -->
     <string name="expanded_haptic_feedback_title">Απτική Ανάδραση</string>
     <string name="expanded_haptic_feedback_summary">Ενεργοποίηση/Απενεργοποίηση απτικής ανάδρασης.</string>
-
-    <string name="widget_name">RenderFX Widget</string>
-    <string name="renderfx_temp">RenderFX</string>
-    <string name="prefs_render_effect">Render Effect</string>
-    <string name="notify_render_effect">Render effect on</string>
-    <string name="add_widget">Add widget</string>
-    <string name="pref_render_effect_none">No render effect</string>
-    <string name="pref_render_effect_night">Night mode (3700K)</string>
-    <string name="pref_render_effect_green">Terminal (green)</string>
-    <string name="pref_render_effect_blue">Blue</string>
-    <string name="pref_render_effect_amber">Amber</string>
-    <string name="pref_render_effect_salmon">Salmon</string>
-    <string name="pref_render_effect_fuscia">Fuscia</string>
-    <string name="pref_render_effect_calibrated">Calibrated (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Calibrated (N1) Low Red</string>
-    <string name="pref_render_effect_calibrated_cool">Calibrated (N1) Cool</string>
-    <string name="pref_render_effect_red">Red</string>
-
-    <!-- Widget Types -->
-    <string name="widget_render_effect_night">Night</string>
-    <string name="widget_render_effect_terminal">Term</string>
-    <string name="widget_render_effect_blue">Blue</string>
-    <string name="widget_render_effect_amber">Amber</string>
-    <string name="widget_render_effect_salmon">Salmon</string>
-    <string name="widget_render_effect_fuscia">Fuscia</string>
-    <string name="widget_render_effect_red">Red</string>
-    <string name="widget_render_effect_calibrated">Cal</string>
-    <string name="widget_render_effect_calibrated_red">Cal Low Red</string>
-    <string name="widget_render_effect_calibrated_cool">Cal Cool</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Expanded View Widget</string>
@@ -540,46 +460,6 @@
     <string name="cm_sound_mode_vib_silent">Δόνηση/Αθόρυβο</string>
     <string name="pref_flash_mode_title">Λειτουργία φακού</string>
     <string name="pref_flash_mode_summary">Επιλογή Υψηλού / Death Ray</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Αυτόματος φωτισμός</string>
-    <string name="backlight_summary">Ρυθμίστε τα επίπεδα και το φιλτράρισμα</string>
-    <string name="light_filter_title">Φιλτράρισμα αισθητήρα φωτός</string>
-    <string name="light_filter_enabled_title">Ενεργό</string>
-    <string name="light_filter_enabled_summary">Apply moving average filter to sensor data to reduce flicker</string>
-    <string name="light_filter_window_title">Window length</string>
-    <string name="light_filter_window_summary">Filtered value is the average sensor value during this period</string>
-    <string name="light_filter_reset_title">Reset threshold</string>
-    <string name="light_filter_reset_summary">Samples deviating this much from current average resets the filter</string>
-    <string name="light_filter_interval_title">Sample interval</string>
-    <string name="light_filter_interval_summary">Low value can improve accuracy but uses some more CPU</string>
-    <string name="light_levels_title">Επίπεδα φωτός</string>
-    <string name="light_levels_enabled_title">Χρήση προσαρμοσμένων</string>
-    <string name="light_levels_dim_title">Screen dim level</string>
-    <string name="light_levels_dim_summary">Brightness used to dim the screen</string>
-    <string name="light_levels_editor_title">Edit other levels\u2026</string>
-    <string name="light_decrease_enabled_title">Allow light decrease</string>
-    <string name="light_decrease_enabled_summary">Enable to allow lights to decrease. Use hysteresis to reduce flicker</string>
-    <string name="light_decrease_hysteresis_title">Decrease hysteresis</string>
-    <string name="light_decrease_hysteresis_summary">Sensor levels overlap this much downwards</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Επίπεδα αισθητήρα φωτός</string>
-    <string name="ll_header_upper">Upper</string>
-    <string name="ll_header_lower">Lower</string>
-    <string name="ll_header_lcd">Screen</string>
-    <string name="ll_header_btn">Buttons</string>
-    <string name="ll_header_kb">Keyboard</string>
-    <string name="ll_lux">Sensor (filtered / raw):</string>
-    <string name="ll_lcd">Screen:</string>
-    <string name="ll_btn">Buttons:</string>
-    <string name="ll_kb">Keyboard:</string>
-    <string name="ll_disabled">disabled</string>
-    <string name="ll_default">Load defaults</string>
-    <string name="ll_save">Save &amp; apply</string>
-    <string name="ll_reload">Reload current</string>
-    <string name="ll_bad_levels">Levels must be increasing</string>
-    <string name="ll_num_levels">Set number of levels</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Εστίαση ειδοποίησης</string>
@@ -665,58 +545,6 @@
     <string name="gestures_draw_for_label">Χειρονομία για \"<xliff:g id="action">%s</xliff:g>\":</string>
     <string name="gestures_already_present">Προσοχή: Μία παρόμοια χειρονομία είναι συνδεδεμένη με άλλη ενέργεια!</string>
     <string name="gestures_run_in_background">Τρέξιμο στο παρασκήνιο</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Προβολή changelog</string>
-    <string name="changelog_dialog">Changelog</string>
-    <string name="changelog_loading">Φόρτωση changelog\u2026</string>
-    <string name="changelog_error">Σφάλμα φόρτωσης changelog\u2026</string>
-    <string name="changelog_unknown">Άγνωστο</string>
-    <string name="changelog_version">Έκδοση</string>
-
-    <!-- Phone goggles -->
-    <string name="category_phone_goggles_period">Περίοδος</string>
-    <string name="category_phone_goggles_confirmation">Επιβεβαίωση</string>
-    <string name="category_phone_goggles_filter">Φίλτρα</string>
-    <string name="title_phone_goggles">Phone Goggles</string>
-    <string name="title_phone_goggles_default">Προεπιλεγμένες ρυθμίσεις</string>
-    <string name="title_phone_goggles_apps">Εφαρμογές που φιλτράρονται</string>
-    <string name="title_phone_goggles_app_enabled">Ενεργοποίηση Phone Goggles</string>
-    <string name="title_phone_goggles_use_custom">Χρήση προσαρμοσμένων ρυθμίσεων</string>
-    <string name="title_phone_goggles_filter">Αριθμοί που φιλτράρονται</string>
-    <string name="title_phone_goggles_enabled">Ενεργοποίηση phone goggles</string>
-    <string name="title_phone_goggles_start">Εκκίνηση λειτουργίας phone goggles</string>
-    <string name="title_phone_goggles_end">Λήξη λειτουργίας phone goggles</string>
-    <string name="title_phone_goggles_confirmation_enabled">Απαίτηση επιβεβαίωσης</string>
-    <string name="title_phone_goggles_maths_level">Επίπεδο μαθηματικών</string>
-    <string name="title_phone_goggles_work_filtered">Εργασία</string>
-    <string name="title_phone_goggles_mobile_filtered">Κινητό</string>
-    <string name="title_phone_goggles_other_filtered">Άλλο</string>
-    <string name="summary_phone_goggles">Φιλτράρισμα εξερχόμενων επικοινωνιών</string>
-    <string name="summary_phone_goggles_default">Θέτει τις προεπιλεγμένες ρυθμίσεις</string>
-    <string name="summary_phone_goggles_filter">Επιλέξτε τους τύπους των αριθμών που θέλετε να φιλτράρετε</string>
-    <string name="summary_phone_goggles_start">Πότε να ξεκινά το φιλτράρισμα των εξερχόμενων κλήσεων</string>
-    <string name="summary_phone_goggles_end">Πότε να σταματά το φιλτράρισμα των εξερχόμενων κλήσεων</string>
-    <string name="summary_phone_goggles_confirmation_enabled">Επιλέξτε τον τρόπο με τον οποίο θα ζητείται επιβεβαίωση πριν ξεκινήσει το φιλτράρισμα των επικοινωνιών</string>
-    <string name="summary_phone_goggles_maths_level">Επίπεδο μαθηματικών προβλημάτων που θα ερωτούνται πριν την έγκριση επικοινωνίας</string>
-    <string name="summary_on_phone_goggles_enabled">Θα φιλτράρονται οι εξερχόμενες επικοινωνίες</string>
-    <string name="summary_on_phone_goggles_use_custom">Χρήση προσαρμοσμένων ρυθμίσεων</string>
-    <string name="summary_on_phone_goggles_app_enabled">Τα Phone Goggles είναι ενεργοποιημένα για αυτήν την εφαρμογή</string>
-    <string name="summary_on_phone_goggles_work_filtered">Θα φιλτράρονται οι επαγγελματικές επικοινωνίες</string>
-    <string name="summary_on_phone_goggles_mobile_filtered">Θα φιλτράρονται οι επικοινωνίες με κινητά τηλέφωνα</string>
-    <string name="summary_on_phone_goggles_other_filtered">Θα φιλτράρονται οι επικοινωνίες με άλλα τηλέφωνα</string>
-    <string name="summary_off_phone_goggles_enabled">Δε θα φιλτράρεται καμία επικοινωνία</string>
-    <string name="summary_off_phone_goggles_use_custom">Χρήση προεπιλεγμένων ρυθμίσεων</string>
-    <string name="summary_off_phone_goggles_app_enabled">Τα Phone Goggles είναι απενεργοποιημένα για αυτήν την εφαρμογή</string>
-    <string name="summary_off_phone_goggles_work_filtered">Δεν θα φιλτράρονται οι επαγγελματικές επικοινωνίες</string>
-    <string name="summary_off_phone_goggles_mobile_filtered">Δεν θα φιλτράρονται οι επικοινωνίες με κινητά τηλέφωνα</string>
-    <string name="summary_off_phone_goggles_other_filtered">Δεν θα φιλτράρονται οι επικοινωνίες με άλλα τηλέφωνα</string>
-    <string name="phone_goggles_maths_level_easy">Εύκολα</string>
-    <string name="phone_goggles_maths_level_medium">Μέτρια</string>
-    <string name="phone_goggles_maths_level_hard">Δύσκολα</string>
-    <string name="phone_goggles_confirmation_none">Καμία</string>
-    <string name="phone_goggles_confirmation_prompt">Ερώτηση</string>
-    <string name="phone_goggles_confirmation_maths">Μαθηματικά προβλήματα</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">Ρυθμίσεις CPU</string>

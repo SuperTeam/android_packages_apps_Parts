@@ -35,53 +35,6 @@
     <!-- User interface -->
     <string name="ui_title">使用者介面</string>
 
-    <string name="pref_electron_beam_animation_on">喚醒動畫</string>
-    <string name="pref_electron_beam_animation_off">睡眠動畫</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">平板優化</string>
-    <string name="tablet_tweaks_summary_head">最有用的平板裝置設定都集中在此處，手機亦可以使用這些設定</string>
-    <string name="tablet_tweaks_sb_bottom_title">底部狀態列</string>
-    <string name="tablet_tweaks_sb_bottom_summary">將狀態列顯示在底部。這對於會把主頁、選單之類的軟體鍵置放在狀態列的平板來說會很有用</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">忽略區域</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">加入一個闊度為半個螢幕的忽略區域到狀態列中間位置</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">軟體按鍵靠左</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">將軟體鍵置放在狀態列的左邊</string>
-    <string name="tablet_tweaks_soft_button_list_title">選擇軟體按鍵</string>
-    <string name="tablet_tweaks_interface_head">介面</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">停用鎖定螢幕</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">當這勾選時，無論在裝置啟動時抑或運行期間，均不顯示鎖定／解鎖螢幕</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">停用全螢幕</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">忽略應用程式的全螢幕要求。當這勾選時總是顯示狀態列，直至透過按鈕來隱藏</string>
-    <string name="tablet_tweaks_unhide_button_list_head">展現按鈕</string>
-    <string name="tablet_tweaks_unhide_button_list_title">選擇展現按鈕</string>
-    <string name="tablet_tweaks_extend_pm_title">擴充電源選單</string>
-    <string name="tablet_tweaks_extend_pm_summary">將主頁、返回或選單等動作加入到電源選單</string>
-    <string name="tablet_tweaks_extend_pm_list_title">選擇電源選單按鈕</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">音量鍵行為相反</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">音量鍵行為正常。按下變更音量，長按執行使用者動作</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">音量鍵行為相反。按下執行使用者動作，長按變更音量</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">重新指定音量鍵動作</string>
-    <string name="tablet_tweaks_long_volp_action_title">長按提升音量鍵</string>
-    <string name="tablet_tweaks_long_volp_action_summary">設定當長按提升音量鍵時執行主頁、返回、選單或之類的動作，但只限在螢幕開啟的情況下</string>
-    <string name="tablet_tweaks_long_volm_action_title">長按降低音量鍵</string>
-    <string name="tablet_tweaks_vol_both_action_title">兩個音量鍵</string>
-    <string name="tablet_tweaks_vol_both_action_summary">注意：有些裝置在同時按下兩個音量鍵加電源鍵時會作出實體電路重設</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">長按兩個音量鍵</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">電源選單按鈕</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">軟體按鍵</string>
-    <string name="tablet_soft_buttons_home_title">主頁</string>
-    <string name="tablet_soft_buttons_menu_title">選單</string>
-    <string name="tablet_soft_buttons_back_title">返回</string>
-    <string name="tablet_soft_buttons_search_title">搜尋</string>
-    <string name="tablet_soft_buttons_quick_na_title">快速通知</string>
-
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">自動旋轉允許角度</string>
     <string name="pref_rotation_0_title">0 度</string>
@@ -450,42 +403,9 @@
     <string name="pref_power_prompt_title">電源操作提示</string>
     <string name="pref_power_prompt_summary">變更是否要在選擇關閉或重啟裝置時顯示確認提示</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">渲染效果</string>
-    <string name="pref_render_effect_summary">變更描繪螢幕的顏色（很可能會節省電力）</string>
-
     <!-- UI Settings : Haptic feedback -->
     <string name="expanded_haptic_feedback_title">觸動回饋</string>
     <string name="expanded_haptic_feedback_summary">啟用／停用觸動回饋</string>
-
-    <string name="widget_name">渲染效果小工具</string>
-    <string name="renderfx_temp">渲染效果</string>
-    <string name="prefs_render_effect">渲染效果</string>
-    <string name="notify_render_effect">渲染效果為</string>
-    <string name="add_widget">新增小工具</string>
-    <string name="pref_render_effect_none">無渲染效果</string>
-    <string name="pref_render_effect_night">夜視模式（3700K）</string>
-    <string name="pref_render_effect_green">終端機（綠）</string>
-    <string name="pref_render_effect_blue">藍</string>
-    <string name="pref_render_effect_amber">琥珀</string>
-    <string name="pref_render_effect_salmon">鮭紅</string>
-    <string name="pref_render_effect_fuscia">洋紅</string>
-    <string name="pref_render_effect_calibrated">校準的（N1）</string>
-    <string name="pref_render_effect_calibrated_red">校準的（N1）低紅</string>
-    <string name="pref_render_effect_calibrated_cool">校準的（N1）冷酷</string>
-    <string name="pref_render_effect_red">紅</string>
-
-    <!-- Widget Types -->
-    <string name="widget_render_effect_night">夜視</string>
-    <string name="widget_render_effect_terminal">終端機</string>
-    <string name="widget_render_effect_blue">藍</string>
-    <string name="widget_render_effect_amber">琥珀</string>
-    <string name="widget_render_effect_salmon">鮭紅</string>
-    <string name="widget_render_effect_fuscia">洋紅</string>
-    <string name="widget_render_effect_red">紅</string>
-    <string name="widget_render_effect_calibrated">校準的</string>
-    <string name="widget_render_effect_calibrated_red">校準的 低紅</string>
-    <string name="widget_render_effect_calibrated_cool">校準的 冷酷</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">擴充檢視小工具</string>
@@ -540,46 +460,6 @@
     <string name="cm_sound_mode_vib_silent">僅震動／靜音</string>
     <string name="pref_flash_mode_title">手電筒模式</string>
     <string name="pref_flash_mode_summary">選擇強／死光</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">自動亮度</string>
-    <string name="backlight_summary">調整水平及過濾</string>
-    <string name="light_filter_title">光源感應器過濾</string>
-    <string name="light_filter_enabled_title">啟用</string>
-    <string name="light_filter_enabled_summary">以動態平均值過濾感應值來減少螢幕亮度的驟變</string>
-    <string name="light_filter_window_title">換算間隔</string>
-    <string name="light_filter_window_summary">過濾值為這段時間內感應器的平均值</string>
-    <string name="light_filter_reset_title">重設關口</string>
-    <string name="light_filter_reset_summary">當感應值偏離目前平均值達這程度時就重設過濾值</string>
-    <string name="light_filter_interval_title">取樣頻率</string>
-    <string name="light_filter_interval_summary">較短的時間能增進準確度，但相對的會較頻密地使用 CPU。</string>
-    <string name="light_levels_title">亮度水平</string>
-    <string name="light_levels_enabled_title">自訂</string>
-    <string name="light_levels_dim_title">螢幕暗淡水平</string>
-    <string name="light_levels_dim_summary">螢幕變暗淡時的亮度</string>
-    <string name="light_levels_editor_title">編輯其他水平…</string>
-    <string name="light_decrease_enabled_title">允許降低亮度</string>
-    <string name="light_decrease_enabled_summary">啟用來允許亮度降低。以遲滯率來減少螢幕亮度的驟變</string>
-    <string name="light_decrease_hysteresis_title">降低遲滯率</string>
-    <string name="light_decrease_hysteresis_summary">感應水平重疊至這比例就向下調整</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">光源感應器水平</string>
-    <string name="ll_header_upper">上限</string>
-    <string name="ll_header_lower">下限</string>
-    <string name="ll_header_lcd">螢幕</string>
-    <string name="ll_header_btn">按鍵</string>
-    <string name="ll_header_kb">鍵盤</string>
-    <string name="ll_lux">感應器（過濾值／原始值）：</string>
-    <string name="ll_lcd">螢幕：</string>
-    <string name="ll_btn">按鍵：</string>
-    <string name="ll_kb">鍵盤：</string>
-    <string name="ll_disabled">已停用</string>
-    <string name="ll_default">載入預設值</string>
-    <string name="ll_save">儲存並套用</string>
-    <string name="ll_reload">重新載入目前設定</string>
-    <string name="ll_bad_levels">水平必須持續上升</string>
-    <string name="ll_num_levels">設定水平數目</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">通知聚焦</string>
@@ -665,14 +545,6 @@
     <string name="gestures_draw_for_label">“<xliff:g id="action">%s</xliff:g>”的手勢：</string>
     <string name="gestures_already_present">警告：一個相似的手勢經已關聯到另一個動作！</string>
     <string name="gestures_run_in_background">在背境運行</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">檢視更新日誌</string>
-    <string name="changelog_dialog">更新日誌</string>
-    <string name="changelog_loading">正在載入更新日誌…</string>
-    <string name="changelog_error">載入更新日誌時發生錯誤…</string>
-    <string name="changelog_unknown">未知</string>
-    <string name="changelog_version">版本</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU 設定</string>

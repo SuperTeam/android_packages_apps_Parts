@@ -36,53 +36,6 @@
     <!-- User interface -->
     <string name="ui_title">Benutzeroberfläche</string>
 
-    <string name="pref_electron_beam_animation_on">Einschalten animieren</string>
-    <string name="pref_electron_beam_animation_off">Ausschalten animieren</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Tablet-Einstellungen</string>
-    <string name="tablet_tweaks_summary_head">Die nützlichsten Einstellungen für Tablets zusammengefasst. Funktionieren auch für andere Geräte.</string>
-    <string name="tablet_tweaks_sb_bottom_title">Statusleiste unten</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Zeige Statusleiste am unteren Rand. Nützlich für Tablets, die Tasten für Homescreen, Menü, etc. in der Statusleiste nutzen</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Inaktiver Bereich</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Fügt der Statusleiste mittig einen inaktiven Bereich halber Bildschirmbreite hinzu</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Tasten links</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Die Tasten auf die linke Seite der Statusleiste verlagern</string>
-    <string name="tablet_tweaks_soft_button_list_title">Tasten wählen</string>
-    <string name="tablet_tweaks_interface_head">Oberfläche</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Bildschirmsperre deakt.</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Nach Bootvorgang oder bei Aufwachen weder die Bildschirm- noch die Sicherheitssperre anzeigen</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Vollbild verhindern</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Anfrage einer Anwendung nach Vollbildmodus blockieren. Statusleiste bleibt immer sichtbar, außer wenn sie manuell ausgeblendet wird</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Aufdecken-Taste</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Die Taste zum Aufdecken wählen</string>
-    <string name="tablet_tweaks_extend_pm_title">Erweitertes Ausschaltmenü</string>
-    <string name="tablet_tweaks_extend_pm_summary">Aktionen für Homescreen/Zurück/Menü dem Ausschaltmenü hinzufügen</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Tasten wählen</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Lautstärkeregelung umkehren</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Lautstärketasten verhalten sich normal: Drücken für Änderung der Lautstärke, langes Drücken für Aktion</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Lautstärketasten verhalten sich umgekehrt: Drücken für Aktion, langes Drücken für Änderung der Lautstärke</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Lautstärketasten belegen</string>
-    <string name="tablet_tweaks_long_volp_action_title">Lauter-Taste lange drücken</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Home/Zurück/Menü/etc. an langes Drücken der Lauter-Taste binden. (Nur wenn Bildschirm an)</string>
-    <string name="tablet_tweaks_long_volm_action_title">Leiser-Taste lange drücken</string>
-    <string name="tablet_tweaks_vol_both_action_title">Beide Lautstärketasten</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Hinweis: Einige Geräte führen einen Neustart bei gleichzeitigem Drücken der Lautstärke- und Ein-/Ausschalttaste durch.</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Beide Lautstärketasten lange drücken</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Ausschaltmenü-Tasten</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Tasten</string>
-    <string name="tablet_soft_buttons_home_title">Home</string>
-    <string name="tablet_soft_buttons_menu_title">Menü</string>
-    <string name="tablet_soft_buttons_back_title">Zurück</string>
-    <string name="tablet_soft_buttons_search_title">Suche</string>
-    <string name="tablet_soft_buttons_quick_na_title">Schnelle Benachrichtigungen</string>
-
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Automatische Ausrichtung</string>
     <string name="pref_rotation_0_title">0 Grad</string>
@@ -447,39 +400,6 @@
     <string name="pref_power_prompt_title">Ausschalten-Abfrage</string>
     <string name="pref_power_prompt_summary">Nachfrage, ob wirklich ausgeschaltet oder neu gestartet werden soll</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Render-Effekt</string>
-    <string name="pref_render_effect_summary">Farben zum Zeichnen des Bildschirms wählen (kann Strom sparen)</string>
-
-    <string name="widget_name">Rendereffekt-Widget</string>
-    <string name="renderfx_temp">RenderFX</string>
-    <string name="prefs_render_effect">Render-Effekt</string>
-    <string name="notify_render_effect">Render-Effekt ein</string>
-    <string name="add_widget">Widget hinzufügen</string>
-    <string name="pref_render_effect_none">Kein Render-Effekt</string>
-    <string name="pref_render_effect_night">Nachtmodus (3700&#x2009;K)</string>
-    <string name="pref_render_effect_green">Terminal (grün)</string>
-    <string name="pref_render_effect_blue">Blau</string>
-    <string name="pref_render_effect_amber">Bernstein</string>
-    <string name="pref_render_effect_salmon">Lachs</string>
-    <string name="pref_render_effect_fuscia">Purpur</string>
-    <string name="pref_render_effect_calibrated">Kalibriert (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Kalibriert (N1) rötlich</string>
-    <string name="pref_render_effect_calibrated_cool">Kalibriert (N1) kalt</string>
-    <string name="pref_render_effect_red">Rot</string>
-
-    <!-- Widget Types -->
-    <string name="widget_render_effect_night">Nacht</string>
-    <string name="widget_render_effect_terminal">Terminal</string>
-    <string name="widget_render_effect_blue">Blau</string>
-    <string name="widget_render_effect_amber">Bernstein</string>
-    <string name="widget_render_effect_salmon">Lachs</string>
-    <string name="widget_render_effect_fuscia">Purpur</string>
-    <string name="widget_render_effect_red">Rot</string>
-    <string name="widget_render_effect_calibrated">Kalibr.</string>
-    <string name="widget_render_effect_calibrated_red">Kal. rötl.</string>
-    <string name="widget_render_effect_calibrated_cool">Kal. kalt</string>
-
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Energie-Widget</string>
     <string name="title_expanded_widget">Benachr.-Energiesteuerung</string>
@@ -533,46 +453,6 @@
     <string name="cm_sound_mode_vib_silent">Vibration&#x2009;/&#x2009;Lautlos</string>
     <string name="pref_flash_mode_title">Taschenlampe</string>
     <string name="pref_flash_mode_summary">Helligkeit der Taschenlampe</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Automatische Helligkeit</string>
-    <string name="backlight_summary">Stufen und Filterung</string>
-    <string name="light_filter_title">Helligkeitssensor-Filter</string>
-    <string name="light_filter_enabled_title">Einschalten</string>
-    <string name="light_filter_enabled_summary">Mittelwert mehrerer Sensorwerte zur Helligkeitssteuerung heranziehen (vermeidet Flackern)</string>
-    <string name="light_filter_window_title">Länge des Zeitfensters</string>
-    <string name="light_filter_window_summary">Setzt den Zeitraum, über den der Mittelwert berechnet wird</string>
-    <string name="light_filter_reset_title">Grenzwert</string>
-    <string name="light_filter_reset_summary">Differenz des Sensorwerts vom Mittelwert, ab dem die Berechnung zurückgesetzt wird</string>
-    <string name="light_filter_interval_title">Abtastrate</string>
-    <string name="light_filter_interval_summary">Intervall zur Ermittlung des Sensorwerts. Kleinerer Wert erhöht die Genauigkeit, aber auch den Stromverbrauch</string>
-    <string name="light_levels_title">Helligkeitsstufen</string>
-    <string name="light_levels_enabled_title">Stufen anpassen</string>
-    <string name="light_levels_dim_title">Dunkler Bildschirm</string>
-    <string name="light_levels_dim_summary">Helligkeitsstufe für dunklen Bildschirm</string>
-    <string name="light_levels_editor_title">Stufen bearbeiten</string>
-    <string name="light_decrease_enabled_title">Abdunkeln erlauben</string>
-    <string name="light_decrease_enabled_summary">Erlauben, dass die Helligkeit abnehmen darf</string>
-    <string name="light_decrease_hysteresis_title">Abdunkelhysterese</string>
-    <string name="light_decrease_hysteresis_summary">Sensorwert muss für Bildschirmabdunklung unter gewählten Anteil sinken (höherer Wert entspricht schnellerer Reaktion)</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Lichtsensor-Stufen</string>
-    <string name="ll_header_upper">Obere</string>
-    <string name="ll_header_lower">Untere</string>
-    <string name="ll_header_lcd">Bildschirm</string>
-    <string name="ll_header_btn">Tasten</string>
-    <string name="ll_header_kb">Tastatur</string>
-    <string name="ll_lux">Sensor (gefiltert / direkt):</string>
-    <string name="ll_lcd">Bildschirm:</string>
-    <string name="ll_btn">Tasten:</string>
-    <string name="ll_kb">Tastatur:</string>
-    <string name="ll_disabled">ausgeschaltet</string>
-    <string name="ll_default">Standardwerte laden</string>
-    <string name="ll_save">Sichern &amp; anwenden</string>
-    <string name="ll_reload">Aktuelle Werte neu laden</string>
-    <string name="ll_bad_levels">Stufen nicht aufsteigend</string>
-    <string name="ll_num_levels">Anzahl der Stufen setzen</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Benachr.-Ton-Fokus</string>
@@ -657,14 +537,6 @@
     <string name="gestures_draw_for_label">Geste für „<xliff:g id="action">%s</xliff:g>“:</string>
     <string name="gestures_already_present">Warnung: Ähnliche Geste ist bereits mit einer anderen Aktion verknüpft!</string>
     <string name="gestures_run_in_background">Im Hintergrund ausführen</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Changelog ansehen</string>
-    <string name="changelog_dialog">Changelog</string>
-    <string name="changelog_loading">Lade Changelog…</string>
-    <string name="changelog_error">Fehler beim Laden des Changelogs!</string>
-    <string name="changelog_unknown">Unbekannt</string>
-    <string name="changelog_version">Version</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU-Einstellungen</string>

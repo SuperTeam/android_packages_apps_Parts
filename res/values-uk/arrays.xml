@@ -55,64 +55,6 @@
         <item>18 % (типове значення)</item>
         <item>26 %</item>
     </string-array>
-    <string-array name="entries_light_filter_window">
-        <item>10 секунд</item>
-        <item>20 секунд</item>
-        <item>30 секунд</item>
-        <item>40 секунд</item>
-        <item>50 секунд</item>
-        <item>60 секунд</item>
-    </string-array>
-    <string-array name="entries_light_filter_reset">
-        <item>Вимкнений</item>
-        <item>400 люкс</item>
-        <item>500 люкс</item>
-        <item>600 люкс</item>
-        <item>700 люкс</item>
-        <item>800 люкс</item>
-        <item>900 люкс</item>
-        <item>1000 люкс</item>
-        <item>1500 люкс</item>
-        <item>2000 люкс</item>
-        <item>2500 люкс</item>
-    </string-array>
-    <string-array name="entries_light_filter_interval">
-        <item>0,5 секунди</item>
-        <item>1 секунда</item>
-        <item>2 секунди</item>
-        <item>5 секунд</item>
-        <item>10 секунд</item>
-    </string-array>
-    <string-array name="entries_light_levels_dim">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
-        <item>12</item>
-        <item>14</item>
-        <item>16</item>
-        <item>18</item>
-        <item>20 (типове значення)</item>
-        <item>22</item>
-        <item>24</item>
-        <item>26</item>
-    </string-array>
-    <string-array name="entries_light_decrease_hysteresis">
-        <item>0</item>
-        <item>10 %</item>
-        <item>20 %</item>
-        <item>30 %</item>
-        <item>40 %</item>
-        <item>50 %</item>
-        <item>60 %</item>
-        <item>70 %</item>
-        <item>80 %</item>
-        <item>90 %</item>
-    </string-array>
     <string-array name="entries_sound_attenuation">
         <item>0</item>
         <item>4 дБ</item>

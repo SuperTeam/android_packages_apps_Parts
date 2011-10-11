@@ -35,53 +35,6 @@
     <!-- User interface -->
     <string name="ui_title">Interfaccia utente</string>
 
-    <string name="pref_electron_beam_animation_on">Animazione accensione schermo</string>
-    <string name="pref_electron_beam_animation_off">Animazione spegnimento schermo</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Impostazioni Tablet</string>
-    <string name="tablet_tweaks_summary_head">Raccolta delle impostazioni più utili per i tablet. Funzionanti anche su altri dispositivi</string>
-    <string name="tablet_tweaks_sb_bottom_title">Barra di stato in basso</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Visualizza la barra di stato sul margine inferiore dello schermo. Utile per i tablet che usano i tasti home, menu, etc sulla barra di stato</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Zona inattiva</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Aggiunge una zona inattiva larga come metà schermo al centro della barra di stato</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Tasti a sinistra</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Posiziona i tasti sul lato sinistro della barra di stato</string>
-    <string name="tablet_tweaks_soft_button_list_title">Scegli tasti</string>
-    <string name="tablet_tweaks_interface_head">Interfaccia</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Disattiva lockscreen</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Non verrà visualizzato nè il lockscreen nè la sequenza di sblocco</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Disattiva schermo intero</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Ignora le richieste di visualizzazione a schermo intero da parte delle applicazioni. La barra di stato è sempre visibile, salvo quando viene nascosta manualmente</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Tasto mostra</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Scegli tasto mostra</string>
-    <string name="tablet_tweaks_extend_pm_title">Menu di arresto</string>
-    <string name="tablet_tweaks_extend_pm_summary">Aggiungi tasti home/indietro/menu al menu di arresto</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Scegli tasti del menu di arresto</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Inverti controllo volume</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">I tasti del controllo volume funzionano normalmente. Premi per modificare il volume, tieni premuto per azione predefinita</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">I tasti del controllo volume funzionano inversamente. Premi per azione predefinita, tieni premuto per modificare il volume</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Tasti volume</string>
-    <string name="tablet_tweaks_long_volp_action_title">Long press volume più</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Assegna azione home/indietro/menu/etc alla pressione prolungata del tasto volume più. Solo con schermo attivo</string>
-    <string name="tablet_tweaks_long_volm_action_title">Long press volume meno</string>
-    <string name="tablet_tweaks_vol_both_action_title">Entrambi i tasti volume</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Nota: Alcuni dispositivi eseguono un hard reset alla pressione di entrambi i tasti volume e il tasto accensione</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Long press di entrambi i tasti volume</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Tasti menu di arresto</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Tasti</string>
-    <string name="tablet_soft_buttons_home_title">Home</string>
-    <string name="tablet_soft_buttons_menu_title">Menu</string>
-    <string name="tablet_soft_buttons_back_title">Indietro</string>
-    <string name="tablet_soft_buttons_search_title">Cerca</string>
-    <string name="tablet_soft_buttons_quick_na_title">Notifiche veloci</string>
-
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Rotazione accelerometro</string>
     <string name="pref_rotation_0_title">0 gradi</string>
@@ -450,40 +403,9 @@
     <string name="pref_power_prompt_title">Power prompt</string>
     <string name="pref_power_prompt_summary">Scegli se visualizzare il prompt di conferma per lo spegnimento e il riavvio</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Effetto Render</string>
-    <string name="pref_render_effect_summary">Scegli che colori utilizzare per visualizzare le immagini sullo schermo (possibili risparmi energetici)</string>
-
     <!-- UI Settings : Haptic feedback -->
     <string name="expanded_haptic_feedback_title">Feedback aptico</string>
     <string name="expanded_haptic_feedback_summary">Attiva/Disattiva feedback aptico.</string>
-
-    <string name="prefs_render_effect">Effetto Render</string>
-    <string name="notify_render_effect">Effetto render attivo</string>
-    <string name="add_widget">Aggiungi widget</string>
-    <string name="pref_render_effect_none">Nessun effetto render</string>
-    <string name="pref_render_effect_night">Night mode (3700K)</string>
-    <string name="pref_render_effect_green">Terminale (verde)</string>
-    <string name="pref_render_effect_blue">Blu</string>
-    <string name="pref_render_effect_amber">Ambra</string>
-    <string name="pref_render_effect_salmon">Salmone</string>
-    <string name="pref_render_effect_fuscia">Fucsia</string>
-    <string name="pref_render_effect_calibrated">Calibrato (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Calibrato(N1) Low Red</string>
-    <string name="pref_render_effect_calibrated_cool">Calibrato (N1) Cool</string>
-    <string name="pref_render_effect_red">Rosso</string>
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">Night</string>
-    <string name="widget_render_effect_terminal">Term</string>
-    <string name="widget_render_effect_blue">Blu</string>
-    <string name="widget_render_effect_amber">Ambra</string>
-    <string name="widget_render_effect_salmon">Salmone</string>
-    <string name="widget_render_effect_fuscia">Fucsia</string>
-    <string name="widget_render_effect_red">Rosso</string>
-    <string name="widget_render_effect_calibrated">Cal</string>
-    <string name="widget_render_effect_calibrated_red">Cal Low Red</string>
-    <string name="widget_render_effect_calibrated_cool">Cal Cool</string>
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Expanded View Widget</string>
@@ -538,46 +460,6 @@
     <string name="cm_sound_mode_vib_silent">Vibrazione/Silenzioso</string>
     <string name="pref_flash_mode_title">Mod. Torcia</string>
     <string name="pref_flash_mode_summary">Scegli tra Normale e Forte / Death Ray</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Retroilluminazione Automatica</string>
-    <string name="backlight_summary">Modifica livelli e filtri</string>
-    <string name="light_filter_title">Filtri sensore di luce</string>
-    <string name="light_filter_enabled_title">Attivo</string>
-    <string name="light_filter_enabled_summary">Applica filtro a media mobile per ridurre lo sfarfallio.</string>
-    <string name="light_filter_window_title">Lunghezza finestra</string>
-    <string name="light_filter_window_summary">Il valore filtrato è la media dei valori ottenuti tramite il sensore in questo intervallo di tempo.</string>
-    <string name="light_filter_reset_title">Soglia reset</string>
-    <string name="light_filter_reset_summary">Campioni che deviano di così tanto dalla media attuale resettano il filtro.</string>
-    <string name="light_filter_interval_title">Intervallo campione</string>
-    <string name="light_filter_interval_summary">Valori bassi migliorano la precisione ma utilizzano più CPU.</string>
-    <string name="light_levels_title">Livelli di luminosità</string>
-    <string name="light_levels_enabled_title">Usa personalizzati</string>
-    <string name="light_levels_dim_title">Liv. oscuramento display</string>
-    <string name="light_levels_dim_summary">Luminosità che oscura il display</string>
-    <string name="light_levels_editor_title">Modifica altri livelli...</string>
-    <string name="light_decrease_enabled_title">Diminuzione luce</string>
-    <string name="light_decrease_enabled_summary">Attiva per consentire di diminuire la luce. Usa isteresi per ridurre lo sfarfallio.</string>
-    <string name="light_decrease_hysteresis_title">Diminuisci isteresi</string>
-    <string name="light_decrease_hysteresis_summary">Scegli di quanto abbassare i livelli del sensore.</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Livelli sensore</string>
-    <string name="ll_header_upper">Superiore</string>
-    <string name="ll_header_lower">Inferiore</string>
-    <string name="ll_header_lcd">Display</string>
-    <string name="ll_header_btn">Tasti</string>
-    <string name="ll_header_kb">Tastiera</string>
-    <string name="ll_lux">Sensore (filtrato / raw):</string>
-    <string name="ll_lcd">Display:</string>
-    <string name="ll_btn">Tasti:</string>
-    <string name="ll_kb">Tastiera:</string>
-    <string name="ll_disabled">disattivato</string>
-    <string name="ll_default">Carica default</string>
-    <string name="ll_save">Salva &amp; applica</string>
-    <string name="ll_reload">Ricarica attuali</string>
-    <string name="ll_bad_levels">I livelli devono essere crescenti</string>
-    <string name="ll_num_levels">Imposta numero livelli</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Focus Notifiche</string>
@@ -663,14 +545,6 @@
     <string name="gestures_draw_for_label">Gesture per \"<xliff:g id="action">%s</xliff:g>\":</string>
     <string name="gestures_already_present">Attenzione! Questa gesture è simile ad una associata ad un\'altra azione</string>
     <string name="gestures_run_in_background">Esegui in background</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Visualizza changelog</string>
-    <string name="changelog_dialog">Changelog</string>
-    <string name="changelog_loading">Caricamento changelog...</string>
-    <string name="changelog_error">Errore nel caricare il changelog...</string>
-    <string name="changelog_unknown">Sconosciuto</string>
-    <string name="changelog_version">Versione</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">Impostazioni CPU</string>

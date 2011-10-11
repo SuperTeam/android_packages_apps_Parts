@@ -31,53 +31,6 @@
     <!-- User interface -->
     <string name="ui_title">Interfaz de usuario</string>
 
-    <string name="pref_electron_beam_animation_on">Animación al encender pantalla</string>
-    <string name="pref_electron_beam_animation_off">Animación al apagar pantalla</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Ajustes Tablet</string>
-    <string name="tablet_tweaks_summary_head">Configuración más útil para los dispositivos tablet recogidos en un solo lugar. También funcionan en teléfonos</string>
-    <string name="tablet_tweaks_sb_bottom_title">Barra de estado abajo</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Mostrar barra de estado en la parte inferior. Útil para tabletas que utilizan botones para el home, menú, etc en la barra de estado</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Zona muerta</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Agregar una zona muerta de la mitad de ancho de la pantalla a la mitad de la barra de estado</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Botones a la izquierda</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Pone los botones en la parte izquierda de la barra de estado</string>
-    <string name="tablet_tweaks_soft_button_list_title">Elegir botones</string>
-    <string name="tablet_tweaks_interface_head">Interfaz</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Desactivar bloqueo de pantalla</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Cuando se activa, no muestra la pantalla LockScreen o patrón. Ni en el arranque, ni cuando se despierta el dispositivo</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Desactivar pantalla completa</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Anular la solicitud de pantalla completa de aplicaciones. Cuando está activado, la barra de estado está siempre visible hasta que se oculta por botón</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Mostrar botón</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Elegir mostrar botón</string>
-    <string name="tablet_tweaks_extend_pm_title">Ampliar el menú de apagado</string>
-    <string name="tablet_tweaks_extend_pm_summary">Añadir acciones home/volver/menu al menú de apagado</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Elegir botones menú de apagado</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Invertir el comportamiento del volumen</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Comportamiento normal de los botones de volumen. Pulse para cambiar el volumen, mantenga pulsado para acción del usuario</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Comportamiento inverso de los botones de volumen. Pulse para acción del usuario, mantenga pulsado para cambiar el volumen</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Definir teclas de volumen</string>
-    <string name="tablet_tweaks_long_volp_action_title">Pulsación larga tecla subir volumen</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Asignar accion home/volver/menu/etc al botón de volumen subir con pulsación larga. Limitado a la pantalla encendida</string>
-    <string name="tablet_tweaks_long_volm_action_title">Pulsación larga tecla bajar volumen</string>
-    <string name="tablet_tweaks_vol_both_action_title">Ambos botones de columen</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Nota: Algunos dispositivos necesitan hacer un hard reset pulsando ambas teclas de volumen + tecla de encendido</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Pulsacion larga ambos botones de volumen</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Botones menú apagado</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Botones</string>
-    <string name="tablet_soft_buttons_home_title">Home</string>
-    <string name="tablet_soft_buttons_menu_title">Menu</string>
-    <string name="tablet_soft_buttons_back_title">Volver</string>
-    <string name="tablet_soft_buttons_search_title">Buscar</string>
-    <string name="tablet_soft_buttons_quick_na_title">Notificaciones rápidas</string>
-
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Rotación de Pantalla</string>
     <string name="pref_rotation_0_title">0 grados</string>
@@ -409,22 +362,6 @@
     <string name="pref_power_prompt_title">Apagado y reinicio</string>
     <string name="pref_power_prompt_summary">Pedir confirmación al apagar o reiniciar el teléfono</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Efectos Noche</string>
-    <string name="pref_render_effect_summary">Cambia los colores usados en la pantalla (para gastar menos batería</string>
-
-    <string name="prefs_render_effect">Efecto Render</string>
-    <string name="notify_render_effect">Efecto Render activado</string>
-    <string name="add_widget">Añadir widget</string>
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">Noche</string>
-    <string name="widget_render_effect_terminal">Terminal</string>
-    <string name="widget_render_effect_blue">Azul</string>
-    <string name="widget_render_effect_amber">Ambar</string>
-    <string name="widget_render_effect_salmon">Salmón</string>
-    <string name="widget_render_effect_fuscia">Fucsia</string>
-
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Widget Control de energía expandido</string>
     <string name="title_expanded_widget">Widget de notificación de energía</string>
@@ -478,46 +415,6 @@
     <string name="cm_sound_mode_vib_silent">Vibración/Silencio</string>
     <string name="pref_flash_mode_title">Modo de flash</string>
     <string name="pref_flash_mode_summary">Elegir Alto / Rayo Mortal</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Backlight automático</string>
-    <string name="backlight_summary">Ajustar los niveles y el filtrado</string>
-    <string name="light_filter_title">Filtro de sensor</string>
-    <string name="light_filter_enabled_title">Activado</string>
-    <string name="light_filter_enabled_summary">Aplicar filtro cambiando los datos del sensor para reducir el parpadeo.</string>
-    <string name="light_filter_window_title">Tamaño de la ventana</string>
-    <string name="light_filter_window_summary">El valor filtrado es la media del valor del sensor durante este período.</string>
-    <string name="light_filter_reset_title">Reiniciar umbral</string>
-    <string name="light_filter_reset_summary">Si se desvía mucho del promedio actual se restablece el filtro.</string>
-    <string name="light_filter_interval_title">Intervalo de ejemplo</string>
-    <string name="light_filter_interval_summary">Valores bajos pueden mejorar la precisión pero usan más CPU.</string>
-    <string name="light_levels_title">Niveles de luz</string>
-    <string name="light_levels_enabled_title">Usar personalizados</string>
-    <string name="light_levels_dim_title">Nivel de difuminado de pantalla</string>
-    <string name="light_levels_dim_summary">Se utiliza el brillo para difuminar la pantalla</string>
-    <string name="light_levels_editor_title">Editar otros niveles...</string>
-    <string name="light_decrease_enabled_title">Permitir descenso de la luz</string>
-    <string name="light_decrease_enabled_summary">Activar para permitir descenso de las luces. Usar histéresis para reducir parpadeo.</string>
-    <string name="light_decrease_hysteresis_title">Disminuir histéresis</string>
-    <string name="light_decrease_hysteresis_summary">Los niveles de este sensor se superponen a la baja.</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Niveles de iluminación del sensor</string>
-    <string name="ll_header_upper">Alto</string>
-    <string name="ll_header_lower">Bajo</string>
-    <string name="ll_header_lcd">Pantalla</string>
-    <string name="ll_header_btn">Botones</string>
-    <string name="ll_header_kb">Teclado</string>
-    <string name="ll_lux">Sensor (filtro / raw):</string>
-    <string name="ll_lcd">Pantalla:</string>
-    <string name="ll_btn">Botones:</string>
-    <string name="ll_kb">Teclado:</string>
-    <string name="ll_disabled">desactivado</string>
-    <string name="ll_default">Cargar predeterminados</string>
-    <string name="ll_save">Guardar y aplicar</string>
-    <string name="ll_reload">Restaurar actuales</string>
-    <string name="ll_bad_levels">Los niveles deben aumentar</string>
-    <string name="ll_num_levels">Establecer número de niveles</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Enfocar notificaciones</string>
@@ -604,14 +501,6 @@
     <string name="gestures_draw_label">Gesto:</string>
     <string name="gestures_already_present">Peligro: Un gesto similar está asociado a otra acción!</string>
     <string name="gestures_run_in_background">Ejecutar en segundo plano</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">View changelog</string>
-    <string name="changelog_dialog">Changelog</string>
-    <string name="changelog_loading">Loading changelog...</string>
-    <string name="changelog_error">Error loading changelog...</string>
-    <string name="changelog_unknown">Unknown</string>
-    <string name="changelog_version">Version</string>
 
     <!-- CPU Settings strings -->
 

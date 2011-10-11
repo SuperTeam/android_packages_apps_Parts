@@ -35,55 +35,6 @@
     <!-- User interface -->
     <string name="ui_title">Gebruikersinterface</string>
 
-    <string name="pref_electron_beam_animation_on">Scherm-aan animatie</string>
-    <string name="pref_electron_beam_animation_off">Scherm-uit animatie</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Tablet tweaks</string>
-    <string name="tablet_tweaks_summary_head">Tablet instellingen. Mogelijk ook werkend voor telefoons</string>
-    <string name="tablet_tweaks_sb_bottom_title">Statusbalk onderin</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Geef statusbalk onderin scherm weer. Handig voor tablets welke soft-knoppen gebruiken voor home, menu, etc in de statusbalk.</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Dead zone</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Voeg een \'dead zone\' ter grote van een half scherm toe aan het midden van de statusbalk.</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Soft-knoppen links</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Plaats soft-knoppen aan de linker kant van de statusbalk.</string>
-    <string name="tablet_tweaks_soft_button_list_title">Kies soft-knoppen.</string>
-    <string name="tablet_tweaks_interface_head">Interface</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Schakel lockscreen uit</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Wanneer ingeschakeld, wordt het lockscreen niet getoond. Ook niet tijdens het opstarten van het toestel of het aanzetten van het scherm.</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Schakel fullscreen uit</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Schakel fullscreen uit. Statusbalk is altijd zichtbaar, tenzij deze handmatig verborgen wordt met de \'weergeef knop\'.</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Weergeef knop</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Kies weergeef knop</string>
-    <string name="tablet_tweaks_extend_pm_title">Uitgebreid power menu</string>
-    <string name="tablet_tweaks_extend_pm_summary">Voeg home/terug/menu acties toe aan het power menu</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Kies power menu knoppen</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Volume gedrag</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Volume knoppen gedragen zich normaal. Druk om volume te veranderen, druk lang voor gebruikers interactie</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Volume knoppen gedrag omdraaien. Druk voor gebruikers interactie, druk lang om volume te veranderen</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Volume knoppen opnieuw instellen</string>
-    <string name="tablet_tweaks_long_volp_action_title">Druk lang volume omhoog</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Wijs home/terug/menu/etc acties toe aan lang drukken volume button. Werkt alleen wanneer scherm aan is.</string>
-    <string name="tablet_tweaks_long_volm_action_title">Druk lang volume omlaag</string>
-    <string name="tablet_tweaks_vol_both_action_title">Beide volume knoppen</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Sommige toestellen voeren een hard-reset uit bij het indrukken van beide volume knoppen + de power knop.</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Druk lang beide volume knoppen</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Power menu knoppen</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Soft-knoppen</string>
-    <string name="tablet_soft_buttons_home_title">Home</string>
-    <string name="tablet_soft_buttons_menu_title">Menu</string>
-    <string name="tablet_soft_buttons_back_title">Terug</string>
-    <string name="tablet_soft_buttons_search_title">Zoeken</string>
-    <string name="tablet_soft_buttons_quick_na_title">Snelle notificaties</string>
-
-    <!-- User interface : 180 degree rotation -->
-
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Statusbalk tweaks</string>
     <string name="ui_status_bar_am_pm_title">AM/PM stijl</string>
@@ -351,39 +302,6 @@
     <string name="pref_power_prompt_title">Opstart/afsluit prompt</string>
     <string name="pref_power_prompt_summary">Kies of er wel of geen melding weergegeven wordt bij het opstarten/afsluiten van het toestel</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Render effect</string>
-    <string name="pref_render_effect_summary">Kies de kleuren die weergegeven worden op het scherm (potentiële batterij besparing)</string>
-
-    <string name="prefs_render_effect">Render Effect</string>
-    <string name="notify_render_effect">Render effect aan</string>
-    <string name="add_widget">Voeg widget toe</string>
-    <string name="pref_render_effect_none">Geen render effect</string>
-    <string name="pref_render_effect_night">Nacht modus (3700K)</string>
-    <string name="pref_render_effect_green">Terminal (groen)</string>
-    <string name="pref_render_effect_blue">Blauw</string>
-    <string name="pref_render_effect_amber">Oranje</string>
-    <string name="pref_render_effect_salmon">Zalm</string>
-    <string name="pref_render_effect_fuscia">Paars</string>
-    <string name="pref_render_effect_calibrated">Calibrated (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Calibrated (N1) Low Red</string>
-    <string name="pref_render_effect_calibrated_cool">Calibrated (N1) Cool</string>
-    <string name="pref_render_effect_red">Rood</string>
-
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">Nachtmodus</string>
-    <string name="widget_render_effect_terminal">Terminal (groen)</string>
-    <string name="widget_render_effect_blue">Blauw</string>
-    <string name="widget_render_effect_amber">Oranje</string>
-    <string name="widget_render_effect_salmon">Zalm</string>
-    <string name="widget_render_effect_fuscia">Paars</string>
-    <string name="widget_render_effect_red">Rood</string>
-    <string name="widget_render_effect_calibrated">Gecali</string>
-    <string name="widget_render_effect_calibrated_red">Gecali Rood</string>
-    <string name="widget_render_effect_calibrated_cool">Gecali Koud</string>
-
-
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Meldingen scherm widget</string>
     <string name="title_expanded_widget">Meldingen scherm widget</string>
@@ -435,46 +353,6 @@
     <string name="cm_sound_mode_vib_silent">Trillen/Stil</string>
     <string name="pref_flash_mode_title">Flashlight knop</string>
     <string name="pref_flash_mode_summary">Kies fel / Death Ray</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Automatische verlichting</string>
-    <string name="backlight_summary">Tweak niveaus en filtering</string>
-    <string name="light_filter_title">Licht sensor filter</string>
-    <string name="light_filter_enabled_title">Ingeschakeld</string>
-    <string name="light_filter_enabled_summary">Sta het verplaatsen van het filter gemiddelde toe om flikkeren van het scherm te voorkomen</string>
-    <string name="light_filter_window_title">Venster tijd</string>
-    <string name="light_filter_window_summary">Gekozen waare is de gemiddelde sensor waarde gedurende deze periode</string>
-    <string name="light_filter_reset_title">Reset</string>
-    <string name="light_filter_reset_summary">Bij teveel afwijking van huidige gemiddelde wordt de filter gereset</string>
-    <string name="light_filter_interval_title">Voorbeeld interval</string>
-    <string name="light_filter_interval_summary">Lage waarde kan nauwkeurigheid verhogen, maar zorgt voor een hoger CPU verbruik</string>
-    <string name="light_levels_title">Licht niveaus</string>
-    <string name="light_levels_enabled_title">Custom instellingen</string>
-    <string name="light_levels_dim_title">Scherm dim niveau</string>
-    <string name="light_levels_dim_summary">Hoevelheid helderheid wat gebruikt wordt om het scherm te dimmen</string>
-    <string name="light_levels_editor_title">Pas andere niveaus aan</string>
-    <string name="light_decrease_enabled_title">Automatisch dimmen</string>
-    <string name="light_decrease_enabled_summary">Schakel in om er voor te zorgen dat het scherm automatisch gedimt wordt. Gebruik Hysterese om geflikker te voorkomen</string>
-    <string name="light_decrease_hysteresis_title">Verlaag hysterese</string>
-    <string name="light_decrease_hysteresis_summary">Sensor niveaus overlap</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Licht sensor niveaus</string>
-    <string name="ll_header_upper">Verhoog</string>
-    <string name="ll_header_lower">Verlaag</string>
-    <string name="ll_header_lcd">Scherm</string>
-    <string name="ll_header_btn">Knoppen</string>
-    <string name="ll_header_kb">Toetsenbord</string>
-    <string name="ll_lux">Sensor (gefilterd / raw):</string>
-    <string name="ll_lcd">Scherm:</string>
-    <string name="ll_btn">Knoppen:</string>
-    <string name="ll_kb">Toetsenbord:</string>
-    <string name="ll_disabled">uitgeschakeld</string>
-    <string name="ll_default">Laad standaard instellingen</string>
-    <string name="ll_save">Sla &amp; op</string>
-    <string name="ll_reload">Herlaad huidige</string>
-    <string name="ll_bad_levels">Niveaus dienen verhoogd te worden</string>
-    <string name="ll_num_levels">Stel het aantal niveaus in</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Notificatie focus</string>
@@ -548,14 +426,6 @@
     <string name="pref_lockscreen_disable_unlock_tab">Zet unlock slider uit</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Note: Trackball, menu knop, of gesture unlocken moet geactiveerd zijn voordat deze optie toegankelijk is</string>
     <string name="gestures_already_present">Waarschuwing: Een soortgelijke gesture is reeds toegewezen aan een andere actie!</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Bekijk changelog</string>
-    <string name="changelog_dialog">Changelog</string>
-    <string name="changelog_loading">Changelog laden...</string>
-    <string name="changelog_error">Fout tijdens het laden van de changelog...</string>
-    <string name="changelog_unknown">Onbekend</string>
-    <string name="changelog_version">Versie</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU instellingen</string>

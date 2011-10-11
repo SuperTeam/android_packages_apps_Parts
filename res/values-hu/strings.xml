@@ -35,11 +35,6 @@
     <!-- User interface -->
     <string name="ui_title">Felhasználói felület</string>
 
-    <string name="pref_electron_beam_animation_on">Képernyő-be animáció</string>
-    <string name="pref_electron_beam_animation_off">Képernyő-ki animáció</string>
-
-    <!-- User interface : 180 degree rotation -->
-
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Állapotsor tuningolása</string>
     <string name="ui_status_bar_clock_title">Óra megjelenítése</string>
@@ -295,41 +290,6 @@
     <string name="pref_power_prompt_title">Kikapcsolás megerősítése</string>
     <string name="pref_power_prompt_summary">Válassza ki legyen-e megerősítés kikapcsolás vagy újraindítás kiválasztásakor</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Megjelenítési hatás</string>
-    <string name="pref_render_effect_summary">Válassza ki milyen színeket használjon megjelenítéskor a kijelző (lehetséges energiamegtakarítás)</string>
-
-    <string name="widget_name">SpecEffekt Widget</string>
-    <string name="renderfx_temp">Speciális effekt</string>
-    <string name="prefs_render_effect">Megjelenítési hatás</string>
-    <string name="notify_render_effect">Megjelenítési hatás be</string>
-    <string name="add_widget">Widget hozzáadása</string>
-    <string name="pref_render_effect_none">Nincs effekt</string>
-    <string name="pref_render_effect_night">Éjszakai mód ((3700K)</string>
-    <string name="pref_render_effect_green">Terminál (zöld)</string>
-    <string name="pref_render_effect_blue">Kék</string>
-    <string name="pref_render_effect_amber">Sárga</string>
-    <string name="pref_render_effect_salmon">Narancs</string>
-    <string name="pref_render_effect_fuscia">Lila</string>
-    <string name="pref_render_effect_calibrated">Kalibrált (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Kalibrált (N1) Halványpiros</string>
-    <string name="pref_render_effect_calibrated_cool">Kalibrált (N1) Cool</string>
-    <string name="pref_render_effect_red">Piros</string>
-
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">Éjszaka</string>
-    <string name="widget_render_effect_terminal">Terminál</string>
-    <string name="widget_render_effect_blue">Kék</string>
-    <string name="widget_render_effect_amber">Borostyán</string>
-    <string name="widget_render_effect_salmon">Lazac</string>
-    <string name="widget_render_effect_fuscia">Fukszia</string>
-    <string name="widget_render_effect_red">Piros</string>
-    <string name="widget_render_effect_calibrated">Kal</string>
-    <string name="widget_render_effect_calibrated_red">Kal Piros</string>
-    <string name="widget_render_effect_calibrated_cool">Cal Cool</string>
-
-
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Kibővített widget nézet</string>
     <string name="title_expanded_widget">Értesítési energia widget</string>
@@ -379,46 +339,6 @@
     <string name="cm_sound_mode_vib_silent">Rezgés/Csendes</string>
     <string name="pref_flash_mode_title">Vaku üzemmód</string>
     <string name="pref_flash_mode_summary">Magas/halálos sugár</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Automatikus háttérvilágítás</string>
-    <string name="backlight_summary">Szintek és szűrés finomhangolása</string>
-    <string name="light_filter_title">Fényérzékelő szűrés</string>
-    <string name="light_filter_enabled_title">Bekapcsolva</string>
-    <string name="light_filter_enabled_summary">Engedélyezi az átlagos szűrés áthelyezését az érzékelő adatokba, hogy csökkentse a villogást.</string>
-    <string name="light_filter_window_title">Ablak hossz</string>
-    <string name="light_filter_window_summary">A szűrt érték az átlag érték ebben az időszakban.</string>
-    <string name="light_filter_reset_title">Küszöbérték visszaállítása</string>
-    <string name="light_filter_reset_summary">Az átlagtól ennyire eltérő minták újraindítják a szűrőt.</string>
-    <string name="light_filter_interval_title">Mintavételezési időköz</string>
-    <string name="light_filter_interval_summary">Az alacsony érték javíthatja a pontosságot, de teljesítmény igényes.</string>
-    <string name="light_levels_title">Fény szintek</string>
-    <string name="light_levels_enabled_title">Egyéni használata</string>
-    <string name="light_levels_dim_title">Képernyő tompítási szint</string>
-    <string name="light_levels_dim_summary">Tompítási fényerő</string>
-    <string name="light_levels_editor_title">A többi szint szerkesztése...</string>
-    <string name="light_decrease_enabled_title">Fényerőcsökkentés engedélyezése</string>
-    <string name="light_decrease_enabled_summary">Fényerő csökkentésének engedélyezése. Hiszterezéssel csökkenti a villogást.</string>
-    <string name="light_decrease_hysteresis_title">Hiszterezés csökkentése</string>
-    <string name="light_decrease_hysteresis_summary">A szenzorok lefelé ennyire fedik át egymást.</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Fényérzékelő szintek</string>
-    <string name="ll_header_upper">Felső</string>
-    <string name="ll_header_lower">Alsó</string>
-    <string name="ll_header_lcd">Képernyő</string>
-    <string name="ll_header_btn">Gombok</string>
-    <string name="ll_header_kb">Billentyűzet</string>
-    <string name="ll_lux">Érzékelő (szűrt / nyers):</string>
-    <string name="ll_lcd">Képernyő:</string>
-    <string name="ll_btn">Gombok:</string>
-    <string name="ll_kb">Billentyűzet:</string>
-    <string name="ll_disabled">Kikapcsolva</string>
-    <string name="ll_default">Alapértelmezések betöltése</string>
-    <string name="ll_save">Mentés és alkalmazás</string>
-    <string name="ll_reload">Aktuális újratöltése</string>
-    <string name="ll_bad_levels">A szinteknek növekedniük kell</string>
-    <string name="ll_num_levels">Szintek száma</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Értesítési fókusz</string>
@@ -489,14 +409,6 @@
     <string name="pref_lockscreen_disable_unlock_tab">Feloldó csúszka kikapcsolása</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Megjegyzés: Engedélyezned kell a trackball, a menü gomb vagy egy gesztusos feloldást, mielőtt ezt az opciót bekapcsolnád</string>
     <string name="gestures_already_present">Figyelmeztetés: Már létezik egy hasonló gesztus!</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Napló megtekintése</string>
-    <string name="changelog_dialog">Napló</string>
-    <string name="changelog_loading">Napló betöltése...</string>
-    <string name="changelog_error">Hiba a napló betöltésekor...</string>
-    <string name="changelog_unknown">Ismeretlen</string>
-    <string name="changelog_version">Verzió</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU beállítások</string>

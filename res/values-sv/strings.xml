@@ -35,53 +35,6 @@
     <!-- User interface -->
     <string name="ui_title">Användargränssnitt</string>
 
-    <string name="pref_electron_beam_animation_on">Skärm-på animering</string>
-    <string name="pref_electron_beam_animation_off">Skärm-av animering</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Surfplattefixar</string>
-    <string name="tablet_tweaks_summary_head">Inställningar mest användbara för surfplattor samlade på ett ställe. Fungerar dock även för telefoner</string>
-    <string name="tablet_tweaks_sb_bottom_title">Undre statusrad</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Visa statusraden på botten. Användbart för surfplattor som använder soft-knappar för hem, meny, m.m. i statusraden</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Död zon</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Lägg till en död zon med halv skärmbredd till mitten av statusraden</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Soft-knappar vänster</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Placera soft-knapparna på vänster sida av statusraden</string>
-    <string name="tablet_tweaks_soft_button_list_title">Välj soft-knappar</string>
-    <string name="tablet_tweaks_interface_head">Gränssnitt</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Inaktivera låsskärm</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">När den är aktiverad, visas inte låsskärmen eller mönsterskärmen - varken vid uppstart eller när enheten väcks</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Inaktivera helskärm</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Åsidosätt helskärmsbegäran av applikationer. När den är aktiverad är statusraden alltid synlig tills den döljs av knappen</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Visa-knapp</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Välj visa-knapp</string>
-    <string name="tablet_tweaks_extend_pm_title">Utöka strömmenyn</string>
-    <string name="tablet_tweaks_extend_pm_summary">Lägg till hem/tillbaka/meny åtgärder till strömmenyn</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Knappar i strömmenyn</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Omvänt volymbeteende</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Volymknappar beter sig normalt. Tryck för volymändring, långt tryck för användaråtgärder</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Volymknappar beter sig omvänt. Tryck för användaråtgärd, långt tryck för volymändring</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Mappa om volymknapparna</string>
-    <string name="tablet_tweaks_long_volp_action_title">Långt tryck på volym upp</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Tilldela hem/tillbaka/meny/etc åtgärder för långt tryck på volym upp. Gäller endast när skärmen är på</string>
-    <string name="tablet_tweaks_long_volm_action_title">Långt tryck på volym ner</string>
-    <string name="tablet_tweaks_vol_both_action_title">Båda volymknapparna</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Obs: Vissa enheter har en reset-funktion när båda volymknapparna hålls intryckta tillsammans med strömknappen</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Långt tryck på båda volymknapparna</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Knappar i strömmenyn</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Soft-knappar</string>
-    <string name="tablet_soft_buttons_home_title">Hem</string>
-    <string name="tablet_soft_buttons_menu_title">Meny</string>
-    <string name="tablet_soft_buttons_back_title">Tillbaka</string>
-    <string name="tablet_soft_buttons_search_title">Sök</string>
-    <string name="tablet_soft_buttons_quick_na_title">Snabbaviseringar</string>
-
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Accelerometer rotation</string>
     <string name="pref_rotation_0_title">0 grader</string>
@@ -443,44 +396,9 @@
     <string name="pref_power_prompt_title">Avstängningsbekräftelse</string>
     <string name="pref_power_prompt_summary">Ändra om det behövs en bekräftelse efter valet gjorts att starta om eller stänga av</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Renderingseffekt</string>
-    <string name="pref_render_effect_summary">Ändra vilka färger som används för att rita ut skärmbilden (potentiella batteribesparningar)</string>
-
     <!-- UI Settings : Haptic feedback -->
     <string name="expanded_haptic_feedback_title">Haptisk Återkoppling</string>
     <string name="expanded_haptic_feedback_summary">Aktivera/Inaktivera haptisk återkoppling.</string>
-
-    <string name="widget_name">RenderFX Widget</string>
-    <string name="renderfx_temp">RenderFX</string>
-    <string name="prefs_render_effect">Renderingseffekt</string>
-    <string name="notify_render_effect">Renderingseffekt på</string>
-    <string name="add_widget">Lägg till widget</string>
-    <string name="pref_render_effect_none">Ingen renderingseffekt</string>
-    <string name="pref_render_effect_night">Nattläge (3700K)</string>
-    <string name="pref_render_effect_green">Terminal (grön)</string>
-    <string name="pref_render_effect_blue">Blå</string>
-    <string name="pref_render_effect_amber">Bärnsten</string>
-    <string name="pref_render_effect_salmon">Lax</string>
-    <string name="pref_render_effect_fuscia">Fuchsia</string>
-    <string name="pref_render_effect_calibrated">Kalibrerad (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Kalibrerad (N1) Lågt röd</string>
-    <string name="pref_render_effect_calibrated_cool">Kalibrerad (N1) Kall</string>
-    <string name="pref_render_effect_red">Röd</string>
-
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">Natt</string>
-    <string name="widget_render_effect_terminal">Term</string>
-    <string name="widget_render_effect_blue">Blå</string>
-    <string name="widget_render_effect_amber">Bärnsten</string>
-    <string name="widget_render_effect_salmon">Lax</string>
-    <string name="widget_render_effect_fuscia">Fuchsia</string>
-    <string name="widget_render_effect_red">Röd</string>
-    <string name="widget_render_effect_calibrated">Kali</string>
-    <string name="widget_render_effect_calibrated_red">Kali Lågt röd</string>
-    <string name="widget_render_effect_calibrated_cool">Kali Kall</string>
-
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Expanderad Vy Widget</string>
@@ -535,46 +453,6 @@
     <string name="cm_sound_mode_vib_silent">Vibration/Tyst</string>
     <string name="pref_flash_mode_title">Blixtläge</string>
     <string name="pref_flash_mode_summary">Välj Hög / Death Ray</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Automatiskt bakgrundsljus</string>
-    <string name="backlight_summary">Anpassa nivåer och filtrering</string>
-    <string name="light_filter_title">Ljussensor-filter</string>
-    <string name="light_filter_enabled_title">Aktiverad</string>
-    <string name="light_filter_enabled_summary">Aktivera genomssnittsrörelse-filter till sensor-datat för att reducera skärmfladder.</string>
-    <string name="light_filter_window_title">Tidsfönster</string>
-    <string name="light_filter_window_summary">Filtrerat värde är sensorns snittvärde under denna period.</string>
-    <string name="light_filter_reset_title">Återställ tröskelvärde</string>
-    <string name="light_filter_reset_summary">Utprovningar som avviker så här mycket från gällande snitt återställer filtret.</string>
-    <string name="light_filter_interval_title">Utprovningsintervall</string>
-    <string name="light_filter_interval_summary">Lågt värde kan kan öka precision men använder något mer processorkraft.</string>
-    <string name="light_levels_title">Ljusnivåer</string>
-    <string name="light_levels_enabled_title">Använd anpassade</string>
-    <string name="light_levels_dim_title">Skärmdämpningsnivåer</string>
-    <string name="light_levels_dim_summary">Ljusstyrkenivå för att dämpa skärmen</string>
-    <string name="light_levels_editor_title">Justera andra nivåer...</string>
-    <string name="light_decrease_enabled_title">Tillåt säkning av ljusnivåer</string>
-    <string name="light_decrease_enabled_summary">Aktiver för att tillåta ljusnivåer att sänkas. Använd hysteres för att reducera skärmfladder.</string>
-    <string name="light_decrease_hysteresis_title">Minska hysteres</string>
-    <string name="light_decrease_hysteresis_summary">Sensorns nivåer överlappar så här mycket nedåt.</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Ńivåer för ljussensor</string>
-    <string name="ll_header_upper">Övre</string>
-    <string name="ll_header_lower">Nedre</string>
-    <string name="ll_header_lcd">Skärm</string>
-    <string name="ll_header_btn">Knappar</string>
-    <string name="ll_header_kb">Tangentbord</string>
-    <string name="ll_lux">Sensor (filtrerad / rå):</string>
-    <string name="ll_lcd">Skärm:</string>
-    <string name="ll_btn">Knappar:</string>
-    <string name="ll_kb">Tangentbord:</string>
-    <string name="ll_disabled">inaktiverad</string>
-    <string name="ll_default">Ladda standardvärden</string>
-    <string name="ll_save">Spara &amp; använd</string>
-    <string name="ll_reload">Ladda om nuvarande</string>
-    <string name="ll_bad_levels">Nivåer måste öka</string>
-    <string name="ll_num_levels">Ställ in antal nivåer</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Aviseringsfokus</string>
@@ -660,14 +538,6 @@
     <string name="gestures_draw_for_label">Gest för \"<xliff:g id="action">%s</xliff:g>\":</string>
     <string name="gestures_already_present">Varning: En liknande gest är associerad med en annan händelse!</string>
     <string name="gestures_run_in_background">Kör i bakgrunden</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Visa förändringslogg</string>
-    <string name="changelog_dialog">Förändringslogg</string>
-    <string name="changelog_loading">Laddar förändringslogg...</string>
-    <string name="changelog_error">Fel vid laddning av förändringslogg...</string>
-    <string name="changelog_unknown">Okänd</string>
-    <string name="changelog_version">Version</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU-inställningar</string>

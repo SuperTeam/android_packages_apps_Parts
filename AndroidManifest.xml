@@ -102,13 +102,6 @@
                 <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.DisplayActivity"
-            android:label="@string/display_settings_title_head">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="com.cyanogenmod.cmparts.SHORTCUT" />
-            </intent-filter>
-        </activity>
         <activity android:name=".activities.LockscreenActivity"
             android:label="@string/lockscreen_settings_title_head">
             <intent-filter>
@@ -186,11 +179,6 @@
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
                 <category android:name="android.intent.category.PREFERENCE" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".activities.BacklightActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity android:configChanges="keyboard|keyboardHidden|orientation" android:name=".activities.LightLevelsActivity">

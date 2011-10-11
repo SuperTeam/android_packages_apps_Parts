@@ -35,11 +35,6 @@
     <!-- User interface -->
     <string name="ui_title">Interfície d\'usuari</string>
 
-    <string name="pref_electron_beam_animation_on">Animació d\'encesa de pantalla</string>
-    <string name="pref_electron_beam_animation_off">Animació d\'apagat de pantalla</string>
-
-    <!-- User interface : 180 degree rotation -->
-
     <!-- User interface: Status bar tweaks -->
     <string name="ui_status_bar_title">Ajustaments de la barra d\'estat</string>
     <string name="ui_status_bar_clock_title">Mostra rellotge</string>
@@ -299,38 +294,6 @@
     <string name="pref_power_prompt_title">Demanda de càrrega</string>
     <string name="pref_power_prompt_summary">Canviar el diàleg posterior a triar l\'apagada o reiniciada</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Efectes de render</string>
-    <string name="pref_render_effect_summary">Canvia els colors que s\'utilitzen per dibuixar la pantalla (possible estalvi de bateria)</string>
-
-    <string name="prefs_render_effect">Efectes de render</string>
-    <string name="notify_render_effect">Efectes render activats</string>
-    <string name="add_widget">Afegeix un estri</string>
-    <string name="pref_render_effect_none">Sense efectes de render</string>
-    <string name="pref_render_effect_night">Mode nocturn (3700K)</string>
-    <string name="pref_render_effect_green">Terminal (verd)</string>
-    <string name="pref_render_effect_blue">Blau</string>
-    <string name="pref_render_effect_amber">Ambre</string>
-    <string name="pref_render_effect_salmon">Salmó</string>
-    <string name="pref_render_effect_fuscia">Fúcsia</string>
-    <string name="pref_render_effect_calibrated">Calibrat (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Calibrat (N1) Vermell</string>
-    <string name="pref_render_effect_calibrated_cool">Calibrat (N1) Fred</string>
-    <string name="pref_render_effect_red">Vermell</string>
-
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">Nocturn</string>
-    <string name="widget_render_effect_terminal">Term</string>
-    <string name="widget_render_effect_blue">Blau</string>
-    <string name="widget_render_effect_amber">Ambre</string>
-    <string name="widget_render_effect_salmon">Salmó</string>
-    <string name="widget_render_effect_fuscia">Fúcsia</string>
-    <string name="widget_render_effect_red">Vermell</string>
-    <string name="widget_render_effect_calibrated">Cal</string>
-    <string name="widget_render_effect_calibrated_red">Cal Vermell</string>
-    <string name="widget_render_effect_calibrated_cool">Cal Fred</string>
-
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Estri de visió ampliada</string>
     <string name="title_expanded_widget">Estri de notificacions d\'energia</string>
@@ -373,46 +336,6 @@
     <string name="pref_ring_mode_summary">Escolliu de quina manera els botons de so canvien els modes</string>
     <string name="pref_flash_mode_title">Mode de flaix</string>
     <string name="pref_flash_mode_summary">Tria Alt/Raig de la Mort</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Llum de fons automàtica</string>
-    <string name="backlight_summary">Ajusta els nivells i els filtres</string>
-    <string name="light_filter_title">Filtres del sensor lumínic</string>
-    <string name="light_filter_enabled_title">Habilitat</string>
-    <string name="light_filter_enabled_summary">Aplica el filtre de moviment mitjà a les dades del sensor per reduir el parpelleig.</string>
-    <string name="light_filter_window_title">Longitud de la finestra</string>
-    <string name="light_filter_window_summary">El valor filtrat és la mitjana dels valors del sensor durant aquest període.</string>
-    <string name="light_filter_reset_title">Torna al llindar per defecte</string>
-    <string name="light_filter_reset_summary">Les mostres que es desvien molt de la mitjana actual restableixen el filtre.</string>
-    <string name="light_filter_interval_title">Interval de mostreig</string>
-    <string name="light_filter_interval_summary">Els valors baixos milloren la precisió, però utilitzen més CPU.</string>
-    <string name="light_levels_title">Nivells d\'il·luminació</string>
-    <string name="light_levels_enabled_title">Personalitzat</string>
-    <string name="light_levels_dim_title">Nivells d\'enfosquiment de la pantalla</string>
-    <string name="light_levels_dim_summary">Brillantor utilitzada per enfosquir la pantalla</string>
-    <string name="light_levels_editor_title">Edita els altres nivells...</string>
-    <string name="light_decrease_enabled_title">Permet disminuir la llum</string>
-    <string name="light_decrease_enabled_summary">Habiliteu-ho per a permetre la disminució de llum. Utilitzeu la histèresi per reduir el parpelleig.</string>
-    <string name="light_decrease_hysteresis_title">Disminució de la histèresi</string>
-    <string name="light_decrease_hysteresis_summary">Els nivells del sensor es superposen a aquests a la baixa.</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Nivells del sensor lumínic</string>
-    <string name="ll_header_upper">El més alt</string>
-    <string name="ll_header_lower">El més baix</string>
-    <string name="ll_header_lcd">Pantalla</string>
-    <string name="ll_header_btn">Botons</string>
-    <string name="ll_header_kb">Teclat</string>
-    <string name="ll_lux">Sensor (filtrat/cru):</string>
-    <string name="ll_lcd">Pantalla:</string>
-    <string name="ll_btn">Botons:</string>
-    <string name="ll_kb">Teclat:</string>
-    <string name="ll_disabled">Deshabilitat</string>
-    <string name="ll_default">Carrega valors predeterminats</string>
-    <string name="ll_save">Desa i aplica</string>
-    <string name="ll_reload">Actualitza l\'actual</string>
-    <string name="ll_bad_levels">Els nivells han de ser creixents</string>
-    <string name="ll_num_levels">Estableix el nombre de nivells</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Focus de les notificacions</string>
@@ -483,14 +406,6 @@
     <string name="pref_lockscreen_disable_unlock_tab">Desactiva el botó lliscant de desbloqueig</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Nota: has d\'activar la bola de desplaçament, la tecla menú, o el desbloqueig per gestos per tenir aquesta opció disponible</string>
     <string name="gestures_already_present">Alerta: s\'ha associat un gest similar a una altra acció!</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Veure llista de canvis</string>
-    <string name="changelog_dialog">Llista de canvis</string>
-    <string name="changelog_loading">Carregant la llista de canvis...</string>
-    <string name="changelog_error">Error carregant la llista de canvis...</string>
-    <string name="changelog_unknown">Desconegut</string>
-    <string name="changelog_version">Versió</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">Paràmetres de CPU</string>

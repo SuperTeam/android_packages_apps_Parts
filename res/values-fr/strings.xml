@@ -35,25 +35,6 @@
     <!-- User interface -->
     <string name="ui_title">Interface utilisateur</string>
 
-    <string name="pref_electron_beam_animation_on">Animation allumage écran</string>
-    <string name="pref_electron_beam_animation_off">Animation à l\'extinction</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Mode Tablette</string>
-    <string name="tablet_tweaks_summary_head">Paramètres utiles pour les utilisateurs de Tablette. Fonctionne aussi pour les téléphones</string>
-    <string name="tablet_tweaks_sb_bottom_title">Barre en bas</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Affiche la barre de notification en bas de l\'écran. Utile pour les tablettes qui utilisent des boutons tactiles placés sur celle-ci.</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Zone inerte</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Rend inactive une zone de la moitié de la largeur de l\'écran dans la barre de notification</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Boutons à gauche</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Place les boutons tactiles à gauche sur la barre de notification</string>
-    <string name="tablet_tweaks_soft_button_list_title">Sélection boutons</string>
-    <string name="tablet_tweaks_interface_head">Interface</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Désactiver verrouillage</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Ne pas afficher l\'écran de verrouillage. Ni au démarrage, ni au réveil du téléphone</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Désactiver Plein-écran</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Toujours afficher la barre de notification, même lorsque le contraire est spécifié dans les paramètres d\'une application</string>
-
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Rotation automatique</string>
     <string name="pref_rotation_0_title">Normal</string>
@@ -391,37 +372,6 @@
     <string name="pref_power_prompt_title">Confirmer l\'extinction</string>
     <string name="pref_power_prompt_summary">Demander confirmation lorsque le système est éteint ou redémarré</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Effet de rendu</string>
-    <string name="pref_render_effect_summary">Changer la couleur utilisée pour afficher l\'interface</string>
-
-    <string name="prefs_render_effect">Effet de rendu</string>
-    <string name="notify_render_effect">Effet de rendu activé</string>
-    <string name="add_widget">Ajouter le widget</string>
-    <string name="pref_render_effect_none">Pas d\'effet de rendu</string>
-    <string name="pref_render_effect_night">Mode nuit (3700K)</string>
-    <string name="pref_render_effect_green">Terminal (vert)</string>
-    <string name="pref_render_effect_blue">Bleu</string>
-    <string name="pref_render_effect_amber">Orange</string>
-    <string name="pref_render_effect_salmon">Saumon</string>
-    <string name="pref_render_effect_fuscia">Fuchsia</string>
-    <string name="pref_render_effect_calibrated">Calibré (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Calibré (N1) Rouge</string>
-    <string name="pref_render_effect_calibrated_cool">Calibré (N1) Froid</string>
-    <string name="pref_render_effect_red">Rouge</string>
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">Nuit</string>
-    <string name="widget_render_effect_terminal">Term</string>
-    <string name="widget_render_effect_blue">Bleu</string>
-    <string name="widget_render_effect_amber">Ambre</string>
-    <string name="widget_render_effect_salmon">Saumon</string>
-    <string name="widget_render_effect_fuscia">Fuchsia</string>
-    <string name="widget_render_effect_red">Rouge</string>
-    <string name="widget_render_effect_calibrated">Cal</string>
-    <string name="widget_render_effect_calibrated_red">Cal Rouge</string>
-    <string name="widget_render_effect_calibrated_cool">Cal Froid</string>
-
     <!-- UI Settings : Haptic feedback -->
     <string name="expanded_haptic_feedback_title">Retour haptique</string>
     <string name="expanded_haptic_feedback_summary">Active ou non le retour haptique (vibration)</string>
@@ -476,46 +426,6 @@
     <!-- Performance : Lock mms app in memory -->
     <string name="pref_lock_mms_title">SMS/MMS en RAM</string>
     <string name="pref_lock_mms_summary">Essayer de conserver l\'application SMS/MMS en mémoire. Ceci permet d\'éviter de louper des messages si la mémoire est insuffisante</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Rétroéclairage automatique</string>
-    <string name="backlight_summary">Filtrage et niveaux du capteur de luminosité ambiante</string>
-    <string name="light_filter_title">Filtrage du capteur de luminosité</string>
-    <string name="light_filter_enabled_title">Activé</string>
-    <string name="light_filter_enabled_summary">Appliquer un filtre de lissage aux mesures du capteur de lumière</string>
-    <string name="light_filter_window_title">Période moyenne</string>
-    <string name="light_filter_window_summary">La valeur filtrée est la valeur moyenne du capteur de lumière durant une certaine période</string>
-    <string name="light_filter_reset_title">Seuil de remise à zéro</string>
-    <string name="light_filter_reset_summary">Les mesures qui dépassent le seuil désactivent le filtre pour une meilleure réaction en extérieur</string>
-    <string name="light_filter_interval_title">Intervalle échantillonage</string>
-    <string name="light_filter_interval_summary">Une valeur plus basse améliore la réaction mais utilise plus le CPU</string>
-    <string name="light_levels_title">Niveaux de lumière</string>
-    <string name="light_levels_enabled_title">Utiliser valeur personnalisée</string>
-    <string name="light_levels_dim_title">Niveau d\'obscurcissement</string>
-    <string name="light_levels_dim_summary">Niveau de luminosité utilisé pour l\'obscurcissement</string>
-    <string name="light_levels_editor_title">Éditer les autres niveaux...</string>
-    <string name="light_decrease_enabled_title">Diminution luminosité</string>
-    <string name="light_decrease_enabled_summary">Autoriser la réduction de l\'éclairage. Utiliser l\'hystérésis pour réduire le scintillement.</string>
-    <string name="light_decrease_hysteresis_title">Diminuer l\'hystérésis</string>
-    <string name="light_decrease_hysteresis_summary">Les niveaux de mesures se chevaucheront de tant vers le bas.</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Niveaux du capteur d\'éclairage</string>
-    <string name="ll_header_upper">Plus haut</string>
-    <string name="ll_header_lower">Plus bas</string>
-    <string name="ll_header_lcd">Écran</string>
-    <string name="ll_header_btn">Boutons</string>
-    <string name="ll_header_kb">Clavier</string>
-    <string name="ll_lux">Capteur filtré / brut :</string>
-    <string name="ll_lcd">Niveau Écran :</string>
-    <string name="ll_btn">Niveau Boutons :</string>
-    <string name="ll_kb">Clavier :</string>
-    <string name="ll_disabled">désactivé</string>
-    <string name="ll_default">Charger défauts</string>
-    <string name="ll_save">Enregistrer &amp; appliquer</string>
-    <string name="ll_reload">Recharger actifs</string>
-    <string name="ll_bad_levels">Les niveaux doivent être en ordre croissant</string>
-    <string name="ll_num_levels">Définir le nombre de niveaux</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Priorité aux notifications</string>
@@ -600,14 +510,6 @@
     <string name="pref_lockscreen_disable_unlock_tab_summary">Note: Vous devez activer le déverrouillage par trackball, touche menu ou par geste afin que cette option soit disponible</string>
     <string name="gestures_already_present">Attention: Un geste similaire est associé à une autre action !</string>
     <string name="gestures_run_in_background">Exécuter en arrière-plan</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Voir liste des modifications</string>
-    <string name="changelog_dialog">Liste des modifications</string>
-    <string name="changelog_loading">Chargement de la liste des modifications...</string>
-    <string name="changelog_error">Erreur de chargement de la liste des modifications...</string>
-    <string name="changelog_unknown">Inconnue</string>
-    <string name="changelog_version">Version</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">Paramètres CPU</string>

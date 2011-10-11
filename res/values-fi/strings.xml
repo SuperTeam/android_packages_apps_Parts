@@ -33,54 +33,6 @@
 
     <string name="ui_title">Käyttöliittymä</string>
 
-    <string name="pref_electron_beam_animation_on">Näyttö päälle -animaatio</string>
-    <string name="pref_electron_beam_animation_off">Näyttö pois päältä -animaatio</string>
-
-<string name="tablet_tweaks_title_head">Tablet säädöt</string>
-    <string name="tablet_tweaks_summary_head">Tablet-laitteiden hyödyllisimmät asetukset yhdessä paikassa. Pätevät myös puhelimiin</string>
-    <string name="tablet_tweaks_sb_bottom_title">Tilapalkki alhaalla</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Näyttää tilapalkin ruudun alareunassa.</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Kuollut alue</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Lisää puolen ruudun levyisen kuolleen alueen tilapalkin keskelle.</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Kosketusnäppäimet vasemmalla</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Asettaa kosketusnäppäimet tilapalkin vasempaan reunaan</string>
-    <string name="tablet_tweaks_soft_button_list_title">Valitse kosketusnäppäimet</string>
-    <string name="tablet_tweaks_interface_head">Käyttöliittymä</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Estä lukitusnäyttö</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Päällä ollessaan estää lukitusnäytön tai kuviolukituksen.</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Estä kokonäyttö</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Ohittaa sovellusten kokonäyttöpyynnön. Näyttää tilapalkin aina kunnes se piilotetaan valinnalla</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Näytä-nappi</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Valitse Näytä-nappi</string>
-    <string name="tablet_tweaks_extend_pm_title">Laajenna virtavalikko</string>
-    <string name="tablet_tweaks_extend_pm_summary">Lisää koti/takaisin/menu toiminnot virtavalikkoon</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Valitse virtavalikon näppäimet</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Käänteiset äänenvoimakkuuspainikkeet</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Äänenvoimakkuuspainikkeet käyttäytyvät normaalisti. Paina muuttaaksesi äänenvoimakkuutta, pitkä painallus omavalintaiselle toiminnolle.</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Äänenvoimakkuuspainikkeet toimivat käänteisesti. Paina suorittaaksesi omavalintaisen toiminnon, pitkä painallus äänenvoimakkuuden muutokselle.</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Määritä äänenvoimakkuuspainikkeet</string>
-    <string name="tablet_tweaks_long_volp_action_title">Pitkä painallus ylös</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Aseta koti/takaisin/menu/jne toiminnot äänenvoimakkuuden lisäämispainikkeen pitkään painallukseen. Vain näytön ollessa päällä</string>
-    <string name="tablet_tweaks_long_volm_action_title">Pitkä painallus alas</string>
-    <string name="tablet_tweaks_vol_both_action_title">Molemmat äänenvoimakkuuspainikkeet</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Huomautus: Jotkin laitteet resetoituvat kun molemmat äänenvoimakkuuspainikkeet ja virtapainike painetaan pohjaan.</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Molempien äänenvoimakkuuspainikkeiden pitkä painallus</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Virtavalikon painikkeet</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Kosketusnäppäimet</string>
-    <string name="tablet_soft_buttons_home_title">Koti</string>
-    <string name="tablet_soft_buttons_menu_title">Menu</string>
-    <string name="tablet_soft_buttons_back_title">Takaisin</string>
-    <string name="tablet_soft_buttons_search_title">Haku</string>
-    <string name="tablet_soft_buttons_quick_na_title">Nopeat ilmoitukset</string>
-
-    <!-- User interface : 180 degree rotation -->
-
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">LED-ilmoitukset</string>
     <string name="trackball_summary">Hallitse trackball/LED-ilmoituksien väriä ja sykettä</string>
@@ -314,39 +266,6 @@
     <string name="pref_power_prompt_title">Virtadialogi</string>
     <string name="pref_power_prompt_summary">Valitse pyydetäänkö varmistus sammutettaessa tai uudelleenkäynnistettäessä laitetta</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Renderöintiefektit</string>
-    <string name="pref_render_effect_summary">Valitse millä värejä käytetään kuvan tuottamiseen (säästää mahdollisesti akkua)</string>
-
-    <string name="prefs_render_effect">Renderöintiefekti</string>
-    <string name="notify_render_effect">Renderöintiefekti päällä</string>
-    <string name="add_widget">Lisää widget</string>
-    <string name="pref_render_effect_none">Ei renderöintiefektiä</string>
-    <string name="pref_render_effect_night">Yötila (3700K)</string>
-    <string name="pref_render_effect_green">Pääte (vihreä)</string>
-    <string name="pref_render_effect_blue">Sininen</string>
-    <string name="pref_render_effect_amber">Meripihka</string>
-    <string name="pref_render_effect_salmon">Lohi</string>
-    <string name="pref_render_effect_fuscia">Fuskia</string>
-    <string name="pref_render_effect_calibrated">Kalibroitu (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Kalibroitu (N1) Matala punainen</string>
-    <string name="pref_render_effect_calibrated_cool">Kalibroitu (N1) Viileä</string>
-    <string name="pref_render_effect_red">Punainen</string>
-
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">Yö</string>
-    <string name="widget_render_effect_terminal">Pääte</string>
-    <string name="widget_render_effect_blue">Sininen</string>
-    <string name="widget_render_effect_amber">Meripihka</string>
-    <string name="widget_render_effect_salmon">Lohi</string>
-    <string name="widget_render_effect_fuscia">Fuksia</string>
-    <string name="widget_render_effect_red">Punainen</string>
-    <string name="widget_render_effect_calibrated">Kal</string>
-    <string name="widget_render_effect_calibrated_red">Kal pinainen</string>
-    <string name="widget_render_effect_calibrated_cool">Kal Viileä</string>
-
-
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Laajennettu näkymä -widget</string>
     <string name="title_expanded_widget">Ilmoitusnäkymän virtavalikko -widget</string>
@@ -395,46 +314,6 @@
     <string name="cm_sound_mode_vib_silent">Värinä/Äänetön</string>
     <string name="pref_flash_mode_title">Lampputilat</string>
     <string name="pref_flash_mode_summary">Valitse suuri / kuolonsäde</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Automaattinen taustavalo</string>
-    <string name="backlight_summary">Valitse tasot ja suodatus</string>
-    <string name="light_filter_title">Valoanturin suodatus</string>
-    <string name="light_filter_enabled_title">Päällä</string>
-    <string name="light_filter_enabled_summary">Salli keskimääräisen suodatuksen siirtäminen vilkkumisen estämiseksi.</string>
-    <string name="light_filter_window_title">Aikaikkunan pituus</string>
-    <string name="light_filter_window_summary">Suodatettu arvo on tämän aikaikkunan arvojen keskiarvo.</string>
-    <string name="light_filter_reset_title">Nollaamiskynnys</string>
-    <string name="light_filter_reset_summary">Näyttööt jotka eroavat näin paljon keskiarvosta nollaavat suotimen.</string>
-    <string name="light_filter_interval_title">Näytteenottotaajuus</string>
-    <string name="light_filter_interval_summary">Matalampi arvo lisää tarkkuutta, mutta käyttää enemmän suoritinta.</string>
-    <string name="light_levels_title">Valotasot</string>
-    <string name="light_levels_enabled_title">Määritä itse</string>
-    <string name="light_levels_dim_title">Näytön himmeystaso</string>
-    <string name="light_levels_dim_summary">Kirkkaus jota käytetään himmennettäessä näyttö</string>
-    <string name="light_levels_editor_title">Muuta muita tasoja...</string>
-    <string name="light_decrease_enabled_title">Salli valon lasku</string>
-    <string name="light_decrease_enabled_summary">Sallii valon laskun. Käyttää hystereesiä vähentämään vilkkumista.</string>
-    <string name="light_decrease_hysteresis_title">Alenna hystereesiä</string>
-    <string name="light_decrease_hysteresis_summary">Anturin tasot limittyy tämän verran alaspäin.</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Valoanturin tasot</string>
-    <string name="ll_header_upper">Ylempi</string>
-    <string name="ll_header_lower">Alempi</string>
-    <string name="ll_header_lcd">Näyttö</string>
-    <string name="ll_header_btn">Painikkeet</string>
-    <string name="ll_header_kb">Näppäimistö</string>
-    <string name="ll_lux">Anturi (suodatettu/raaka):</string>
-    <string name="ll_lcd">Näyttö:</string>
-    <string name="ll_btn">Painikkeet:</string>
-    <string name="ll_kb">Näppäimistö:</string>
-    <string name="ll_disabled">pois päältä</string>
-    <string name="ll_default">Lataa oletukset</string>
-    <string name="ll_save">Tallenna &amp; käytä</string>
-    <string name="ll_reload">Lataa nykyiset</string>
-    <string name="ll_bad_levels">Tasojen täytyy kasvaa</string>
-    <string name="ll_num_levels">Aseta tasojen lukumäärä</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Ilmoituksen keskittyminen</string>
@@ -503,14 +382,6 @@
     <string name="pref_lockscreen_disable_unlock_tab">Estä lukituksen avaava liukusäädin</string>
     <string name="pref_lockscreen_disable_unlock_tab_summary">Huomautus: sinun täytyy asettaa trackball, menu tai eleellä avattava lukitus jotta tämä toiminto tulee saataville</string>
     <string name="gestures_already_present">Varoitus: samankaltainen ele on yhdistettu toiseen toimintoon!</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Näytä muutosloki</string>
-    <string name="changelog_dialog">Muutosloki</string>
-    <string name="changelog_loading">Ladataan muutoslokia...</string>
-    <string name="changelog_error">Virhe ladattaessa muutoslokia...</string>
-    <string name="changelog_unknown">Tuntematon</string>
-    <string name="changelog_version">Versio</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU-asetukset</string>

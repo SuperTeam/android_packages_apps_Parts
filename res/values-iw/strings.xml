@@ -35,12 +35,8 @@
 
     <!-- User interface -->
   <string name="ui_title">ממשק משתמש</string>
-  <string name="pref_electron_beam_animation_on">אנימציה בהדלקת מסך</string>
-  <string name="pref_electron_beam_animation_off">אנימציה בכיבוי מסך</string>
-
-    <!-- User interface : 180 degree rotation -->
-
-    <!-- User interface : LED Notifications -->
+  
+<!-- User interface : LED Notifications -->
   <string name="trackball_title">נורית התראות</string>
   <string name="trackball_summary">שליטה בצבע ובהבהוב של נורית ההתראות/כדור הגלגלת</string>
  
@@ -234,39 +230,6 @@
     <string name="pref_power_prompt_title">Power prompt</string>
     <string name="pref_power_prompt_summary">Change whether there is a prompt after choosing shutdown or reboot</string>
 
-    <!-- UI Settings : Render effect -->
-   <string name="pref_render_effect_title">Render effect</string>
-  <string name="pref_render_effect_summary">שינוי הצבעים המשמשים כדי לצייר את המסך (חיסכון פוטנציאלי בסוללה )</string>
-
-    <string name="prefs_render_effect">Render Effect</string>
-    <string name="notify_render_effect">Render effect on</string>
-    <string name="add_widget">Add widget</string>
-    <string name="pref_render_effect_none">No render effect</string>
-    <string name="pref_render_effect_night">מצב לילה (3700K)</string>
-    <string name="pref_render_effect_green">טרמינל (ירוק)</string>
-    <string name="pref_render_effect_blue">כחול</string>
-    <string name="pref_render_effect_amber">ענבר</string>
-    <string name="pref_render_effect_salmon">ורוד אדמדם (אלתית)</string>
-    <string name="pref_render_effect_fuscia">פוקסיה</string>
-    <string name="pref_render_effect_calibrated">מכויל (N1)</string>
-    <string name="pref_render_effect_calibrated_red">מכויל (N1) Low Red</string>
-    <string name="pref_render_effect_calibrated_cool">מכויל (N1) Cool</string>
-    <string name="pref_render_effect_red">אדום</string>
-
-
-    <!--  Widget Types -->
-  <string name="widget_render_effect_night">לילה</string>
-  <string name="widget_render_effect_terminal">מונח</string>
-  <string name="widget_render_effect_blue">כחול</string>
-  <string name="widget_render_effect_amber">ענבר</string>
-  <string name="widget_render_effect_salmon">סלמון</string>
-  <string name="widget_render_effect_fuscia">פוקסיה</string>
-  <string name="widget_render_effect_red">אדום</string>
-  <string name="widget_render_effect_calibrated">מכויל</string>
-  <string name="widget_render_effect_calibrated_red">מכויל (Low Red)</string>
-  <string name="widget_render_effect_calibrated_cool">מכויל (N1) Cool</string>
-
-  
     <!-- Expanded View Power Widget -->
   <string name="title_widget_buttons">יישומון צפייה מורחבת</string>
   <string name="title_expanded_widget">Notification power widget</string>
@@ -309,47 +272,6 @@
   <string name="cm_sound_mode_vib_silent">רטט/שקט</string>
   <string name="pref_flash_mode_title">מצב פלאש</string>
   <string name="pref_flash_mode_summary">Choose High / Death Ray</string>
-
-    <!-- Backlight -->
-  <string name="backlight_title">עוצמת תאורת אוטומטית</string>
-  <string name="backlight_summary">כוון רמות מסנן</string>
-  <string name="light_filter_title">מסנן חיישן תאורה</string>
-  <string name="light_filter_enabled_title">פעיל</string>
-  <string name="light_filter_enabled_summary">Apply moving average filter to sensor data to reduce flicker.</string>
-  <string name="light_filter_window_title">אורך החלון</string>
-  <string name="light_filter_window_summary">Filtered value is the average sensor value during this period.</string>
-  <string name="light_filter_reset_title">Reset threshold</string>
-  <string name="light_filter_reset_summary">דוגמאות לחריגה כזו מן הממוצע הנוכחי מאפס את המסנן.</string>
-  <string name="light_filter_interval_title">מקטע לדוגמה</string>
-  <string name="light_filter_interval_summary">ערך נמוך יכול לשפר את הדיוק אבל משתמש בקצת יותר CPU.</string>
-  <string name="light_levels_title">רמות תאורה</string>
-  <string name="light_levels_enabled_title">השתמש במצב מותאם אישית</string>
-  <string name="light_levels_dim_title">רמת העמימות של המסך</string>
-  <string name="light_levels_dim_summary">בהירות המשמשת כדי לעמעם את המסך</string>
-  <string name="light_levels_editor_title">עריכת רמות אחרות...</string>
-  <string name="light_decrease_enabled_title">אפשר הנמכת תאורה</string>
-  <string name="light_decrease_enabled_summary">.אפשר כדי לאשר הפחתת תאורה. להפחתת ההבהוב השתמש בהיסטרזיס</string>
-  <string name="light_decrease_hysteresis_title">הקטנת היסטרזיס</string>
-  <string name="light_decrease_hysteresis_summary">Sensor levels overlap this much downwards.</string>
-
-
-    <!-- Light sensor levels -->
-  <string name="ll_title">רמות חיישן האור</string>
-  <string name="ll_header_upper">עליון</string>
-  <string name="ll_header_lower">תחתון</string>
-  <string name="ll_header_lcd">מסך</string>
-  <string name="ll_header_btn">לחצנים</string>
-  <string name="ll_header_kb">מקלדת</string>
-  <string name="ll_lux">חיישן (filtered / raw):</string>
-  <string name="ll_lcd">מסך:</string>
-  <string name="ll_btn">לחצנים:</string>
-  <string name="ll_kb">מקלדת:</string>
-  <string name="ll_disabled">מבוטל</string>
-  <string name="ll_default">טען ברירת מחדל</string>
-  <string name="ll_save">שמור והחל</string>
-  <string name="ll_reload">טען מחדש הנוכחי</string>
-  <string name="ll_bad_levels">חובה להגדיל רמה</string>
-  <string name="ll_num_levels">הגדר מספר רמות</string>
 
   <!-- Sound -->
   <string name="sound_notifications_focus_title">מוקד ההתראות</string>
@@ -417,11 +339,4 @@
   <string name="pref_lockscreen_disable_unlock_tab">בטל שחרור נעילת סליידר</string>
   <string name="pref_lockscreen_disable_unlock_tab_summary">הערה: אתה צריך להפעיל את כדור הגלגלת, מקש התפריט, או תנועת מחווה לשחרור נעילה לפני שאופציה זו תהיה זמינה</string>
 
-    <!-- Change Log strings -->
-  <string name="changelog_title">צפה ביומן השינויים</string>
-  <string name="changelog_dialog">יומן שינויים</string>
-  <string name="changelog_loading">...טוען את יומן השינויים</string>
-  <string name="changelog_error">...שגיאה בטעינת יומן השינויים</string>
-  <string name="changelog_unknown">לא ידוע</string>
-  <string name="changelog_version">גירסה</string>
 </resources>

@@ -36,53 +36,6 @@
     <!-- User interface -->
     <string name="ui_title">Interfejs użytkownika</string>
 
-    <string name="pref_electron_beam_animation_on">Animacja włączenia ekranu</string>
-    <string name="pref_electron_beam_animation_off">Animacja wyłączenia ekranu</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Usprawnienia dla tabletów</string>
-    <string name="tablet_tweaks_summary_head">Ustawienia przydatne dla tabletów. Działają również w przypadku telefonów.</string>
-    <string name="tablet_tweaks_sb_bottom_title">Pasek stanu na dole</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Pokazuje pasek stanu na dole ekranu. Przydatne dla tabletów pozbawionych fizycznych przycisków home, menu itd.</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Martwa strefa</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Dodaje martwą strefę na środku pasku stanu.</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Przyciski dotykowe po lewej</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Umieszcza przyciski dotykowe po lewej stronie pasku stanu</string>
-    <string name="tablet_tweaks_soft_button_list_title">Wybierz przyciski dotykowe</string>
-    <string name="tablet_tweaks_interface_head">Interfejs</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Wyłącz ekran blokady</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Gdy opcja jest włączona, nie wyświetla się ekran blokady. Dotyczy to zarówno uruchamiania systemu, jak i wybudzania po uśpieniu</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Wyłącz pełny ekran</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Pasek stanu jest widoczny w aplikacjach pełnoekranowych, dopóki nie zostanie wciśnięty przycisk ukrywania</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Przycisk pokaż</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Wybierz przycisk pokaż</string>
-    <string name="tablet_tweaks_extend_pm_title">Rozszerz menu zasilania</string>
-    <string name="tablet_tweaks_extend_pm_summary">Dodaj akcje home/wstecz/menu do menu zasilania</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Wybierz akcje menu zasilania</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Odwróć działanie przycisków głośności</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Przyciski głośności działają normalnie. Wciśnij, by zmienić głośność, przytrzymaj, by wykonać akcję użytkownika</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Działanie przycisków głośności jest odwrócone. Wciśnij, by wykonać akcję użytkownika, przytrzymaj, by zmienić głośność</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Przypisz akcje przyciskom głośności</string>
-    <string name="tablet_tweaks_long_volp_action_title">Przytrzymaj zwiększanie głośności</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Przypisz akcję home/wstecz/menu/itd przyciskowi zwiększania głośności. Aktywne, gdy wyświetlacz jest włączony</string>
-    <string name="tablet_tweaks_long_volm_action_title">Przytrzymaj zmniejszanie głośności</string>
-    <string name="tablet_tweaks_vol_both_action_title">Oba przyciski jednocześnie</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Uwaga: Niektóre urządzenia wykonują reset, kiedy wciśnie się oba przyciski głośności i przycisk zasilania.</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Przytrzymaj oba przyciski jednocześnie</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Przyciski menu zasilania</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Przyciski dotykowe</string>
-    <string name="tablet_soft_buttons_home_title">Home</string>
-    <string name="tablet_soft_buttons_menu_title">Menu</string>
-    <string name="tablet_soft_buttons_back_title">Wstecz</string>
-    <string name="tablet_soft_buttons_search_title">Szukaj</string>
-    <string name="tablet_soft_buttons_quick_na_title">Szybkie powiadomienia</string>
-
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Autoobracanie ekranu</string>
     <string name="pref_rotation_0_title">0 stopni</string>
@@ -367,39 +320,6 @@
     <string name="pref_power_prompt_title">Powiadomienia zasilania</string>
     <string name="pref_power_prompt_summary">Wybierz czy wyświetlać powiadomienie podczas wyłączania urządzenia lub uruchomiania ponownego systemu</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Render effect</string>
-    <string name="pref_render_effect_summary">Wybierz kolory do użycia podczas wyświetlania</string>
-
-    <string name="prefs_render_effect">Render Effect</string>
-    <string name="notify_render_effect">Render effect aktywny</string>
-    <string name="add_widget">Dodaj widżet</string>
-    <string name="pref_render_effect_none">Bez efektu</string>
-    <string name="pref_render_effect_night">Tryb nocny (3700K)</string>
-    <string name="pref_render_effect_green">Terminal (zielony)</string>
-    <string name="pref_render_effect_blue">Niebieski</string>
-    <string name="pref_render_effect_amber">Bursztynowy</string>
-    <string name="pref_render_effect_salmon">Łososiowy</string>
-    <string name="pref_render_effect_fuscia">Fuksja</string>
-    <string name="pref_render_effect_calibrated">Skalibrowany (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Skalibrowany (N1) Niska Czerwień</string>
-    <string name="pref_render_effect_calibrated_cool">Skalibrowany (N1) Chłodny</string>
-    <string name="pref_render_effect_red">Czerwony</string>
-
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">Noc</string>
-    <string name="widget_render_effect_terminal">Term</string>
-    <string name="widget_render_effect_blue">Niebieski</string>
-    <string name="widget_render_effect_amber">Bursztyn</string>
-    <string name="widget_render_effect_salmon">Łosoś</string>
-    <string name="widget_render_effect_fuscia">Fuksja</string>
-    <string name="widget_render_effect_red">Czerwony</string>
-    <string name="widget_render_effect_calibrated">Skali</string>
-    <string name="widget_render_effect_calibrated_red">Skali Czerwień</string>
-    <string name="widget_render_effect_calibrated_cool">Skali Chłodny</string>
-
-
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Widżety obszaru powiadomień</string>
     <string name="title_expanded_widget">Widżety obszaru powiadomień</string>
@@ -453,46 +373,6 @@
     <string name="cm_sound_mode_vib_silent">Wib/Cichy</string>
     <string name="pref_flash_mode_title">Latarka</string>
     <string name="pref_flash_mode_summary">Dostosuj siłę</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Automatyczna jasność</string>
-    <string name="backlight_summary">Dostosuj poziomy i filtrowanie</string>
-    <string name="light_filter_title">Filtr czujnika światła</string>
-    <string name="light_filter_enabled_title">Włącz</string>
-    <string name="light_filter_enabled_summary">Filtruj dane czujnika by zredukować migotanie.</string>
-    <string name="light_filter_window_title">Czas zbierania danych</string>
-    <string name="light_filter_window_summary">Określ czas, przez który będą pobierane dane.</string>
-    <string name="light_filter_reset_title">Próg zmiany</string>
-    <string name="light_filter_reset_summary">Odchylenie od średniej o podaną ilość spowoduje zmianę ustawień.</string>
-    <string name="light_filter_interval_title">Częstotliwość próbkowania</string>
-    <string name="light_filter_interval_summary">Niska wartość zwiększy dokładność, ale obciąży to CPU</string>
-    <string name="light_levels_title">Poziomy podświetlenia</string>
-    <string name="light_levels_enabled_title">Użyj własnych</string>
-    <string name="light_levels_dim_title">Próg oświetlenia otoczenia</string>
-    <string name="light_levels_dim_summary">Jasność otoczenia</string>
-    <string name="light_levels_editor_title">Zmień inne poziomy...</string>
-    <string name="light_decrease_enabled_title">Opóźnienie reakcji</string>
-    <string name="light_decrease_enabled_summary">Zezwól na opóźnienie reakcji, by zredukować migotanie.</string>
-    <string name="light_decrease_hysteresis_title">Zredukuj migotanie</string>
-    <string name="light_decrease_hysteresis_summary">Poziomy czujnika będą na siebie zachodzić o określoną ilość.</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Poziomy czujnika światła</string>
-    <string name="ll_header_upper">Wyższy</string>
-    <string name="ll_header_lower">Niższy</string>
-    <string name="ll_header_lcd">Ekran</string>
-    <string name="ll_header_btn">Przyciski</string>
-    <string name="ll_header_kb">Klawiatura</string>
-    <string name="ll_lux">Czujnik (filtrowany / czysty):</string>
-    <string name="ll_lcd">Ekran:</string>
-    <string name="ll_btn">Przyciski:</string>
-    <string name="ll_kb">Klawiatura:</string>
-    <string name="ll_disabled">wyłączony</string>
-    <string name="ll_default">Przywróć domyślne</string>
-    <string name="ll_save">Zapisz</string>
-    <string name="ll_reload">Pobierz aktualne</string>
-    <string name="ll_bad_levels">Poziomy muszą się zwiększać</string>
-    <string name="ll_num_levels">Liczba poziomów</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Skupienie na powiadomieniach</string>
@@ -571,15 +451,7 @@
     <string name="gestures_already_present">Uwaga: Podobny gest został przypisany innej akcji!</string>
     <string name="gestures_run_in_background">Uruchom w tle</string>
 
-    <!-- Change Log strings -->
-    <string name="changelog_title">Pokaż listę zmian</string>
-    <string name="changelog_dialog">Lista zmian</string>
-    <string name="changelog_loading">Wczytywanie...</string>
-    <string name="changelog_error">Błąd wczytywania...</string>
-    <string name="changelog_unknown">Nieznane</string>
-    <string name="changelog_version">Wersja</string>
-    
-     <!-- CPU Settings strings -->
+    <!-- CPU Settings strings -->
     <string name="cpu_settings_title">Ustawienia procesora</string>
     <string name="cpu_title">Ustawienia procesora</string>
     <string name="cpu_summary">Ustawienia zarządcy i zegara</string>

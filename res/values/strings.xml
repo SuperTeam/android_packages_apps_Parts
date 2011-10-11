@@ -35,53 +35,6 @@
     <!-- User interface -->
     <string name="ui_title">User interface</string>
 
-    <string name="pref_electron_beam_animation_on">Screen-on animation</string>
-    <string name="pref_electron_beam_animation_off">Screen-off animation</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Tablet tweaks</string>
-    <string name="tablet_tweaks_summary_head">Settings most useful for tablet devices collected in one place. Also working for phones</string>
-    <string name="tablet_tweaks_sb_bottom_title">Bottom status bar</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Show status bar on bottom. Useful for tablets which use soft-buttons for home, menu, etc on status bar</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Dead zone</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Add a dead zone of half screen width to the middle of the status bar</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Soft-buttons left</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Put soft-buttons on left side of status bar</string>
-    <string name="tablet_tweaks_soft_button_list_title">Choose soft-buttons</string>
-    <string name="tablet_tweaks_interface_head">Interface</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Disable lockscreen</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">When enabled, does not show the lockscreen or pattern screen. Neither on boot, nor when waking the device</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Disable fullscreen</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Override the fullscreen request of applications. When enabled, status bar is always visible until hidden by button</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Unhide button</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Choose unhide button</string>
-    <string name="tablet_tweaks_extend_pm_title">Extend power menu</string>
-    <string name="tablet_tweaks_extend_pm_summary">Add home/back/menu actions to the power menu</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Choose power menu buttons</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Volume behavior reverse</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Volume buttons behave normal. Press for volume change, long press for user action</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Volume buttons behave reversed. Press for user action, long press for volume change</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Remap volume keys</string>
-    <string name="tablet_tweaks_long_volp_action_title">Long press volume up</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Assign home/back/menu/etc action to volume button up long press. Limited to screen on</string>
-    <string name="tablet_tweaks_long_volm_action_title">Long press volume down</string>
-    <string name="tablet_tweaks_vol_both_action_title">Both volume buttons</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Note: Some devices do a hard wired reset on both volume buttons+power pressed</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Long press both volume buttons</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Power menu buttons</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Soft-buttons</string>
-    <string name="tablet_soft_buttons_home_title">Home</string>
-    <string name="tablet_soft_buttons_menu_title">Menu</string>
-    <string name="tablet_soft_buttons_back_title">Back</string>
-    <string name="tablet_soft_buttons_search_title">Search</string>
-    <string name="tablet_soft_buttons_quick_na_title">Quick notifications</string>
-
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Accelerometer rotation</string>
     <string name="pref_rotation_0_title">0 degrees</string>
@@ -465,33 +418,6 @@
     <string name="expanded_haptic_feedback_title">Haptic Feedback</string>
     <string name="expanded_haptic_feedback_summary">Enable/Disable haptic feedback.</string>
 
-    <string name="prefs_render_effect">Render Effect</string>
-    <string name="notify_render_effect">Render effect on</string>
-    <string name="add_widget">Add widget</string>
-    <string name="pref_render_effect_none">No render effect</string>
-    <string name="pref_render_effect_night">Night mode (3700K)</string>
-    <string name="pref_render_effect_green">Terminal (green)</string>
-    <string name="pref_render_effect_blue">Blue</string>
-    <string name="pref_render_effect_amber">Amber</string>
-    <string name="pref_render_effect_salmon">Salmon</string>
-    <string name="pref_render_effect_fuscia">Fuscia</string>
-    <string name="pref_render_effect_calibrated">Calibrated (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Calibrated (N1) Low Red</string>
-    <string name="pref_render_effect_calibrated_cool">Calibrated (N1) Cool</string>
-    <string name="pref_render_effect_red">Red</string>
-
-    <!-- Widget Types -->
-    <string name="widget_render_effect_night">Night</string>
-    <string name="widget_render_effect_terminal">Term</string>
-    <string name="widget_render_effect_blue">Blue</string>
-    <string name="widget_render_effect_amber">Amber</string>
-    <string name="widget_render_effect_salmon">Salmon</string>
-    <string name="widget_render_effect_fuscia">Fuscia</string>
-    <string name="widget_render_effect_red">Red</string>
-    <string name="widget_render_effect_calibrated">Cal</string>
-    <string name="widget_render_effect_calibrated_red">Cal Low Red</string>
-    <string name="widget_render_effect_calibrated_cool">Cal Cool</string>
-
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Expanded View Widget</string>
     <string name="title_expanded_widget">Notification power widget</string>
@@ -545,46 +471,6 @@
     <string name="cm_sound_mode_vib_silent">Vibrate/Silent</string>
     <string name="pref_flash_mode_title">Flash mode</string>
     <string name="pref_flash_mode_summary">Choose High / Death Ray</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Automatic backlight</string>
-    <string name="backlight_summary">Tweak levels and filtering</string>
-    <string name="light_filter_title">Light sensor filter</string>
-    <string name="light_filter_enabled_title">Enabled</string>
-    <string name="light_filter_enabled_summary">Apply moving average filter to sensor data to reduce flicker</string>
-    <string name="light_filter_window_title">Window length</string>
-    <string name="light_filter_window_summary">Filtered value is the average sensor value during this period</string>
-    <string name="light_filter_reset_title">Reset threshold</string>
-    <string name="light_filter_reset_summary">Samples deviating this much from current average resets the filter</string>
-    <string name="light_filter_interval_title">Sample interval</string>
-    <string name="light_filter_interval_summary">Low value can improve accuracy but uses some more CPU</string>
-    <string name="light_levels_title">Light levels</string>
-    <string name="light_levels_enabled_title">Use custom</string>
-    <string name="light_levels_dim_title">Screen dim level</string>
-    <string name="light_levels_dim_summary">Brightness used to dim the screen</string>
-    <string name="light_levels_editor_title">Edit other levels\u2026</string>
-    <string name="light_decrease_enabled_title">Allow light decrease</string>
-    <string name="light_decrease_enabled_summary">Enable to allow lights to decrease. Use hysteresis to reduce flicker</string>
-    <string name="light_decrease_hysteresis_title">Decrease hysteresis</string>
-    <string name="light_decrease_hysteresis_summary">Sensor levels overlap this much downwards</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Light sensor levels</string>
-    <string name="ll_header_upper">Upper</string>
-    <string name="ll_header_lower">Lower</string>
-    <string name="ll_header_lcd">Screen</string>
-    <string name="ll_header_btn">Buttons</string>
-    <string name="ll_header_kb">Keyboard</string>
-    <string name="ll_lux">Sensor (filtered / raw):</string>
-    <string name="ll_lcd">Screen:</string>
-    <string name="ll_btn">Buttons:</string>
-    <string name="ll_kb">Keyboard:</string>
-    <string name="ll_disabled">disabled</string>
-    <string name="ll_default">Load defaults</string>
-    <string name="ll_save">Save &amp; apply</string>
-    <string name="ll_reload">Reload current</string>
-    <string name="ll_bad_levels">Levels must be increasing</string>
-    <string name="ll_num_levels">Set number of levels</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Notification focus</string>
@@ -670,14 +556,6 @@
     <string name="gestures_draw_for_label">Gesture for \"<xliff:g id="action">%s</xliff:g>\":</string>
     <string name="gestures_already_present">Warning: A similar gesture is associated to another action!</string>
     <string name="gestures_run_in_background">Run in background</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">View changelog</string>
-    <string name="changelog_dialog">Changelog</string>
-    <string name="changelog_loading">Loading changelog\u2026</string>
-    <string name="changelog_error">Error loading changelog\u2026</string>
-    <string name="changelog_unknown">Unknown</string>
-    <string name="changelog_version">Version</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">CPU settings</string>

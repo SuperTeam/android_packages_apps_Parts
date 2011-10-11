@@ -43,48 +43,6 @@
     <string name="updatenotify_summary">Získať push notifikácie o aktualizáciách</string>
     <!-- User interface -->
     <string name="ui_title">Užívateľské rozhranie</string>
-    <string name="pref_electron_beam_animation_on">Animácia zapnutia obrazovky</string>
-    <string name="pref_electron_beam_animation_off">Animácia vypnutia obrazovky</string>
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Vylepšenia pre Tablet</string>
-    <string name="tablet_tweaks_summary_head">Nastavenia najpoužiteľnejšie pre tabletové zariadenia zhromaždené na jednom mieste. Taktiež fungujú aj pre telefóny</string>
-    <string name="tablet_tweaks_sb_bottom_title">Spodný stavový riadok</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Zobraziť stavový riadok na spodku. Vhodné pre tablety, ktoré používajú soft tlačidlá pre Domov, Menu, atď na stavovom riadku</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Mŕtva zóna</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Pridať mŕtvu zónu so šírkou polovice šírky obrazovky na stred stavového riadku</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Soft tlačidlá naľavo</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Soft tlačidlá presunúť na ľavú stranu stavového riadku</string>
-    <string name="tablet_tweaks_soft_button_list_title">Vybrať soft tlačidlá</string>
-    <string name="tablet_tweaks_interface_head">Rozhranie</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Zakázať obrazovku uzamknutia</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Keď je povolené, nezobrazuje obrazovku uzamknutia, alebo obrazovku vzoru. Ani pri štarte, ani pri prebudení zariadenia</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Zakázať fullscreen</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Obíde požiadavky aplikácie pre celú obrazovku. Keď je povolené, stavový riadok je vždy viditeľný, pokiaľ nie je skrytý tlačidlom</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Odkryť tlačidlá</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Vybrať odkryté tlačidlá</string>
-    <string name="tablet_tweaks_extend_pm_title">Rozšírené menu napájania</string>
-    <string name="tablet_tweaks_extend_pm_summary">Pridať akcie domov/späť/menu do menu napájania</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Vybrať tlačidlá menu napájania</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Obrátené správanie hlasitosti</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Tlačidlá hlasitosti sa správajú normálne. Stlačte pre zmenu hlasitosti, dlhé podržanie pre užívateľskú akciu</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Tlačidlá hlasitosti sa správajú obrátene. Stlačiť pre užívateľskú akciu, dlhé stlačenie pre zmenu hlasitosti</string>
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Premapovať tlačidlá hlasitosti</string>
-    <string name="tablet_tweaks_long_volp_action_title">Dlhé podržanie Pridania hlasitosti</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Priradiť domov/späť/menu/atď akciu tlačidlu pridať hlasitosť pri dlhom podržaní. Limitované len pre zapnutú obrazovku</string>
-    <string name="tablet_tweaks_long_volm_action_title">Dlhé podržanie ubratia hlasitosti</string>
-    <string name="tablet_tweaks_vol_both_action_title">Obidve tlačidlá hlasitosti</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Poznámka: Niektoré zariadenia robia tvrdý reset pri zatlačení oboch tlačidiel hlasitosti+tlačidlo napájania</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Dlhé stlačenie oboch tlačidiel hlasitosti</string>
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Tlačidlá menu Napájania</string>
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Soft tlačidlá</string>
-    <string name="tablet_soft_buttons_home_title">Domov</string>
-    <string name="tablet_soft_buttons_menu_title">Menu</string>
-    <string name="tablet_soft_buttons_back_title">Späť</string>
-    <string name="tablet_soft_buttons_search_title">Hľadať</string>
-    <string name="tablet_soft_buttons_quick_na_title">Rýchle upozornenia</string>
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Rotácia podľa Akcelerometra</string>
     <string name="pref_rotation_0_title">0 stupňov</string>
@@ -388,39 +346,9 @@
     <!-- UI Settings : Power off prompt -->
     <string name="pref_power_prompt_title">Ponuka napájania</string>
     <string name="pref_power_prompt_summary">Zmeniť, či sa bude zobrazovať potvrdenie po vybratí vypnutia, alebo reštartu</string>
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Efekt renderovania</string>
-    <string name="pref_render_effect_summary">Zmeniť aké farby sa budú používať pri vykresľovaní obrazovky (možné šetrenie batérie)</string>
     <!-- UI Settings : Haptic feedback -->
     <string name="expanded_haptic_feedback_title">Hmatová Odozva</string>
     <string name="expanded_haptic_feedback_summary">Povoliť/Zakázať hmatovú odozvu.</string>
-    <string name="widget_name">RenderFX Widget</string>
-    <string name="renderfx_temp">RenderFX</string>
-    <string name="prefs_render_effect">Efekt Renderovania</string>
-    <string name="notify_render_effect">Efekt renderovania zapnutý</string>
-    <string name="add_widget">Pridať widget</string>
-    <string name="pref_render_effect_none">Žiadny efekt renderovania</string>
-    <string name="pref_render_effect_night">Nočný mód (3700K)</string>
-    <string name="pref_render_effect_green">Terminál (zelený)</string>
-    <string name="pref_render_effect_blue">Modrý</string>
-    <string name="pref_render_effect_amber">Žltý</string>
-    <string name="pref_render_effect_salmon">Lososový</string>
-    <string name="pref_render_effect_fuscia">Fuscia</string>
-    <string name="pref_render_effect_calibrated">Kalibrovaný (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Kalibrovaný (N1) slabá červená</string>
-    <string name="pref_render_effect_calibrated_cool">kalibrovaný (N1) Cool</string>
-    <string name="pref_render_effect_red">Červený</string>
-    <!-- Widget Types -->
-    <string name="widget_render_effect_night">Noc</string>
-    <string name="widget_render_effect_terminal">Term</string>
-    <string name="widget_render_effect_blue">Modrá</string>
-    <string name="widget_render_effect_amber">Žltá</string>
-    <string name="widget_render_effect_salmon">Losos</string>
-    <string name="widget_render_effect_fuscia">Fuscia</string>
-    <string name="widget_render_effect_red">Červená</string>
-    <string name="widget_render_effect_calibrated">Kal</string>
-    <string name="widget_render_effect_calibrated_red">Kal Červ</string>
-    <string name="widget_render_effect_calibrated_cool">Kal Cool</string>
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Rozšírené Zobrazenie Widgetov</string>
     <string name="title_expanded_widget">Notifikačný widget napájania</string>
@@ -474,44 +402,6 @@
     <string name="cm_sound_mode_vib_silent">Vibrácia/Ticho</string>
     <string name="pref_flash_mode_title">Mód blesku</string>
     <string name="pref_flash_mode_summary">Vybrať Silný / Smrteľný Lúč</string>
-    <!-- Backlight -->
-    <string name="backlight_title">Automatické podsvietenie</string>
-    <string name="backlight_summary">Vylepšenia stupňov a filtrovanie</string>
-    <string name="light_filter_title">Filter svetelného senzora</string>
-    <string name="light_filter_enabled_title">Povolený</string>
-    <string name="light_filter_enabled_summary">Použiť priemerný filter pre dáta senzora pre zníženie blikania</string>
-    <string name="light_filter_window_title">Doba</string>
-    <string name="light_filter_window_summary">Filtrovaná hodnota je priemerná hodnota senzora za túto dobu</string>
-    <string name="light_filter_reset_title">Resetnutie prahov</string>
-    <string name="light_filter_reset_summary">Vzorky s väčšou odchýlkou od priemernej ako je táto resetnú filter</string>
-    <string name="light_filter_interval_title">Vzorkový interval</string>
-    <string name="light_filter_interval_summary">Nižšia hodnota môže zvýšiť presnosť, ale viac využije CPU</string>
-    <string name="light_levels_title">Stupne svetelnosti</string>
-    <string name="light_levels_enabled_title">Použiť užívateľské</string>
-    <string name="light_levels_dim_title">Stupeň stmavnutia obrazovky</string>
-    <string name="light_levels_dim_summary">Jas použitý pre stmavnutie obrazovky</string>
-    <string name="light_levels_editor_title">Upraviť ostatné stupne\u2026</string>
-    <string name="light_decrease_enabled_title">Povoliť zníženie podsvietenia</string>
-    <string name="light_decrease_enabled_summary">Povolí zníženie svetelnosti. Použite hysteréziu pre redukciu filtra</string>
-    <string name="light_decrease_hysteresis_title">Znížiť hysteréziu</string>
-    <string name="light_decrease_hysteresis_summary">Stupne senzora prekročia o toľkoto smerom dolu</string>
-    <!-- Light sensor levels -->
-    <string name="ll_title">Stupne svetelného senzora</string>
-    <string name="ll_header_upper">Vyšší</string>
-    <string name="ll_header_lower">Nižší</string>
-    <string name="ll_header_lcd">Obrazovka</string>
-    <string name="ll_header_btn">Tlačidlá</string>
-    <string name="ll_header_kb">Klávesnica</string>
-    <string name="ll_lux">Senzor (filtrovaný / čistý):</string>
-    <string name="ll_lcd">Obrazovka:</string>
-    <string name="ll_btn">Tlačidlá:</string>
-    <string name="ll_kb">Klávesnica:</string>
-    <string name="ll_disabled">zakázané</string>
-    <string name="ll_default">Načítať predvolené</string>
-    <string name="ll_save">Uložiť &amp; aplikovať</string>
-    <string name="ll_reload">Znovu načítať aktuálne</string>
-    <string name="ll_bad_levels">Stupne musia rásť</string>
-    <string name="ll_num_levels">Zadajte počet stupňov</string>
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Zaostrenie na upozornenie</string>
     <string name="sound_notifications_focus_summary">Požiadavka upozornenia donúti kompatibilné aplikácie znížiť hlasitosť počas prehrávanie upozornenia</string>
@@ -588,13 +478,6 @@
     <string name="gestures_draw_for_label">Gesto pre \"<xliff:g id="action">%s</xliff:g>\":</string>
     <string name="gestures_already_present">Pozor: Podobné gesto je priradené k inej akcii!</string>
     <string name="gestures_run_in_background">Spustiť na pozadí</string>
-    <!-- Change Log strings -->
-    <string name="changelog_title">Zobraziť zoznam zmien</string>
-    <string name="changelog_dialog">Zoznam zmien</string>
-    <string name="changelog_loading">Načítavanie zoznamu zmien\u2026</string>
-    <string name="changelog_error">Chyba pri načítavaní zoznamu zmien\u2026</string>
-    <string name="changelog_unknown">Neznáma</string>
-    <string name="changelog_version">Verzia</string>
     <!-- Phone goggles -->
     <string name="category_phone_goggles_period">Doba</string>
     <string name="category_phone_goggles_confirmation">Potvrdenie</string>

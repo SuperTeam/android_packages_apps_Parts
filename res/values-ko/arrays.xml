@@ -51,56 +51,6 @@
         <item>26%</item>
     </string-array>
 
-    <string-array name="entries_light_filter_window">
-        <item>10초</item>
-        <item>20초</item>
-        <item>30초</item>
-        <item>40초</item>
-        <item>50초</item>
-        <item>60초</item>
-    </string-array>
-
-    <string-array name="entries_light_filter_reset">
-        <item>안함</item>
-        <item>400 룩스</item>
-        <item>500 룩스</item>
-        <item>600 룩스</item>
-        <item>700 룩스</item>
-        <item>800 룩스</item>
-        <item>900 룩스</item>
-        <item>1000 룩스</item>
-        <item>1500 룩스</item>
-        <item>2000 룩스</item>
-        <item>2500 룩스</item>
-    </string-array>
-
-    <string-array name="entries_light_filter_interval">
-        <item>0.5초</item>
-        <item>1초</item>
-        <item>2초</item>
-        <item>5초</item>
-        <item>10초</item>
-    </string-array>
-
-    <string-array name="entries_light_levels_dim">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
-        <item>12</item>
-        <item>14</item>
-        <item>16</item>
-        <item>18</item>
-        <item>20 (기본)</item>
-        <item>22</item>
-        <item>24</item>
-        <item>26</item>
-    </string-array>
-
     <string-array name="entries_sound_attenuation">
         <item>0 dB</item>
         <item>4 dB</item>

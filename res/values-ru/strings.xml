@@ -36,53 +36,6 @@
     <!-- User interface -->
     <string name="ui_title">Интерфейс</string>
 
-    <string name="pref_electron_beam_animation_on">Анимация включения экрана</string>
-    <string name="pref_electron_beam_animation_off">Анимация выключения экрана</string>
-
-    <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Настройки для планшетов</string>
-    <string name="tablet_tweaks_summary_head">Настройки, полезные в основном для планшетов, собранные в одном месте. Также работают и на телефонах</string>
-    <string name="tablet_tweaks_sb_bottom_title">Строка состояния внизу</string>
-    <string name="tablet_tweaks_sb_bottom_summary">Отображать строку состояния внизу. Полезно для планшетов, использующих софт-кнопки \"Домой\", \"Меню\" и т.д. в строке состояния</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_title">Мёртвая зона</string>
-    <string name="tablet_tweaks_status_bar_dead_zone_summary">Добавить мёртвую зону в половину ширины экрана посередине строки состояния</string>
-    <string name="tablet_tweaks_soft_buttons_left_title">Софт-кнопки слева</string>
-    <string name="tablet_tweaks_soft_buttons_left_summary">Переместить софт-кнопки на левую сторону строки состояния</string>
-    <string name="tablet_tweaks_soft_button_list_title">Выберите софт-кнопки</string>
-    <string name="tablet_tweaks_interface_head">Интерфейс</string>
-    <string name="tablet_tweaks_disable_lockscreen_title">Отключить экран блокировки</string>
-    <string name="tablet_tweaks_disable_lockscreen_summary">Когда включено, экран блокировки или графический ключ не показываются ни при загрузке, ни при пробуждении устройства</string>
-    <string name="tablet_tweaks_disable_fullscreen_title">Отключить полноэкранный режим</string>
-    <string name="tablet_tweaks_disable_fullscreen_summary">Полноэкранный режим приложений. Когда включен, строка состояния всегда видна, но её можно скрыть нажатием кнопки</string>
-    <string name="tablet_tweaks_unhide_button_list_head">Кнопка отображения</string>
-    <string name="tablet_tweaks_unhide_button_list_title">Выбрать кнопку отображения</string>
-    <string name="tablet_tweaks_extend_pm_title">Расширение меню \"Параметры планшета\"</string>
-    <string name="tablet_tweaks_extend_pm_summary">Добавить Домой/Назад/Меню в \"Параметры планшета\"</string>
-    <string name="tablet_tweaks_extend_pm_list_title">Выберите кнопки меню</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_title">Изменение поведения кнопок громкости</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_off">Нормальное поведение. Нажатие для изменения громкости, удержание для действия пользователя</string>
-    <string name="tablet_tweaks_reverse_volume_behavior_summary_on">Обратное поведение. Нажатие для действия пользователя, удержание для изменения громкости</string>
-
-    <!-- User interface: Tablet tweaks -> volume remapping -->
-    <string name="tablet_tweaks_input_head">Переназначить кнопки громкости</string>
-    <string name="tablet_tweaks_long_volp_action_title">Удержание кнопки \"Громче\"</string>
-    <string name="tablet_tweaks_long_volp_action_summary">Назначение Домой/Назад/Меню и других действий на удержание кнопки \"Громче\". Работает только при включенном экране</string>
-    <string name="tablet_tweaks_long_volm_action_title">Удержание кнопки \"Тише\"</string>
-    <string name="tablet_tweaks_vol_both_action_title">Обе кнопки громкости</string>
-    <string name="tablet_tweaks_vol_both_action_summary">Примечание: на некоторых устройствах одновременное нажатие обеих кнопок громкости и кнопки \"Включение\" приводят к перезагрузке</string>
-    <string name="tablet_tweaks_long_vol_both_action_title">Удержание обеих кнопок регулировки громкости</string>
-
-    <!-- User interface: Tablet tweaks -> Extended power menu buttons -->
-    <string name="tablet_tweaks_extend_pm_list_head">Кнопки меню \"Параметры планшета\"</string>
-
-    <!-- User interface: Tablet tweaks -> soft buttons -->
-    <string name="tablet_tweaks_soft_buttons_list_head">Софт-кнопки</string>
-    <string name="tablet_soft_buttons_home_title">Домой</string>
-    <string name="tablet_soft_buttons_menu_title">Меню</string>
-    <string name="tablet_soft_buttons_back_title">Назад</string>
-    <string name="tablet_soft_buttons_search_title">Поиск</string>
-    <string name="tablet_soft_buttons_quick_na_title">Быстрое уведомление</string>
-
     <!-- User interface : Rotation -->
     <string name="rotation_category_title">Вращение экрана</string>
     <string name="pref_rotation_0_title">0 градусов</string>
@@ -445,44 +398,9 @@
     <string name="pref_power_prompt_title">Варианты перезагрузки</string>
     <string name="pref_power_prompt_summary">Если включено, то будут предложены варианты перезагрузки</string>
 
-    <!-- UI Settings : Render effect -->
-    <string name="pref_render_effect_title">Эффекты экрана</string>
-    <string name="pref_render_effect_summary">Позволяет изменять цвет прорисовки экрана (возможна экономия батареи)</string>
-
-    <!-- UI Settings : Haptic feedback -->
+   <!-- UI Settings : Haptic feedback -->
     <string name="expanded_haptic_feedback_title">Отклик на нажатие</string>
     <string name="expanded_haptic_feedback_summary">Вкл/Выкл отклик на нажатие.</string>
-
-    <string name="widget_name">Эффекты экрана</string>
-    <string name="renderfx_temp">Эффект</string>
-    <string name="prefs_render_effect">Эффект экрана</string>
-    <string name="notify_render_effect">Эффект экрана включён</string>
-    <string name="add_widget">Добавить виджет</string>
-    <string name="pref_render_effect_none">Без эффекта</string>
-    <string name="pref_render_effect_night">Ночной (3700K)</string>
-    <string name="pref_render_effect_green">Терминал (зелёный)</string>
-    <string name="pref_render_effect_blue">Синий</string>
-    <string name="pref_render_effect_amber">Жёлтый</string>
-    <string name="pref_render_effect_salmon">Оранжево-розовый</string>
-    <string name="pref_render_effect_fuscia">Розовый</string>
-    <string name="pref_render_effect_calibrated">Калиброванный (N1)</string>
-    <string name="pref_render_effect_calibrated_red">Калиброванный (N1) Красноватый</string>
-    <string name="pref_render_effect_calibrated_cool">Калиброванный (N1) Холодный</string>
-    <string name="pref_render_effect_red">красный</string>
-
-
-    <!--  Widget Types -->
-    <string name="widget_render_effect_night">Ночь</string>
-    <string name="widget_render_effect_terminal">Терм</string>
-    <string name="widget_render_effect_blue">Синий</string>
-    <string name="widget_render_effect_amber">Жёлтый</string>
-    <string name="widget_render_effect_salmon">Оранжево-розовый</string>
-    <string name="widget_render_effect_fuscia">Розовый</string>
-    <string name="widget_render_effect_red">красный</string>
-    <string name="widget_render_effect_calibrated">Кал</string>
-    <string name="widget_render_effect_calibrated_red">Кал Красноватый</string>
-    <string name="widget_render_effect_calibrated_cool">Кал Холодный</string>
-
 
     <!-- Expanded View Power Widget -->
     <string name="title_widget_buttons">Кнопки в панели уведомлений</string>
@@ -537,46 +455,6 @@
     <string name="cm_sound_mode_vib_silent">Вибро/Беззвучный</string>
     <string name="pref_flash_mode_title">Режимы фонарика</string>
     <string name="pref_flash_mode_summary">Яркий / Луч смерти</string>
-
-    <!-- Backlight -->
-    <string name="backlight_title">Автоматическая яркость</string>
-    <string name="backlight_summary">Настройки автоматической регулировки яркости подсветки</string>
-    <string name="light_filter_title">Фильтр датчика освещённости</string>
-    <string name="light_filter_enabled_title">Включить</string>
-    <string name="light_filter_enabled_summary">Применить фильтр скользящего среднего к датчику освещённости, уменьшает мерцание</string>
-    <string name="light_filter_window_title">Размер окна</string>
-    <string name="light_filter_window_summary">Период времени, для которого вычисляется среднее значение</string>
-    <string name="light_filter_reset_title">Порог сброса</string>
-    <string name="light_filter_reset_summary">При отклонении значения датчика от текущего среднего на данную величину фильтр сбраcывается</string>
-    <string name="light_filter_interval_title">Интервал выборки</string>
-    <string name="light_filter_interval_summary">Низкое значение может улучшить точность, но больше загружает процессор</string>
-    <string name="light_levels_title">Уровни освещённости</string>
-    <string name="light_levels_enabled_title">Пользовательские уровни</string>
-    <string name="light_levels_dim_title">Затемнение экрана</string>
-    <string name="light_levels_dim_summary">Яркость, используемая для затемнения экрана</string>
-    <string name="light_levels_editor_title">Редактировать другие уровни...</string>
-    <string name="light_decrease_enabled_title">Плавное затемнение</string>
-    <string name="light_decrease_enabled_summary">Включение плавного затемнения подсветки. Используйте гистерезис, чтобы уменьшить мерцание</string>
-    <string name="light_decrease_hysteresis_title">Гистерезис затемнения</string>
-    <string name="light_decrease_hysteresis_summary">Насколько будут перекрыты значения датчика освещённости</string>
-
-    <!-- Light sensor levels -->
-    <string name="ll_title">Уровни датчика освещённости</string>
-    <string name="ll_header_upper">Верхнее</string>
-    <string name="ll_header_lower">Нижнее</string>
-    <string name="ll_header_lcd">Экран</string>
-    <string name="ll_header_btn">Кнопки</string>
-    <string name="ll_header_kb">Клавиатура</string>
-    <string name="ll_lux">Датчик (фильтр./исходное):</string>
-    <string name="ll_lcd">Экран:</string>
-    <string name="ll_btn">Кнопки:</string>
-    <string name="ll_kb">Клавиатура:</string>
-    <string name="ll_disabled">отключено</string>
-    <string name="ll_default">По умолчанию</string>
-    <string name="ll_save">Применить</string>
-    <string name="ll_reload">Текущие</string>
-    <string name="ll_bad_levels">Значения уровней должны возрастать</string>
-    <string name="ll_num_levels">Установите количество уровней</string>
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Фокус на уведомление</string>
@@ -662,14 +540,6 @@
     <string name="gestures_draw_for_label">Жест для \"<xliff:g id="action">%s</xliff:g>\":</string>
     <string name="gestures_already_present">Внимание: похожий жест уже связан с другим действием!</string>
     <string name="gestures_run_in_background">Запустить в фоне</string>
-
-    <!-- Change Log strings -->
-    <string name="changelog_title">Посмотреть список изменений</string>
-    <string name="changelog_dialog">Список изменений</string>
-    <string name="changelog_loading">Загрузка списка изменений...</string>
-    <string name="changelog_error">Ошибка загрузки списка изменений...</string>
-    <string name="changelog_unknown">Неизвестно</string>
-    <string name="changelog_version">Версия</string>
 
     <!-- CPU Settings strings -->
     <string name="cpu_settings_title">Настройки ЦП</string>

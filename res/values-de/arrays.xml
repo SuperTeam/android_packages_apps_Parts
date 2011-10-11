@@ -87,69 +87,6 @@
     <item>26&#x2009;%</item>
   </string-array>
 
-  <string-array name="entries_light_filter_window">
-    <item>10 Sekunden</item>
-    <item>20 Sekunden</item>
-    <item>30 Sekunden</item>
-    <item>40 Sekunden</item>
-    <item>50 Sekunden</item>
-    <item>60 Sekunden</item>
-  </string-array>
-
-  <string-array name="entries_light_filter_reset">
-    <item>Ausgeschaltet</item>
-    <item>400 Lux</item>
-    <item>500 Lux</item>
-    <item>600 Lux</item>
-    <item>700 Lux</item>
-    <item>800 Lux</item>
-    <item>900 Lux</item>
-    <item>1000 Lux</item>
-    <item>1500 Lux</item>
-    <item>2000 Lux</item>
-    <item>2500 Lux</item>
-  </string-array>
-
-  <string-array name="entries_light_filter_interval">
-    <item>0,5 Sekunden</item>
-    <item>1 Sekunde</item>
-    <item>2 Sekunden</item>
-    <item>5 Sekunden</item>
-    <item>10 Sekunden</item>
-  </string-array>
-
-  <string-array name="entries_light_levels_dim">
-    <item>1</item>
-    <item>2</item>
-    <item>3</item>
-    <item>4</item>
-    <item>5</item>
-    <item>6</item>
-    <item>8</item>
-    <item>10</item>
-    <item>12</item>
-    <item>14</item>
-    <item>16</item>
-    <item>18</item>
-    <item>20 (Standard)</item>
-    <item>22</item>
-    <item>24</item>
-    <item>26</item>
-  </string-array>
-
-  <string-array name="entries_light_decrease_hysteresis">
-    <item>0&#x2009;%</item>
-    <item>10&#x2009;%</item>
-    <item>20&#x2009;%</item>
-    <item>30&#x2009;%</item>
-    <item>40&#x2009;%</item>
-    <item>50&#x2009;%</item>
-    <item>60&#x2009;%</item>
-    <item>70&#x2009;%</item>
-    <item>80&#x2009;%</item>
-    <item>90&#x2009;%</item>
-  </string-array>
-
   <string-array name="entries_sound_attenuation">
     <item>0&#x2009;dB</item>
     <item>4&#x2009;dB</item>
