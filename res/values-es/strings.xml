@@ -98,6 +98,13 @@
     <string name="ui_status_bar_toggle_brightness">Barra de estado de control de brillo</string>
     <string name="ui_status_bar_toggle_brightness_summary">Permite el ajuste de brillo deslizando a través de la barra de estado</string>
     <string name="ui_status_bar_toggle_info">Brillo automático está habilitado</string>
+    <string name="ui_status_bar_cm_signal_text_title">Visualización de la señal</string>
+    <string name="ui_status_bar_cm_signal_text_summary">Mostrar valores dBm dentro de las barras de señal</string>
+    <string name="ui_status_bar_cm_signal_text_show_bars">Barras de señal</string>
+    <string name="ui_status_bar_cm_signal_text_show_text">Señal en modo texto</string>
+    <string name="ui_status_bar_cm_signal_text_show_text_dbm">Señal en modo texto w/dBm</string>
+    <string name="ui_status_bar_headset_title">Mostrar icono de los auriculares</string>
+    <string name="ui_status_bar_headset_summary">El icono de los auriculares aparecerá cuando se conecten</string>
 
     <!-- User interface : LED Notifications -->
     <string name="trackball_title">Notificaciones LED</string>
@@ -203,6 +210,8 @@
     <!-- Lockscreen Settings -->
     <string name="pref_lockscreen_always_battery_title">Estado de la batería</string>
     <string name="pref_lockscreen_always_battery_summary">Muestra siempre el estado de la batería en la pantalla de bloqueo</string>
+    <string name="pref_lockscreen_widgets_layout_title">Diseño de widget</string>
+    <string name="pref_lockscreen_widgets_layout_summary">Cambia reloj, fecha, operadora, diseño</string>
     <string name="pref_lockscreen_now_playing_title">Nombre de la canción</string>
     <string name="pref_lockscreen_now_playing_summary">Muestra el nombre del artista que se está reproduciendo</string>
     <string name="pref_lockscreen_album_art_title">Carátula</string>
@@ -241,12 +250,22 @@
     <string name="pref_lockscreen_style_summary">Escoja el estilo de pantalla de bloqueo</string>
     <string name="pref_in_call_style_title">Estilo llamada entrante</string>
     <string name="pref_in_call_style_summary">Elegir estilo de widget de llamadas entrantes aceptar o rechazar</string>
+    <string name="lockscreen_music_title">Controles de música</string>
     <string name="pref_volbtn_music_controls_title">Controles de música</string>
     <string name="pref_volbtn_music_controls_summary">Cuando la pantalla está apagada, buscar pistas de música al pulsar los botones de volumen durante un largo periodo</string>
     <string name="pref_cambtn_music_controls_title">Control de música con botón de la cámara</string>
     <string name="pref_cambtn_music_controls_summary">Alternar entre reproducción y pausa al pulsar el botón de la cámara durante mucho tiempo, mientras que la pantalla está apagada</string>
     <string name="lockscreen_widgets_note_title">Nota</string>
     <string name="lockscreen_widgets_note_summary">Selección de estilo minimalista esconde todos los widgets menos el control de música. Las siguientes opciones no se borran para permitir cambiar a otros estilos</string>
+    <string name="lockscreen_calendar_title">Controles de calendario</string>
+    <string name="pref_lockscreen_calendar_alarm_title">Muestra siguiente evento del calendario</string>
+    <string name="pref_lockscreen_calendar_alarm_summary">Muestra el tiempo y título del siguiente evento del calendario</string>
+    <string name="pref_lockscreen_calendars_title">Eventos de calendarios</string>
+    <string name="pref_lockscreen_calendars_summary">Buscar todos los eventos de estos calendarios</string>
+    <string name="pref_lockscreen_calendar_reminders_only_title">Solo avisos</string>
+    <string name="pref_lockscreen_calendar_reminders_only_summary">Buscar sólo los eventos que tienen recordatorios</string>
+    <string name="pref_lockscreen_calendar_lookahead_title">Eventos de calendario lejanos</string>
+    <string name="pref_lockscreen_calendar_lookahead_summary">Encontrar eventos de calendarios lejanos</string>
 
     <!-- Input Settings -->
     <string name="input_settings_title">Ajustes de entrada</string>
@@ -333,6 +352,12 @@
     <string name="application_settings_title">Ajustes de aplicaciones</string>
     <string name="application_settings_summary">Cambiar la configuración de diversas aplicaciones, tales como ubicación de instalación</string>
 
+    <!-- Application Settings : Switch storage mountpoints -->
+    <string name="pref_switch_storage_title">Uso de almacenamiento interno</string>
+    <string name="pref_switch_storage_summary_on">Uso de almacenamiento interno más amplio para las aplicaciones y los medios (requiere reiniciar)</string>
+    <string name="pref_switch_storage_summary_off">Utilizar la tarjeta extraíble para las aplicaciones y los medios (requiere reiniciar)</string>
+    <string name="pref_storage_switch_unavailable">Este dispositivo no dispone de almacenamiento interno</string>
+
     <!-- Application Settings : Move any app -->
     <string name="pref_move_all_apps_title">Permite mover las aplicaciones</string>
     <string name="pref_move_all_apps_summary">Permitir el movimiento de las aplicaciones hacia ls sdcard</string>
@@ -356,6 +381,10 @@
     <string name="pref_use_dithering_title">Activar difuminado de superficies</string>
     <string name="pref_use_dithering_summary">El difuminado de superficies mejora la calidad de imagen con coste de rendimiento (requiere reiniciar)</string>
 
+    <!-- Performance Settings : 16bpp Alpha -->
+    <string name="pref_use_16bpp_alpha_title">Use la transparencia de 16 bits</string>
+    <string name="pref_use_16bpp_alpha_summary">El uso de la transparencia puede mejorar el rendimiento de desplazamiento, pero puede causar fallos visuales (requiere reiniciar)</string>
+
     <!-- Performance Settings : Purgeable Assets -->
     <string name="pref_purgeable_assets_title">Permitir purga de activos</string>
     <string name="pref_purgeable_assets_summary">El sistema puede liberar más RAM cuando sea necesario si la memoria de mapa de bits de activos se puede reclamar (requiere reinicio)</string>
@@ -373,6 +402,7 @@
     <string name="pref_lock_mms_summary">Evitar la pérdida de mensajes en situaciones de poca memoria</string>
 
     <string name="general_title">General</string>
+    <string name="camera_title">Camara</string>
     <string name="buttons_title">Botones</string>
 
     <!-- UI Settings : Power off prompt -->
@@ -497,6 +527,11 @@
     <string name="sound_vibrate_in_call_title">Vibrar durante una llamada</string>
     <string name="sound_vibrate_in_call_summary_off">Las notificaciones no vibrarán durante una llamada</string>
     <string name="sound_vibrate_in_call_summary_on">Las notificaciones vibrarán normalmente</string>
+    <string name="sound_camera_shutter_disable_title">Silenciar disparo de camarar</string>
+    <string name="sound_camera_shutter_disable_summary_on">Sonido de disparo no se reproducirá</string>
+    <string name="sound_camera_shutter_disable_summary_off">Sonido de disparo se reproducirá</string>
+    <string name="sound_camera_shutter_disable_warning_title">ATENCIÓN: Esto puede ser ilegal!!</string>
+    <string name="sound_camera_shutter_disable_warning">Desactivar el sonido de la camara puede ser ilegal en algunas areas. Estas seguro de querer desactivarlo?</string>
     <string name="sound_to_speaker_title">Reproducir siempre en el altavoz</string>
     <string name="sound_notifications_title">Notificaciones</string>
     <string name="sound_rings_title">Sonidos</string>
@@ -689,6 +724,6 @@
     <!-- Permissions Management Settings strings -->
     <string name="perm_enable_management">Administración de permisos</string>
     <string name="perm_enable_management_summary">Activar administración de permisos de aplicaciones</string>
-    <string name="perm_enable_warning_message">Peligro!\nRevocar los permisos puede causar que algunas aplicaciones no funcionen bien. Si una aplicación con permisos eliminados da Forzar Cierre por favor, corrija los permisos o no use la aplicación.\nPor favor, NO envíe reportes de fallos a Cyanogenmod si una aplicación con permisos eliminados no trabaja como debiera!</string>
+    <string name="perm_enable_warning_message">Peligro!\nRevocar los permisos puede causar que algunas aplicaciones no funcionen bien. Si una aplicación con permisos eliminados da Forzar Cierre por favor, corrija los permisos o no use la aplicación.\nPor favor, NO envíe reportes de fallos si una aplicación con permisos eliminados no trabaja como debiera!</string>
     <string name="perm_enable_warning_title">¿Está seguro?</string>
 </resources>
