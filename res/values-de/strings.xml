@@ -6,7 +6,7 @@
     <!--  Primary Screen Settings -->
     <string name="application_settings_title_head">Anwendungen</string>
     <string name="application_settings_title_subhead">Anwendungseinstellungen</string>
-    <string name="application_settings_summary_head">Anwendungen verschieben, Installationsort, Berechtigungen, Phone Goggles</string>
+    <string name="application_settings_summary_head">Anwendungen verschieben, Installationsort, Berechtigungen</string>
     <string name="display_settings_title_head">Bildschirm</string>
     <string name="display_settings_title_subhead">Bildschirm-Einstellungen</string>
     <string name="display_settings_summary_head">Bildschirm-Animationen, Ausrichtung, Helligkeitssteuerung</string>
