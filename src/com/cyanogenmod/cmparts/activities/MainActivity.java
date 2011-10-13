@@ -18,23 +18,15 @@ package com.cyanogenmod.cmparts.activities;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
-import android.provider.CmSystem;
 
 import com.cyanogenmod.cmparts.R;
 
 public class MainActivity extends PreferenceActivity {
 
-	private static final String TABLET_SETTINGS = "tablet_settings";
-	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.cmparts);
-        
-        boolean isTablet = CmSystem.getDefaultBool(getApplicationContext(), CmSystem.CM_IS_TABLET);
-        if (!isTablet)
-        	getPreferenceScreen().removePreference(findPreference(TABLET_SETTINGS));
-
     }
 }
