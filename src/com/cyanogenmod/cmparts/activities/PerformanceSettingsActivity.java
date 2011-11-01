@@ -63,11 +63,11 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
 
     private static final String HEAPSIZE_DEFAULT = "16m";
 
-  /*  private static final String USE_DITHERING_PREF = "pref_use_dithering";
+    private static final String USE_DITHERING_PREF = "pref_use_dithering";
 
     private static final String USE_DITHERING_PERSIST_PROP = "persist.sys.use_dithering";
     
-    private static final String USE_DITHERING_DEFAULT = "0";*/
+    private static final String USE_DITHERING_DEFAULT = "1";
 
     private static final String USE_16BPP_ALPHA_PREF = "pref_use_16bpp_alpha";
 
@@ -91,7 +91,7 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
 
     private CheckBoxPreference mJitPref;
 
-   // private CheckBoxPreference mUseDitheringPref;
+    private CheckBoxPreference mUseDitheringPref;
 
     private CheckBoxPreference mUse16bppAlphaPref;
 
@@ -134,9 +134,9 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
                 SystemProperties.get(JIT_PROP, JIT_ENABLED));
         mJitPref.setChecked(JIT_ENABLED.equals(jitMode));
 
-       /* mUseDitheringPref = (CheckBoxPreference) prefSet.findPreference(USE_DITHERING_PREF);
+        mUseDitheringPref = (CheckBoxPreference) prefSet.findPreference(USE_DITHERING_PREF);
         String useDithering = SystemProperties.get(USE_DITHERING_PERSIST_PROP, USE_DITHERING_DEFAULT);
-        mUseDitheringPref.setChecked("1".equals(useDithering));*/
+        mUseDitheringPref.setChecked("1".equals(useDithering));
 
         mUse16bppAlphaPref = (CheckBoxPreference) prefSet.findPreference(USE_16BPP_ALPHA_PREF);
         String use16bppAlpha = SystemProperties.get(USE_16BPP_ALPHA_PROP, "0");
@@ -181,11 +181,11 @@ public class PerformanceSettingsActivity extends PreferenceActivity implements P
             return true;
         }
 
-  /*      if (preference == mUseDitheringPref) {
+        if (preference == mUseDitheringPref) {
             SystemProperties.set(USE_DITHERING_PERSIST_PROP,
                     mUseDitheringPref.isChecked() ? "1" : "0");
             return true;
-        }*/
+        }
 
         if (preference == mUse16bppAlphaPref) {
             SystemProperties.set(USE_16BPP_ALPHA_PROP,

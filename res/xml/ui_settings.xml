@@ -8,7 +8,7 @@
 		<!-- Power prompt -->
 		<CheckBoxPreference android:key="power_dialog_prompt"
 			android:title="@string/pref_power_prompt_title" android:summary="@string/pref_power_prompt_summary"
-			android:defaultValue="true" />-->
+			android:defaultValue="true" />
 
 		<PreferenceScreen android:key="ui_power_widget_settings_menu"
 			android:title="@string/title_expanded_widget">

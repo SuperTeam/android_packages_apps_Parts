@@ -72,11 +72,11 @@
     </string-array>
 
     <string-array name="entries_light_filter_window">
+        <item>2 秒</item>
+        <item>5 秒</item>
         <item>10 秒</item>
         <item>20 秒</item>
         <item>30 秒</item>
-        <item>40 秒</item>
-        <item>50 秒</item>
         <item>60 秒</item>
     </string-array>
 
@@ -145,13 +145,6 @@
     <string-array name="entries_sound_limitvol">
         <item>衰减后的系统设置</item>
         <item>音乐音量 (默认)</item>
-    </string-array>
-
-   <string-array name="entries_brightness_widget" formatted="false">
-        <item>自动 / 最暗 /40%/100%</item>
-        <item>自动 / 最暗 /25%/50%/75%/100%</item>
-        <item>自动 / 25%/100%</item>
-        <item>自动 / 100%</item>
     </string-array>
 
     <string-array name="entries_network_widget">
