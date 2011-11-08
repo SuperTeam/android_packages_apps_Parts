@@ -546,7 +546,7 @@
 
     <!-- Sound -->
     <string name="sound_notifications_focus_title">Enfocar notificaciones</string>
-    <string name="sound_notifications_focus_summary">Se solicita a las aplicaciones compatibles que bajen su volumen para reproducir las notificaiones.</string>
+    <string name="sound_notifications_focus_summary">Se solicita a las aplicaciones compatibles que bajen su volumen para reproducir las notificaciones.</string>
     <string name="sound_volume_control_silent_title">Estado silencioso</string>
     <string name="sound_volume_control_silent_summary">Añadir un estado al control de volumen para un estado de silencio total</string>
     <string name="sound_vibrate_in_call_title">Vibrar durante una llamada</string>
