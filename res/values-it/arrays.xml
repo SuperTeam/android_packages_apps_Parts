@@ -66,11 +66,11 @@
     </string-array>
 
     <string-array name="entries_light_filter_window">
+        <item>2 secondi</item>
+        <item>5 secondi</item>
         <item>10 secondi</item>
         <item>20 secondi</item>
         <item>30 secondi</item>
-        <item>40 secondi</item>
-        <item>50 secondi</item>
         <item>60 secondi</item>
     </string-array>
   
@@ -99,13 +99,6 @@
     <string-array name="entries_sound_limitvol">
         <item>Valori di sistema attenuati</item>
         <item>Volume musica (default)</item>
-    </string-array>
-
-    <string-array name="entries_brightness_widget" formatted="false">
-        <item>Auto/Debole/40%/100%</item>
-        <item>Auto/Debole/25%/75%/100%</item>
-        <item>Auto/25%/100%</item>
-        <item>Debole/100%</item>
     </string-array>
 
     <string-array name="entries_network_widget">

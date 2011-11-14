@@ -183,6 +183,15 @@
     <string name="trackball_color_entry_random">Aléatoire</string>
     <string name="trackball_color_entry_amber">Orange</string>
 
+<<<<<<< HEAD
+=======
+    <!-- Trackball Settings : Force modes -->
+    <string name="trackball_force_mode_application">Paramètres application</string>
+    <string name="trackball_force_mode_off">Pas de LED</string>
+    <string name="trackball_force_mode_events">LED si événements</string>
+    <string name="trackball_force_mode_on">LED active</string>
+
+>>>>>>> 0984cb1a05b9709fe86732df00eae0beb166d856
     <!-- Trackball Settings : Warning dialog -->
     <string name="notification_battery_warning_title">ATTENTION : Peut vider votre batterie</string>
     <string name="notification_battery_warning">Il a été prouvé que cette option accentue l\'utilisation de la batterie d\'environ 3% par heure. Si vous constatez ce phénomène, c\'est certainement cette option qui en est la cause directe. N\'activez cette option uniquement en connaissance de cause !</string>
@@ -201,7 +210,7 @@
 
     <!-- Lockscreen Settings -->
     <string name="lockscreen_widgets_note_title">Note</string>
-    <string name="lockscreen_widgets_note_summary">Le style \'Lense\' cache tous les widgets sauf ceux pour la musique. Les options suivantes sont affichées afin de simplifier le changement de mode</string>
+    <string name="lockscreen_widgets_note_summary">Le style \'Lense\' cache tous les widgets sauf ceux pour la musique.\nLes options suivantes sont affichées afin de simplifier le changement de mode</string>
     <string name="pref_lockscreen_always_battery_title">Etat de la batterie</string>
     <string name="pref_lockscreen_always_battery_summary">Afficher l\'état de la batterie sur l\'écran de verrouillage, à tout moment</string>
     <string name="pref_lockscreen_widgets_layout_title">Position</string>
@@ -215,8 +224,6 @@
     <string name="pref_lockscreen_custom_app_activity_title">Sélectionner l\'application</string>
     <string name="pref_lockscreen_custom_icon_style_title">Icône de l\'application</string>
     <string name="pref_lockscreen_custom_icon_style_summary">Utiliser l\'icône de l\'application au lieu de celle par défaut</string>
-    <string name="pref_lockscreen_custom_app_toggle_title">Geste supplémentaire</string>
-    <string name="pref_lockscreen_custom_app_toggle_summary">Utiliser un autre slider pour exécuter une application perso.</string>
     <string name="pref_lockscreen_rotary_unlock_down_title">Déverrouiller en bas</string>
     <string name="pref_lockscreen_rotary_unlock_down_summary">Glisser vers le bas déverrouille. Glisser à droite démarre l\'application</string>
     <string name="pref_lockscreen_rotary_hide_arrows_title">Masquer flèches</string>
@@ -227,6 +234,12 @@
     <string name="pref_lockscreen_always_music_controls_summary">Toujours afficher les contrôles permettant de commander la musique, même sans lecture en cours</string>
     <string name="pref_lockscreen_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="pref_lockscreen_quick_unlock_control_summary">Une pression sur OK n\'est plus nécessaire lors de la saisie d\'un PIN ou mot de passe. Effacer compte comme une erreur.</string>
+    <string name="lockscreen_style_options_title">Options spécifiques</string>
+    <string name="pref_lockscreen_custom_app_toggle_title">Geste supplémentaire</string>
+    <string name="pref_lockscreen_custom_app_toggle_tab_summary">Ajouter un second bouton pour exécuter une application</string>
+    <string name="pref_lockscreen_custom_app_toggle_rotary_summary">Ajouter un bouton pour exécuter une application</string>
+    <string name="pref_lockscreen_custom_app_toggle_ring_summary">Ajouter un troisième bouton pour exécuter une application</string>
+
     <string name="pref_lockscreen_style_title">Style</string>
     <string name="pref_lockscreen_style_summary">Choisir le style de l\'écran de verrouillage</string>
     <string name="pref_in_call_style_title">Appels entrants</string>
@@ -247,14 +260,22 @@
     <string name="pref_lockscreen_disable_on_security_title">Inactif si sécurisé</string>
     <string name="pref_lockscreen_disable_on_security_summary">Désactive l\'écran de verrouillage si l\'écran de sécurité est activé (Code PIN, Mot de passe)</string>
     <string name="lockscreen_calendar_title">Agenda</string>
-    <string name="pref_lockscreen_calendar_alarm_title">Evénements à venir</string>
+    <string name="pref_lockscreen_calendar_alarm_title">Prochain événement</string>
     <string name="pref_lockscreen_calendar_alarm_summary">Afficher l\'heure et le titre du prochain événement</string>
     <string name="pref_lockscreen_calendars_title">Agendas</string>
-    <string name="pref_lockscreen_calendars_summary">Sélectionner les agendas à prendre en compte</string>
+    <string name="pref_lockscreen_calendars_summary">Sélectionner les agendas à utiliser</string>
     <string name="pref_lockscreen_calendar_reminders_only_title">Rappels uniquement</string>
     <string name="pref_lockscreen_calendar_reminders_only_summary">N\'afficher que les événements avec rappel (alarme)</string>
     <string name="pref_lockscreen_calendar_lookahead_title">Période</string>
+<<<<<<< HEAD
     <string name="pref_lockscreen_calendar_lookahead_summary">Plage de recherche des événements à prendre en compte</string>
+=======
+    <string name="pref_lockscreen_calendar_lookahead_summary">Plage de recherche des événements à venir</string>
+    <string name="pref_lockscreen_calendar_show_location_title">Afficher le lieu</string>
+    <string name="pref_lockscreen_calendar_show_location_summary">Affiche le lieu de l\'événement</string>
+    <string name="pref_lockscreen_calendar_show_description_title">Afficher la description</string>
+    <string name="pref_lockscreen_calendar_show_description_summary">Affiche la description complète de l\'événement</string>
+>>>>>>> 0984cb1a05b9709fe86732df00eae0beb166d856
 
     <!-- Input Settings -->
     <string name="input_settings_title">Paramètres des entrées</string>
