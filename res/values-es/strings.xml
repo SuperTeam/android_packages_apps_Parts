@@ -107,13 +107,6 @@
     <string name="ui_status_bar_cm_signal_text_show_bars">Barras de señal</string>
     <string name="ui_status_bar_cm_signal_text_show_text">Señal en modo texto</string>
     <string name="ui_status_bar_cm_signal_text_show_text_dbm">Señal en modo texto w/dBm</string>
-    <string name="ui_status_bar_headset_title">Mostrar icono de los auriculares</string>
-    <string name="ui_status_bar_headset_summary">El icono de los auriculares aparecerá cuando se conecten</string>
-    <string name="ui_status_bar_cm_signal_text_title">Estilo alternativo para señal</string>
-    <string name="ui_status_bar_cm_signal_text_summary">Mostrar valor en dBm en lugar de barras de señal</string>
-    <string name="ui_status_bar_cm_signal_text_show_bars">Señal con barras</string>
-    <string name="ui_status_bar_cm_signal_text_show_text">Señal con texto</string>
-    <string name="ui_status_bar_cm_signal_text_show_text_dbm">Señal con texto y dBm</string>
     <string name="ui_status_bar_headset_title">Mostrar el icono de auriculares</string>
     <string name="ui_status_bar_headset_summary">El icono de auriulares aparecerá cuando éstos sean conectados</string>
 

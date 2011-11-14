@@ -722,10 +722,4 @@
 
     <string name="trackball_app_twitter">Twitter</string>
     <string name="trackball_app_twicca">Twicca</string>
-    <string name="pref_backtrack_title">BackTrack Minipad</string>
-    <string name="pref_backtrack_summary">BackTrack Minipad ein-/ausschalten</string>
-    <string name="expanded_haptic_feedback_title">Haptisches Feedback</string>
-    <string name="expanded_haptic_feedback_summary">Haptisches Feedback ein-/ausschalten</string>
-    <string name="user_defined_envelope_key">Briefumschlag-Taste</string>
-    <string name="user_defined_explorer_key">Explorer-Taste</string>
 </resources>
