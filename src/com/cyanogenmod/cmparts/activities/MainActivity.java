@@ -16,6 +16,9 @@
 
 package com.cyanogenmod.cmparts.activities;
 
+import com.cyanogenmod.cmparts.R;
+import com.cyanogenmod.cmparts.activities.DisplayActivity;
+
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.provider.CmSystem;
@@ -23,6 +26,7 @@ import android.provider.CmSystem;
 import com.cyanogenmod.cmparts.R;
 
 public class MainActivity extends PreferenceActivity {
+    private static final String DISPLAY_SETTINGS = "display_settings";
 
 	private static final String TABLET_SETTINGS = "tablet_settings";
 	
@@ -36,5 +40,12 @@ public class MainActivity extends PreferenceActivity {
         if (!isTablet)
         	getPreferenceScreen().removePreference(findPreference(TABLET_SETTINGS));
 
+
+        /* Show a different summary for display settings if no backlight settings
+         * are supported. */
+        if (!DisplayActivity.supportsBacklightSettings(this)) {
+            getPreferenceScreen().findPreference(DISPLAY_SETTINGS)
+                .setSummary(R.string.display_settings_summary_head_nobacklight);
+        }
     }
 }
