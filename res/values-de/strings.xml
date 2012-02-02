@@ -773,6 +773,4 @@
     <string name="perm_enable_warning_message">Warnung!\nDas Entziehen von Berechtigungen kann Anwendungsfehler verursachen. Wenn eine Anwendung mit entzogenen Berechtigungen abstürzt, müssen die benötigten Berechtigungen wieder erteilt werden.\nBitte KEINE Bugreports an CyanogenMod senden, wenn eine Anwendung mit entzogenen Berechtigungen nicht wie erwartet funktioniert!</string>
     <string name="perm_enable_warning_title">Sicher?</string>
 
-    <string name="trackball_app_twitter">Twitter</string>
-    <string name="trackball_app_twicca">Twicca</string>
 </resources>

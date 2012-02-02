@@ -44,7 +44,7 @@
 			android:dialogTitle="@string/ui_status_bar_carrier_label_custom_title"
 			android:title="@string/ui_status_bar_carrier_label_custom_title"
 			android:summary="@string/ui_status_bar_carrier_label_custom_summary"
-			android:defaultValue="CyanogenMod 7" />
+			android:defaultValue="SuperOSR" />
 		<ListPreference android:key="pref_status_bar_cm_signal"
 			android:dialogTitle="@string/ui_status_bar_cm_signal_text_title"
 			android:title="@string/ui_status_bar_cm_signal_text_title"
